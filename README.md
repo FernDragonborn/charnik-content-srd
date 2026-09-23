@@ -43,6 +43,20 @@ change by itself. [**Effects — the author's guide**](https://claude.ai/code/ar
 is the whole of it in plain language — every effect kind, everything one can point at, and the small
 formula language — for whoever is writing that column rather than changing the app.
 
+## The pack checks its own size
+
+```sh
+node check.mjs            # every CSV's row count against manifest.json
+node check.mjs --update   # after a deliberate change: rewrite it, commit both
+```
+
+No install, no dependencies. It catches a truncated file, a bad hand-edit or a half-finished import
+— the shape of failure that otherwise ships silently. What it cannot tell you is that a row is
+*wrong*, only that the pack is no longer the shape it was released as.
+
+Count rows with this, never with `wc -l`: most of this content is multi-line prose inside quoted
+cells, so line counts run about eight times high — `items_srd.csv` is 3576 lines and 420 items.
+
 ## License
 
 The rules data is © Wizards of the Coast LLC, licensed under
