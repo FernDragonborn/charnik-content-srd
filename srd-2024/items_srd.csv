@@ -1,4 +1,4 @@
-#content-hash: xxh64:eb70c4164f911a6d
+#content-hash: xxh64:32c8c87f29fb4959
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -1180,7 +1180,7 @@ in the Sphere must succeed on a DC 15 Dexterity saving throw or take 5d4 Force d
 An enclosed creature can take a Utilize action to push against the sphere's wall, moving the sphere up to half the creature's Speed. The sphere can be picked up, and its magic causes it to weigh only 1 pound, regardless of the weight of creatures inside.",
 bead_of_nourishment,wondrous,,,,,common,,,Bead of Nourishment,,"_Wondrous Item, Common_
 This flavorless, gelatinous bead dissolves on your tongue and provides as much nourishment as 1 day of Rations.",
-belt_of_dwarvenkind,wondrous,attunement,,,"flat_bonus:con+2;set_override:con:20:cap;note:Advantage on Charisma (Persuasion) checks to interact with dwarves and duergar. If you are neither — resistance to Poison damage, advantage on saves against the Poisoned condition, and Darkvision to 60 feet",rare,,,Belt of Dwarvenkind,,"_Wondrous Item, Rare (Requires Attunement)_
+belt_of_dwarvenkind,wondrous,attunement,,,"flat_bonus:con+2;set_override:con:20:cap;note:Advantage on Charisma (Persuasion) checks to interact with dwarves and duergar. If you are neither — resistance to Poison damage, advantage on saves against the Poisoned condition, and Darkvision to 60 feet;set_override:senses.darkvision:60:floor",rare,,,Belt of Dwarvenkind,,"_Wondrous Item, Rare (Requires Attunement)_
 While wearing this belt, you gain the following benefits:
 **Dwarvish.** You know Dwarvish.
 **Friend of Dwarvenkind.** You have Advantage on Charisma (Persuasion) checks made to interact with dwarves and duergar.
@@ -2763,7 +2763,7 @@ While wearing this ring, you cast _Water Walk_ from it, targeting only yourself.
 ring_of_x_ray_vision,ring,attunement,,,,rare,,,Ring of X-ray Vision,,"_Ring, Rare (Requires Attunement)_
 While wearing this ring, you can take a Magic action to gain X-ray vision with a range of 30 feet for 1 minute. To you, solid objects within that radius appear transparent and don't prevent light from passing through them. The vision can penetrate 1 foot of stone, 1 inch of common metal, or up to 3 feet of wood or dirt. Thicker substances or a thin sheet of lead block the vision.
 Whenever you use the ring again before taking a Long Rest, you must succeed on a DC 15 Constitution saving throw or gain 1 Exhaustion level.",
-robe_of_eyes,wondrous,attunement,,,"advantage:skill.perception;note:The advantage covers Perception checks that rely on sight. Darkvision and Truesight, both 120 feet",rare,,,Robe of Eyes,,"_Wondrous Item, Rare (Requires Attunement)_
+robe_of_eyes,wondrous,attunement,,,"advantage:skill.perception;note:The advantage covers Perception checks that rely on sight. Darkvision and Truesight, both 120 feet;set_override:senses.darkvision:120:floor;set_override:senses.truesight:120:floor",rare,,,Robe of Eyes,,"_Wondrous Item, Rare (Requires Attunement)_
 This robe is adorned with eyelike patterns. While you wear the robe, you gain the following benefits:
 **All-Around Vision.** The robe gives you Advantage on Wisdom (Perception) checks that rely on sight.
 **Special Senses.** You have Darkvision and Truesight, both with a range of 120 feet.

@@ -1,4 +1,4 @@
-#content-hash: xxh64:9126b6a18ab148a9
+#content-hash: xxh64:6a7f2b0406e14186
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -559,7 +559,7 @@ _Decrease Exhaustion._ Whenever you finish a Short Rest, your Exhaustion level, 
 ranger_relentless_hunter,ranger,13,,,,,,Relentless Hunter,,Taking damage can't break your Concentration on _Hunter's Mark_.,
 ranger_natures_veil,ranger,14,,,,,,Nature's Veil,,"You invoke spirits of nature to magically hide yourself. As a Bonus Action, you can give yourself the Invisible condition until the end of your next turn. You can use this feature a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.",
 ranger_precise_hunter,ranger,17,,,,,,Precise Hunter,,You have Advantage on attack rolls against the creature currently marked by your _Hunter's Mark_.,
-ranger_feral_senses,ranger,18,,,,,,Feral Senses,,Your connection to the forces of nature grants you Blindsight with a range of 30 feet.,
+ranger_feral_senses,ranger,18,,,,,set_override:senses.blindsight:30:floor,Feral Senses,,Your connection to the forces of nature grants you Blindsight with a range of 30 feet.,
 ranger_epic_boon,ranger,19,,,,,,Epic Boon,,"You gain an Epic Boon feat (see ""Feats"") or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.",
 ranger_foe_slayer,ranger,20,,,,,,Foe Slayer,,The damage die of your _Hunter's Mark_ is a d10 rather than a d6.,
 hunter_hunters_lore,ranger,3,,hunter,,,,Hunter's Lore,,"You can call on the forces of nature to reveal certain strengths and weaknesses of your prey. While a creature is marked by your _Hunter's Mark_, you know whether that creature has any Immunities, Resistances, or Vulnerabilities, and if the creature has any, you know what they are.",

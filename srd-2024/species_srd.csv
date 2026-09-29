@@ -1,13 +1,13 @@
-#content-hash: xxh64:59dc65294c659766
+#content-hash: xxh64:7cfdc0750fc6a3ae
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f974-785c-b826-6cb6a9164f4f
 #content-schema: 2
-#content-updated_at: 2026-09-06
+#content-updated_at: 2026-09-29
 id,size,speed,creature_type,effects,name_en,name_uk,text_en,text_uk
-dragonborn,medium,30,humanoid,,Dragonborn,,"As a Dragonborn, you have these special traits.
+dragonborn,medium,30,humanoid,set_override:senses.darkvision:60:floor,Dragonborn,,"As a Dragonborn, you have these special traits.
 _Draconic Ancestry._ Your lineage stems from a dragon progenitor. Choose the kind of dragon from the Draconic Ancestors table. Your choice affects your Breath Weapon and Damage Resistance traits as well as your appearance.
 **Draconic Ancestors**
 <table>
@@ -57,13 +57,13 @@ You can use this Breath Weapon a number of times equal to your Proficiency Bonus
 _Damage Resistance._ You have Resistance to the damage type determined by your Draconic Ancestry trait.
 _Darkvision._ You have Darkvision with a range of 60 feet.
 _Draconic Flight._ When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest.",
-dwarf,medium,30,humanoid,damage_sensitivity:resist:poison,Dwarf,,"As a Dwarf, you have these special traits.
+dwarf,medium,30,humanoid,damage_sensitivity:resist:poison;set_override:senses.darkvision:120:floor,Dwarf,,"As a Dwarf, you have these special traits.
 _Darkvision._ You have Darkvision with a range of 120 feet.
 _Dwarven Resilience._ You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.
 _Dwarven Toughness._ Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.
 _Stonecunning._ As a Bonus Action, you gain Tremorsense with a range of 60 feet for 10 minutes. You must be on a stone surface or touching a stone surface to use this Tremorsense. The stone can be natural or worked.
 You can use this Bonus Action a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest.",
-elf,medium,30,humanoid,,Elf,,"As an Elf, you have these special traits.
+elf,medium,30,humanoid,set_override:senses.darkvision:60:floor,Elf,,"As an Elf, you have these special traits.
 _Darkvision._ You have Darkvision with a range of 60 feet.
 _Elven Lineage._ You are part of a lineage that grants you supernatural abilities. Choose a lineage from the Elven Lineages table. You gain the level 1 benefit of that lineage.
 When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.
@@ -102,7 +102,7 @@ Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells yo
 _Fey Ancestry._ You have Advantage on saving throws you make to avoid or end the Charmed condition.
 _Keen Senses._ You have proficiency in the Insight, Perception, or Survival skill.
 _Trance._ You don't need to sleep, and magic can't put you to sleep. You can finish a Long Rest in 4 hours if you spend those hours in a trancelike meditation, during which you retain consciousness.",
-gnome,small,30,humanoid,,Gnome,,"As a Gnome, you have these special traits.
+gnome,small,30,humanoid,set_override:senses.darkvision:60:floor,Gnome,,"As a Gnome, you have these special traits.
 _Darkvision._ You have Darkvision with a range of 60 feet.
 _Gnomish Cunning._ You have Advantage on Intelligence, Wisdom, and Charisma saving throws.
 _Gnomish Lineage._ You are part of a lineage that grants you supernatural abilities. Choose one of the following options; whichever one you choose, Intelligence, Wisdom, or Charisma is your spellcasting ability for the spells you cast with this trait (choose the ability when you select the lineage):
@@ -127,12 +127,12 @@ human,medium,30,humanoid,,Human,,"As a Human, you have these special traits.
 _Resourceful._ You gain Heroic Inspiration whenever you finish a Long Rest.
 _Skillful._ You gain proficiency in one skill of your choice.
 _Versatile._ You gain an Origin feat of your choice (see ""Feats""). Skilled is recommended.",
-orc,medium,30,humanoid,,Orc,,"As an Orc, you have these special traits.
+orc,medium,30,humanoid,set_override:senses.darkvision:120:floor,Orc,,"As an Orc, you have these special traits.
 _Adrenaline Rush._ You can take the Dash action as a Bonus Action. When you do so, you gain a number of Temporary Hit Points equal to your Proficiency Bonus.
 You can use this trait a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Short or Long Rest.
 _Darkvision._ You have Darkvision with a range of 120 feet.
 _Relentless Endurance._ When you are reduced to 0 Hit Points but not killed outright, you can drop to 1 Hit Point instead. Once you use this trait, you can't do so again until you finish a Long Rest.",
-tiefling,medium,30,humanoid,,Tiefling,,"As a Tiefling, you have the following special traits.
+tiefling,medium,30,humanoid,set_override:senses.darkvision:60:floor,Tiefling,,"As a Tiefling, you have the following special traits.
 _Darkvision._ You have Darkvision with a range of 60 feet.
 _Fiendish Legacy._ You are the recipient of a legacy that grants you supernatural abilities. Choose a legacy from the Fiendish Legacies table. You gain the level 1 benefit of the chosen legacy.
 When you reach character levels 3 and 5, you learn a higher-level spell, as shown on the table. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have of the appropriate level.

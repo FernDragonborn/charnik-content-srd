@@ -1,11 +1,11 @@
-#content-hash: xxh64:ce2d824acdd88570
+#content-hash: xxh64:453f1076b67798c6
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f976-7552-b17a-956ec8debbde
 #content-schema: 2
-#content-updated_at: 2026-09-06
+#content-updated_at: 2026-09-29
 id,species_id,kind,option_label,effects,name_en,name_uk,text_en,text_uk
 dragonborn_black,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:acid,Black,,Your Breath Weapon and Damage Resistance are Acid.,
 dragonborn_gold,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:fire,Gold,,Your Breath Weapon and Damage Resistance are Fire.,
@@ -17,7 +17,7 @@ dragonborn_bronze,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resis
 dragonborn_silver,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:cold,Silver,,Your Breath Weapon and Damage Resistance are Cold.,
 dragonborn_copper,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:acid,Copper,,Your Breath Weapon and Damage Resistance are Acid.,
 dragonborn_white,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:cold,White,,Your Breath Weapon and Damage Resistance are Cold.,
-elf_drow,elf,lineage,Elven Lineage,,Drow,,The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip.,
+elf_drow,elf,lineage,Elven Lineage,set_override:senses.darkvision:120:floor,Drow,,The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip.,
 elf_high_elf,elf,lineage,Elven Lineage,,High Elf,,"You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.",
 elf_wood_elf,elf,lineage,Elven Lineage,set_override:speed:35,Wood Elf,,Your Speed increases to 35 feet. You also know the Druidcraft cantrip.,
 gnome_forest_gnome,gnome,lineage,Gnomish Lineage,,Forest Gnome,,"You know the _Minor Illusion_ cantrip. You also always have the _Speak with Animals_ spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.",
