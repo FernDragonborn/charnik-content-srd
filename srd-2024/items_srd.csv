@@ -1,4 +1,4 @@
-#content-hash: xxh64:6a41bc96070b231d
+#content-hash: xxh64:cb8b0524b9d2751a
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -1380,7 +1380,7 @@ _Poison Resistance._ You have Resistance to Poison damage.
 _Spider Climb._ You have a Climb Speed equal to your Speed and can move up, down, and across vertical surfaces and along ceilings, while leaving your hands free.
 _Spider Walk._ You can't be caught in webs of any sort and can move through webs as if they were Difficult Terrain.
 _Web._ You can cast _Web_ (save DC 13). The web created by the spell fills twice its normal area. Once used, this property can't be used again until the next dawn.",,,
-cloak_of_displacement,wondrous,attunement,,,"note:Attack rolls against you have disadvantage until you take damage, and the property is suppressed while your Speed is 0",rare,,,Cloak of Displacement,,"_Wondrous Item, Rare (Requires Attunement)_
+cloak_of_displacement,wondrous,attunement,,,"disadvantage:attacked;note:Holds until you take damage, and is suppressed while your Speed is 0",rare,,,Cloak of Displacement,,"_Wondrous Item, Rare (Requires Attunement)_
 While you wear this cloak, it magically projects an illusion that makes you appear to be standing in a place near your actual location, causing any creature to have Disadvantage on attack rolls against you. If you take damage, the property ceases to function until the start of your next turn. This property is suppressed while your Speed is 0.",,,
 cloak_of_elvenkind,wondrous,attunement,,,advantage:skill.stealth;note:Wisdom (Perception) checks to perceive you have Disadvantage,uncommon,,,Cloak of Elvenkind,,"_Wondrous Item, Uncommon (Requires Attunement)_
 While you wear this cloak, Wisdom (Perception) checks made to perceive you have Disadvantage, and you have Advantage on Dexterity (Stealth) checks.",,,
@@ -2923,7 +2923,7 @@ While you wear these light shoes, you can move up, down, and across vertical sur
 sovereign_glue,wondrous,,,,,legendary,,,Sovereign Glue,,"_Wondrous Item, Legendary_
 This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with _Oil of Slipperiness_. When found, a container contains 1d6 + 1 ounces.
 One ounce of the glue can cover a 1-foot square surface. Applying an ounce of _Sovereign Glue_ takes a Utilize action, and the applied glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of _Universal Solvent_ or _Oil of Etherealness_, or with a _Wish_ spell.",,,
-spellguard_shield,shield,attunement,,shield,"note:Advantage on saving throws against spells and other magical effects, and spell attack rolls have disadvantage against you",very_rare,,,Spellguard Shield,,"_Armor (Shield), Very Rare (Requires Attunement)_
+spellguard_shield,shield,attunement,,shield,disadvantage:attacked.spell;note:Advantage on saving throws against spells and other magical effects,very_rare,,,Spellguard Shield,,"_Armor (Shield), Very Rare (Requires Attunement)_
 While holding this Shield, you have Advantage on saving throws against spells and other magical effects, and spell attack rolls have Disadvantage against you.",,,
 spell_scroll_2,scroll,,,,,,,,Spell Scroll,,"_Scroll, Rarity Varies_
 A _Spell Scroll_ bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.
