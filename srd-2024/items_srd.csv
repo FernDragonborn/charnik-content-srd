@@ -1,4 +1,4 @@
-#content-hash: xxh64:cb8b0524b9d2751a
+#content-hash: xxh64:a9d278104adb199d
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -983,7 +983,7 @@ You have Resistance to one type of damage while you wear this armor. The GM choo
 armor_of_vulnerability,armor,attunement,,,"note:Cursed — Resistance to one of bludgeoning, piercing or slashing damage, and Vulnerability to the other two",rare,,,Armor of Vulnerability,,"_Armor (Any Light, Medium, or Heavy), Rare (Requires Attunement)_
 While wearing this armor, you have Resistance to one of the following damage types: Bludgeoning, Piercing, or Slashing. The GM chooses the type or determines it randomly.
 _Curse._ This armor is cursed, a fact that is revealed only when the _Identify_ spell is cast on the armor or you attune to it. Attuning to the armor curses you until you are targeted by a _Remove Curse_ spell or similar magic; removing the armor fails to end the curse. While cursed, you have Vulnerability to two of the three damage types associated with the armor (not the one to which it grants Resistance).",,,
-arrow_catching_shield,shield,attunement,,shield,"note:A +2 bonus to Armor Class against ranged attack rolls, and a Reaction to become the target of a ranged attack aimed within 5 feet of you",rare,,,Arrow-Catching Shield,,"_Armor (Shield), Rare (Requires Attunement)_
+arrow_catching_shield,shield,attunement,,shield,flat_bonus:ac.ranged+2;note:A Reaction to become the target of a ranged attack aimed within 5 feet of you,rare,,,Arrow-Catching Shield,,"_Armor (Shield), Rare (Requires Attunement)_
 You gain a +2 bonus to Armor Class against ranged attack rolls while you wield this Shield. This bonus is in addition to the Shield's normal bonus to AC.
 Whenever an attacker makes a ranged attack roll against a target within 5 feet of you, you can take a Reaction to become the target of the attack instead.",,,
 bag_of_beans,wondrous,,,,,rare,,,Bag of Beans,,"_Wondrous Item, Rare_
@@ -2087,7 +2087,7 @@ When you roll a 20 on an attack roll made with this weapon, the target takes an 
 mace_of_terror,weapon,attunement,,mace,grant_resource:mace_of_terror:3:dawn(1d3),rare,,,Mace of Terror,,"_Weapon (Mace), Rare (Requires Attunement)_
 This magic weapon has 3 charges and regains 1d3 expended charges daily at dawn. While holding the weapon, you can take a Magic action and expend 1 charge to release a wave of terror from it. Each creature of your choice within 30 feet of you must succeed on a DC 15 Wisdom saving throw or have the Frightened condition for 1 minute. While
 Frightened in this way, a creature must spend its turns trying to move as far away from you as it can, and it can't make Opportunity Attacks. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If it has nowhere it can move, the creature can take the Dodge action. At the end of each of its turns, a creature repeats the save, ending the effect on itself on a success.",,,
-mantle_of_spell_resistance,wondrous,attunement,,,note:Advantage on saving throws against spells,rare,,,Mantle of Spell Resistance,,"_Wondrous Item, Rare (Requires Attunement)_
+mantle_of_spell_resistance,wondrous,attunement,,,advantage:saves.spell,rare,,,Mantle of Spell Resistance,,"_Wondrous Item, Rare (Requires Attunement)_
 You have Advantage on saving throws against spells while you wear this cloak.",,,
 manual_of_bodily_health,wondrous,,,,,very_rare,,,Manual of Bodily Health,,"_Wondrous Item, Very Rare_
 This book contains health and nutrition tips, and its words are charged with magic. If you spend 48 hours over a period of 6 days or fewer studying the book's contents and practicing its guidelines, your Constitution increases by 2, to a maximum of 30. The manual then loses its magic but regains it in a century.",,,
@@ -2314,7 +2314,7 @@ _Sun._ A magic item (chosen by the GM) appears on your person. In addition, you 
 _Talons._ Every magic item you wear or carry disintegrates. Artifacts in your possession vanish instead.
 _Throne._ You gain proficiency and Expertise in your choice of History, Insight, Intimidation, or Persuasion. In addition, you gain rightful ownership of a small keep somewhere in the world. However, the keep is currently home to one or more monsters, which must be cleared out before you can claim the keep as yours.
 _Void._ Your soul is drawn from your body and contained in an object in a place of the GM's choice. One or more powerful beings guard the place. While your soul is trapped in this way, your body is inert, ceases aging, and requires no food, air, or water. A _Wish_ spell can't return your soul to your body, but the spell reveals the location of the object that holds your soul. You draw no more cards.",,,
-necklace_of_adaptation,wondrous,attunement,,,"note:You breathe normally in any environment, and have advantage on saving throws to avoid or end the Poisoned condition",uncommon,,,Necklace of Adaptation,,"_Wondrous Item, Uncommon (Requires Attunement)_
+necklace_of_adaptation,wondrous,attunement,,,advantage:saves.poisoned;note:You breathe normally in any environment,uncommon,,,Necklace of Adaptation,,"_Wondrous Item, Uncommon (Requires Attunement)_
 While wearing this necklace, you can breathe normally in any environment, and you have Advantage on saving throws made to avoid or end the Poisoned condition.",,,
 necklace_of_fireballs,wondrous,,,,,rare,,,Necklace of Fireballs,,"_Wondrous Item, Rare_
 This necklace has 1d6 + 3 beads hanging from it. You can take a Magic action to detach a bead and throw it up to 60 feet away. When it reaches the end of its trajectory, the bead detonates as a level 3 _Fireball_ (save DC 15).
@@ -2382,7 +2382,7 @@ Alternatively, the oil can be poured on the ground as a Magic action, where it c
 This sticky, black unguent is thick and heavy, but it flows quickly when poured.",,,
 pearl_of_power,wondrous,attunement,,,,uncommon,,,Pearl of Power,,"_Wondrous Item, Uncommon (Requires Attunement by a Spellcaster)_
 While this pearl is on your person, you can take a Magic action to regain one expended spell slot of level 3 or lower. Once you use the pearl, it can't be used again until the next dawn.",,,
-periapt_of_health,wondrous,attunement,,,"note:Advantage on saving throws to avoid or end the Poisoned condition, and once per dawn a Magic action regains 2d4+2 Hit Points",uncommon,,,Periapt of Health,,"_Wondrous Item, Uncommon (Requires Attunement)_
+periapt_of_health,wondrous,attunement,,,advantage:saves.poisoned;note:Once per dawn a Magic action regains 2d4+2 Hit Points,uncommon,,,Periapt of Health,,"_Wondrous Item, Uncommon (Requires Attunement)_
 While wearing this pendant, you can take a Magic action to regain 2d4 + 2 Hit Points. Once used, this property can't be used again until the next dawn.
 In addition, you have Advantage on saving throws to avoid or end the Poisoned condition while you wear this pendant.",,,
 periapt_of_proof_against_poison,wondrous,attunement,,,damage_sensitivity:immune:poison;condition_immunity:poisoned,rare,,,Periapt of Proof against Poison,,"_Wondrous Item, Rare (Requires Attunement)_
@@ -2744,7 +2744,7 @@ ring_of_spell_storing,ring,attunement,,,,rare,,,Ring of Spell Storing,,"_Ring, R
 This ring stores spells cast into it, holding them until the attuned wearer uses them. The ring can store up to 5 levels worth of spells at a time. When found, it contains 1d6 − 1 levels of stored spells chosen by the GM.
 Any creature can cast a spell of level 1 through 5 into the ring by touching the ring as the spell is cast. The spell has no effect other than to be stored in the ring. If the ring can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.
 While wearing this ring, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster but is otherwise treated as if you cast the spell. The spell cast from the ring is no longer stored in it, freeing up space.",,,
-ring_of_spell_turning,ring,attunement,,,note:Advantage on saving throws against spells,legendary,,,Ring of Spell Turning,,"_Ring, Legendary (Requires Attunement)_
+ring_of_spell_turning,ring,attunement,,,advantage:saves.spell,legendary,,,Ring of Spell Turning,,"_Ring, Legendary (Requires Attunement)_
 While wearing this ring, you have Advantage on saving throws against spells. If you succeed on the save for a spell of level 7 or lower, the spell has no effect on you. If that spell targeted only you and didn't create an area of effect, you can take a Reaction to deflect the spell back at the spell's caster; the caster must make a saving throw against the spell using their own spell save DC.",,,
 ring_of_swimming,ring,,,,set_override:speed.swim:40,uncommon,,,Ring of Swimming,,"_Ring, Uncommon_
 You have a Swim Speed of 40 feet while wearing this ring.",,,
@@ -2774,7 +2774,7 @@ robe_of_stars,wondrous,attunement,,,"flat_bonus:saves+1;note:Six stars each cast
 This black or dark-blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it.
 Six stars, located on the robe's upper-front portion, are particularly large. While wearing this robe, you can take a Magic action to remove one of the stars and expend it to cast the level 5 version of _Magic Missile_. Daily at dusk, 1d6 removed stars reappear on the robe.
 While you wear the robe, you can take a Magic action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you take a Magic action to return to the plane you were on. You reappear in the last space you occupied or, if that space is occupied, the nearest unoccupied space.",,,
-robe_of_the_archmagi,wondrous,attunement,,,not is_wearing_armor ? set_override:ac:15+dex_mod;flat_bonus:spell_dc+2;flat_bonus:spell_attack+2;note:Advantage on saving throws against spells and other magical effects,legendary,,,Robe of the Archmagi,,"_Wondrous Item, Legendary (Requires Attunement by a Sorcerer, Warlock, or Wizard)_
+robe_of_the_archmagi,wondrous,attunement,,,not is_wearing_armor ? set_override:ac:15+dex_mod;flat_bonus:spell_dc+2;flat_bonus:spell_attack+2;advantage:saves.magical,legendary,,,Robe of the Archmagi,,"_Wondrous Item, Legendary (Requires Attunement by a Sorcerer, Warlock, or Wizard)_
 This elegant garment is made from exquisite cloth and adorned with runes.
 You gain these benefits while wearing the robe.
 _Armor._ If you aren't wearing armor, your base Armor Class is 15 plus your Dexterity modifier.
@@ -2923,7 +2923,7 @@ While you wear these light shoes, you can move up, down, and across vertical sur
 sovereign_glue,wondrous,,,,,legendary,,,Sovereign Glue,,"_Wondrous Item, Legendary_
 This viscous, milky-white substance can form a permanent adhesive bond between any two objects. It must be stored in a jar or flask that has been coated inside with _Oil of Slipperiness_. When found, a container contains 1d6 + 1 ounces.
 One ounce of the glue can cover a 1-foot square surface. Applying an ounce of _Sovereign Glue_ takes a Utilize action, and the applied glue takes 1 minute to set. Once it has done so, the bond it creates can be broken only by the application of _Universal Solvent_ or _Oil of Etherealness_, or with a _Wish_ spell.",,,
-spellguard_shield,shield,attunement,,shield,disadvantage:attacked.spell;note:Advantage on saving throws against spells and other magical effects,very_rare,,,Spellguard Shield,,"_Armor (Shield), Very Rare (Requires Attunement)_
+spellguard_shield,shield,attunement,,shield,disadvantage:attacked.spell;advantage:saves.magical,very_rare,,,Spellguard Shield,,"_Armor (Shield), Very Rare (Requires Attunement)_
 While holding this Shield, you have Advantage on saving throws against spells and other magical effects, and spell attack rolls have Disadvantage against you.",,,
 spell_scroll_2,scroll,,,,,,,,Spell Scroll,,"_Scroll, Rarity Varies_
 A _Spell Scroll_ bears the words of a single spell, written in a mystical cipher. If the spell is on your spell list, you can read the scroll and cast its spell without Material components. Otherwise, the scroll is unintelligible. Casting the spell by reading the scroll requires the spell's normal casting time. Once the spell is cast, the scroll crumbles to dust. If the casting is interrupted, the scroll isn't lost.
@@ -3195,7 +3195,7 @@ _Spells._ While holding the staff, you can cast one of the spells on the followi
 </tbody>
 </table>
 _Regaining Charges._ The staff regains 1d6 + 4 expended charges daily at dawn. If you expend the last charge, roll 1d20. On a 1, a swarm of insects consumes and destroys the staff, then disperses.",,,
-staff_of_the_magi,staff,attunement,,,"flat_bonus:attack+2;flat_bonus:damage+2;flat_bonus:spell_attack+2;note:Advantage on saving throws against spells, and a Reaction can absorb a spell targeting you",legendary,,,Staff of the Magi,,"_Staff, Legendary (Requires Attunement by a Sorcerer, Warlock, or Wizard)_
+staff_of_the_magi,staff,attunement,,,advantage:saves.spell;flat_bonus:attack+2;flat_bonus:damage+2;flat_bonus:spell_attack+2;note:A Reaction can absorb a spell targeting you,legendary,,,Staff of the Magi,,"_Staff, Legendary (Requires Attunement by a Sorcerer, Warlock, or Wizard)_
 This staff has 50 charges and can be wielded as a magic Quarterstaff that grants a +2 bonus to attack rolls and damage rolls made with it. While you hold it, you gain a +2 bonus to spell attack rolls.
 _Spell Absorption._ While holding the staff, you have Advantage on saving throws against spells. In addition, you can take a Reaction when another creature casts a spell that targets only you. If you do, the staff absorbs the magic of the spell, canceling its effect and gaining a number of charges equal to the absorbed spell's level. However, if doing so brings the staff's total number of charges above 50, the staff explodes as if you activated its Retributive Strike (see below).
 _Spells._ While holding the staff, you can cast one of the spells on the following table from it, using your spell save DC. The table indicates how many charges you must expend to cast the spell.
