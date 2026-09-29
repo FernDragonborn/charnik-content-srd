@@ -1,11 +1,11 @@
-#content-hash: xxh64:48061e64e4543321
+#content-hash: xxh64:a494a98e70d110bd
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fd36-72ad-8fc3-f977f1cf41cb
 #content-schema: 2
-#content-updated_at: 2026-09-07
+#content-updated_at: 2026-09-29
 id,class_id,level,resource,subclass_id,expertise_slots,effects,name_en,name_uk,text_en,text_uk
 barbarian_rage,barbarian,1,,,,"grant_resource:rage:step(class_level.barbarian, 1->2, 3->3, 6->4, 12->5, 17->6, 20->inf):long",Rage,,"In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.
 While raging, you gain the following benefits if you aren't wearing heavy armor:
@@ -175,7 +175,7 @@ monk_stunning_strike,monk,5,,,,,Stunning Strike,,"Starting at 5th level, you can
 monk_ki_empowered_strikes,monk,6,,,,,Ki-Empowered Strikes,,"Starting at 6th level, your unarmed strikes count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage.",
 monk_evasion,monk,7,,,,,Evasion,,"At 7th level, your instinctive agility lets you dodge out of the way of certain area effects, such as a blue dragon's lightning breath or a fireball spell. When you are subjected to an effect that allows you to make a Dexterity saving throw to take only half damage, you instead take no damage if you succeed on the saving throw, and only half damage if you fail.",
 monk_stillness_of_mind,monk,7,,,,,Stillness of Mind,,"Starting at 7th level, you can use your action to end one effect on yourself that is causing you to be charmed or frightened.",
-monk_purity_of_body,monk,10,,,,,Purity of Body,,"At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison.",
+monk_purity_of_body,monk,10,,,,condition_immunity:poisoned;damage_sensitivity:immune:poison;condition_immunity:disease,Purity of Body,,"At 10th level, your mastery of the ki flowing through you makes you immune to disease and poison.",
 monk_tongue_of_the_sun_and_moon,monk,13,,,,,Tongue of the Sun and Moon,,"Starting at 13th level, you learn to touch the ki of other minds so that you understand all spoken languages. Moreover, any creature that can understand a language can understand what you say.",
 monk_diamond_soul,monk,14,,,,grant_proficiency:saves,Diamond Soul,,"Beginning at 14th level, your mastery of ki grants you proficiency in all saving throws. Additionally, whenever you make a saving throw and fail, you can spend 1 ki point to reroll it and take the second result.",
 monk_timeless_body,monk,15,,,,,Timeless Body,,"At 15th level, your ki sustains you so that you suffer none of the frailty of old age, and you can't be aged magically. You can still die of old age, however. In addition, you no longer need food or water.",
@@ -215,7 +215,7 @@ You can use a holy symbol as a spellcasting focus for your paladin spells.",
 paladin_divine_smite,paladin,2,,,,,Divine Smite,,"Starting at 2nd level, when you hit a creature with a melee weapon attack, you can expend one spell slot to deal radiant damage to the target, in addition to the weapon's damage. The extra damage is 2d8 for a 1st-level spell slot,
 plus 1d8 for each spell level
 higher than 1st, to a maximum of 5d8. The damage increases by 1d8 if the target is an undead or a fiend.",
-paladin_divine_health,paladin,3,,,,,Divine Health,,"By 3rd level, the divine magic flowing through you makes you immune to disease.",
+paladin_divine_health,paladin,3,,,,condition_immunity:disease,Divine Health,,"By 3rd level, the divine magic flowing through you makes you immune to disease.",
 paladin_sacred_oath,paladin,3,,,,,Sacred Oath,,"When you reach 3rd level, you swear the oath that binds you as a paladin forever. Up to this time you have been in a preparatory stage, committed to the path but not yet sworn to it. Now you choose an oath, such as the Oath of Devotion. Your choice grants you features at 3rd level and again at 7th, 15th, and 20th level. Those features include oath spells and the Channel Divinity feature.
 _Oath Spells_
 Each oath has a list of associated spells. You gain access to these spells at the levels specified in the oath description. Once you gain access to an oath spell, you always have it prepared. Oath spells don't count against the number of spells you can prepare each day. If you gain an oath spell that doesn't appear on the paladin spell list, the spell is nonetheless a paladin spell for you.
@@ -444,7 +444,7 @@ circleoftheland_swamp,druid,2,,circleoftheland,,,Swamp,,"<table><tr class=headin
 circleoftheland_lands_stride,druid,6,,circleoftheland,,,Land's Stride,,"Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
 In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the
 entangle spell.",
-circleoftheland_natures_ward,druid,10,,circleoftheland,,,Nature's Ward,,"When you reach 10th level, you can't be charmed or frightened by elementals or fey, and you are immune to poison and disease.",
+circleoftheland_natures_ward,druid,10,,circleoftheland,,condition_immunity:poisoned;damage_sensitivity:immune:poison;condition_immunity:disease,Nature's Ward,,"When you reach 10th level, you can't be charmed or frightened by elementals or fey, and you are immune to poison and disease.",
 circleoftheland_natures_sanctuary,druid,14,,circleoftheland,,,Nature's Sanctuary,,"When you reach 14th level, creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your druid spell save DC.On a failed save, the creature must choose a different target, or the attack automatically misses.On a successful save, the creature is immune to this effect for 24 hours.The creature is aware of this effect before it makes its attack against you.",
 circleoftheland_sacred_plants_and_wood,druid,2,,circleoftheland,,,Sacred Plants and Wood,,"A druid holds certain plants to be sacred, particularly alder, ash, birch, elder, hazel, holly, juniper, mistletoe, oak, rowan, willow, and yew. Druids often use such plants as part of a spellcasting focus, incorporating lengths of oak or yew or sprigs of mistletoe.
 Similarly, a druid uses such woods to make other objects, such as weapons and shields. Yew is associated with death and rebirth, so weapon handles for scimitars or sickles might be fashioned from it. Ash is associated with life and oak with strength. These woods make excellent hafts or whole weapons, such as clubs or quarterstaffs, as well as shields. Alder is associated with air, and it might be used for thrown weapons, such as darts or javelins.
@@ -478,7 +478,7 @@ You can end this effect on your turn as part of any other action. If you are no 
 carrying this weapon, or if you fall unconscious, this effect ends.
 Turn the Unholy. As an action, you present your holy symbol and speak a prayer censuring fiends and undead, using your Channel Divinity. Each fiend or undead that can see or hear you within 30 feet of you must make a Wisdom saving throw. If the creature fails its saving throw, it is turned for 1 minute or until it takes damage.
 A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.",
-oathofdevotion_aura_of_devotion,paladin,7,,oathofdevotion,,,Aura of Devotion,,"Starting at 7th level, you and friendly creatures within 10 feet of you can't be charmed while you are conscious.
+oathofdevotion_aura_of_devotion,paladin,7,,oathofdevotion,,not has_condition.unconscious ? condition_immunity:charmed,Aura of Devotion,,"Starting at 7th level, you and friendly creatures within 10 feet of you can't be charmed while you are conscious.
 At 18th level, the range of this aura increases to 30 feet.",
 oathofdevotion_purity_of_spirit,paladin,15,,oathofdevotion,,,Purity of Spirit,,"Beginning at 15th level, you are always under the effects of a
 protection from evil and good spell.",

@@ -1,10 +1,10 @@
-#content-hash: xxh64:6b0442b22472223a
+#content-hash: xxh64:9126b6a18ab148a9
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f9e9-7ad8-b3a8-4511aa623e30
-#content-updated_at: 2026-09-23
+#content-updated_at: 2026-09-29
 #content-schema: 1
 id,class_id,level,resource,subclass_id,expertise_slots,mastery_slots,effects,name_en,name_uk,text_en,text_uk
 barbarian_rage,barbarian,1,,,,,"grant_resource:rage:step(class_level.barbarian, 1->2, 3->3, 6->4, 12->5, 17->6):short_one",Rage,,"You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.
@@ -47,7 +47,7 @@ barbarian_indomitable_might,barbarian,18,,,,,,Indomitable Might,,"If your total 
 barbarian_epic_boon,barbarian,19,,,,,,Epic Boon,,"You gain an Epic Boon feat (see ""Feats"") or another feat of your choice for which you qualify. Boon of Irresistible Offense is recommended.",
 barbarian_primal_champion,barbarian,20,,,,,,Primal Champion,,"You embody primal power. Your Strength and Constitution scores increase by 4, to a maximum of 25.",
 path_of_the_berserker_frenzy,barbarian,3,,path_of_the_berserker,,,,Frenzy,,"If you use Reckless Attack while your Rage is active, you deal extra damage to the first target you hit on your turn with a Strength-based attack. To determine the extra damage, roll a number of d6s equal to your Rage Damage bonus, and add them together. The damage has the same type as the weapon or Unarmed Strike used for the attack.",
-path_of_the_berserker_mindless_rage,barbarian,6,,path_of_the_berserker,,,,Mindless Rage,,"You have Immunity to the Charmed and Frightened conditions while your Rage is active. If you're Charmed or Frightened when you enter your Rage, the condition ends on you.",
+path_of_the_berserker_mindless_rage,barbarian,6,,path_of_the_berserker,,,is_raging ? condition_immunity:charmed;is_raging ? condition_immunity:frightened,Mindless Rage,,"You have Immunity to the Charmed and Frightened conditions while your Rage is active. If you're Charmed or Frightened when you enter your Rage, the condition ends on you.",
 path_of_the_berserker_retaliation,barbarian,10,,path_of_the_berserker,,,,Retaliation,,"When you take damage from a creature that is within 5 feet of you, you can take a Reaction to make one melee attack against that creature, using a weapon or an Unarmed Strike.",
 path_of_the_berserker_intimidating_presence,barbarian,14,,path_of_the_berserker,,,,Intimidating Presence,,"As a Bonus Action, you can strike terror into others with your menacing presence and primal power. When you do so, each creature of your choice in a 30-foot Emanation originating from you must make a Wisdom saving throw (DC 8 plus your Strength modifier and Proficiency Bonus). On a failed save, a creature has the Frightened condition for 1 minute. At the end of each of the Frightened creature's turns, the creature repeats the save, ending the effect on itself on a success.
 Once you use this feature, you can't use it again until you finish a Long Rest unless you expend a use of your Rage (no action required) to restore your use of it.",
@@ -338,7 +338,7 @@ circle_of_the_land_lands_aid,druid,3,,circle_of_the_land,,,,Land's Aid,,"As a Ma
 The damage and healing increase by 1d6 when you reach Druid levels 10 (3d6) and 14 (4d6).",
 circle_of_the_land_natural_recovery,druid,6,,circle_of_the_land,,,,Natural Recovery,,"You can cast one of the level 1+ spells that you have prepared from your Circle Spells feature without expending a spell slot, and you must finish a Long Rest before you do so again.
 In addition, when you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Druid level (round up), and none of them can be level 6+. For example, if you're a level 6 Druid, you can recover up to three levels' worth of spell slots. You can recover a level 3 spell slot, a level 2 and a level 1 spell slot, or three level 1 spell slots. Once you recover spell slots with this feature, you can't do so again until you finish a Long Rest.",
-circle_of_the_land_natures_ward,druid,10,,circle_of_the_land,,,,Nature's Ward,,"You are immune to the Poisoned condition, and you have Resistance to a damage type associated with your current land choice in the Circle Spells feature, as shown in the Nature's Ward table.
+circle_of_the_land_natures_ward,druid,10,,circle_of_the_land,,,condition_immunity:poisoned,Nature's Ward,,"You are immune to the Poisoned condition, and you have Resistance to a damage type associated with your current land choice in the Circle Spells feature, as shown in the Nature's Ward table.
 **Nature's Ward**
 <table>
 <thead>
@@ -484,7 +484,7 @@ paladin_aura_of_protection,paladin,6,,,,,,Aura of Protection,,"You radiate a pro
 You and your allies in the aura gain a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1).
 If another Paladin is present, a creature can benefit from only one Aura of Protection at a time; the creature chooses which aura while in them.",
 paladin_abjure_foes,paladin,9,,,,,,Abjure Foes,,"As a Magic action, you can expend one use of this class's Channel Divinity to overwhelm foes with awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself. Each target must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute or until it takes any damage. While Frightened in this way, a target can do only one of the following on its turns: move, take an action, or take a Bonus Action.",
-paladin_aura_of_courage,paladin,10,,,,,,Aura of Courage,,"You and your allies have Immunity to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition has no effect on that ally while there.",
+paladin_aura_of_courage,paladin,10,,,,,condition_immunity:frightened,Aura of Courage,,"You and your allies have Immunity to the Frightened condition while in your Aura of Protection. If a Frightened ally enters the aura, that condition has no effect on that ally while there.",
 paladin_radiant_strikes,paladin,11,,,,,,Radiant Strikes,,"Your strikes now carry supernatural power. When you hit a target with an attack roll using a Melee weapon or an Unarmed Strike, the target takes an extra 1d8 Radiant damage.",
 paladin_restoring_touch,paladin,14,,,,,,Restoring Touch,,"When you use Lay On Hands on a creature, you can also remove one or more of the following conditions from the creature: Blinded, Charmed, Deafened, Frightened, Paralyzed, or Stunned. You must expend 5 Hit Points from the healing pool of Lay On Hands for each of these conditions you remove; those points don't also restore Hit Points to the creature.",
 paladin_aura_expansion,paladin,18,,,,,,Aura Expansion,,Your Aura of Protection is now a 30-foot Emanation.,
@@ -524,7 +524,7 @@ oath_of_devotion_oath_of_devotion_spells,paladin,3,,oath_of_devotion,,,,Oath of 
 oath_of_devotion_sacred_weapon,paladin,3,,oath_of_devotion,,,,Sacred Weapon,,"When you take the Attack action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.
 The weapon also emits Bright Light in a 20-foot radius and Dim Light 20 feet beyond that.
 You can end this effect early (no action required). This effect also ends if you aren't carrying the weapon.",
-oath_of_devotion_aura_of_devotion,paladin,7,,oath_of_devotion,,,,Aura of Devotion,,"You and your allies have Immunity to the Charmed condition while in your Aura of Protection. If a Charmed ally enters the aura, that condition has no effect on that ally while there.",
+oath_of_devotion_aura_of_devotion,paladin,7,,oath_of_devotion,,,condition_immunity:charmed,Aura of Devotion,,"You and your allies have Immunity to the Charmed condition while in your Aura of Protection. If a Charmed ally enters the aura, that condition has no effect on that ally while there.",
 oath_of_devotion_smite_of_protection,paladin,15,,oath_of_devotion,,,,Smite of Protection,,"Your magical smite now radiates protective energy. Whenever you cast _Divine Smite_, you and your allies have Half Cover while in your Aura of Protection. The aura has this benefit until the start of your next turn.",
 oath_of_devotion_holy_nimbus,paladin,20,,oath_of_devotion,,,,Holy Nimbus,,"As a Bonus Action, you can imbue your Aura of Protection with holy power, granting the benefits below for 10 minutes or until you end them (no action required). Once you use this feature, you can't use it again until you finish a Long Rest. You can also restore your use of it by expending a level 5 spell slot (no action required).
 _Holy Ward._ You have Advantage on any saving throw you are forced to make by a Fiend or an Undead.

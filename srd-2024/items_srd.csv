@@ -1,11 +1,11 @@
-#content-hash: xxh64:c0a7dd139dcf5199
+#content-hash: xxh64:eb70c4164f911a6d
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fa92-7ecb-9807-4042842f8ba9
 #content-schema: 3
-#content-updated_at: 2026-09-22
+#content-updated_at: 2026-09-29
 id,category,tags,damage,base_item_id,effects,rarity,cost,weight_lb,name_en,name_uk,text_en,text_uk
 club,weapon,"simple, melee, light, mastery:slow",1d4 bludgeoning,,,,1 SP,2,Club,,,
 dagger,weapon,"simple, melee, finesse, light, thrown:20/60, mastery:nick",1d4 piercing,,,,2 GP,1,Dagger,,,
@@ -2385,7 +2385,7 @@ While this pearl is on your person, you can take a Magic action to regain one ex
 periapt_of_health,wondrous,attunement,,,"note:Advantage on saving throws to avoid or end the Poisoned condition, and once per dawn a Magic action regains 2d4+2 Hit Points",uncommon,,,Periapt of Health,,"_Wondrous Item, Uncommon (Requires Attunement)_
 While wearing this pendant, you can take a Magic action to regain 2d4 + 2 Hit Points. Once used, this property can't be used again until the next dawn.
 In addition, you have Advantage on saving throws to avoid or end the Poisoned condition while you wear this pendant.",
-periapt_of_proof_against_poison,wondrous,attunement,,,damage_sensitivity:immune:poison;note:Immunity to the Poisoned condition,rare,,,Periapt of Proof against Poison,,"_Wondrous Item, Rare (Requires Attunement)_
+periapt_of_proof_against_poison,wondrous,attunement,,,damage_sensitivity:immune:poison;condition_immunity:poisoned,rare,,,Periapt of Proof against Poison,,"_Wondrous Item, Rare (Requires Attunement)_
 This delicate silver chain has a brilliant-cut black gem pendant. While you wear it, you have Immunity to the Poisoned condition and Poison damage.",
 periapt_of_wound_closure,wondrous,attunement,,,,uncommon,,,Periapt of Wound Closure,,"_Wondrous Item, Uncommon (Requires Attunement)_
 While wearing this pendant, you gain the following benefits.

@@ -1,11 +1,11 @@
-#content-hash: xxh64:ce24e3a7aaf52473
+#content-hash: xxh64:eb284dc184ccfdff
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fce9-7a08-a279-ae8d4b1fe0b9
 #content-schema: 3
-#content-updated_at: 2026-09-22
+#content-updated_at: 2026-09-29
 id,kind,valence,max_level,effects,name_en,name_uk,text_en,text_uk
 blinded,condition,harmful,1,disadvantage:attack;note:Attacks against you have Advantage;note:You automatically fail any check that requires sight,Blinded,,"•A blinded creature can't see and automatically fails any ability check that requires sight.
 •Attack rolls against the creature have advantage,and the creature's attack rolls have disadvantage.",
@@ -32,7 +32,7 @@ paralyzed,condition,harmful,1,apply_condition:incapacitated;set_override:speed:0
 •The creature automatically fails Strength andDexterity saving throws.
 •Attack rolls against the creature have advantage.
 •Any attack that hits the creature is a critical hit ifthe attacker is within 5 feet of the creature.",
-petrified,condition,harmful,1,apply_condition:incapacitated;set_override:speed:0;auto_fail:save.str;auto_fail:save.dex;damage_sensitivity:resist:all;note:Attacks against you have Advantage;note:Immune to poison and to the Poisoned condition;note:Weight increases tenfold and you stop aging,Petrified,,"•A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Itsweight increases by a factor of ten, and it ceases aging.
+petrified,condition,harmful,1,apply_condition:incapacitated;set_override:speed:0;auto_fail:save.str;auto_fail:save.dex;damage_sensitivity:resist:all;condition_immunity:poisoned;damage_sensitivity:immune:poison;condition_immunity:disease;note:Attacks against you have Advantage;note:Weight increases tenfold and you stop aging,Petrified,,"•A petrified creature is transformed, along with any nonmagical object it is wearing or carrying, into a solid inanimate substance (usually stone). Itsweight increases by a factor of ten, and it ceases aging.
 •The creature is incapacitated (see the condition),can't move or speak, and is unaware of its surroundings.
 •Attack rolls against the creature have advantage.
 •The creature automatically fails Strength andDexterity saving throws.
