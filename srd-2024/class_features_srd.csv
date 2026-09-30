@@ -1,10 +1,10 @@
-#content-hash: xxh64:6a7f2b0406e14186
+#content-hash: xxh64:bfffc05fbc43bb99
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f9e9-7ad8-b3a8-4511aa623e30
-#content-updated_at: 2026-09-29
+#content-updated_at: 2026-09-30
 #content-schema: 1
 id,class_id,level,resource,subclass_id,expertise_slots,mastery_slots,effects,name_en,name_uk,text_en,text_uk
 barbarian_rage,barbarian,1,,,,,"grant_resource:rage:step(class_level.barbarian, 1->2, 3->3, 6->4, 12->5, 17->6):short_one",Rage,,"You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.
@@ -387,12 +387,12 @@ fighter_two_extra_attacks,fighter,11,,,,,set_override:attacks:3:floor,Two Extra 
 fighter_studied_attacks,fighter,13,,,,,,Studied Attacks,,"You study your opponents and learn from each attack you make. If you make an attack roll against a creature and miss, you have Advantage on your next attack roll against that creature before the end of your next turn.",
 fighter_epic_boon,fighter,19,,,,,,Epic Boon,,"You gain an Epic Boon feat (see ""Feats"") or another feat of your choice for which you qualify. Boon of Combat Prowess is recommended.",
 fighter_three_extra_attacks,fighter,20,,,,,set_override:attacks:4:floor,Three Extra Attacks,,You can attack four times instead of once whenever you take the Attack action on your turn.,
-champion_improved_critical,fighter,3,,champion,,,,Improved Critical,,Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 19 or 20 on the d20.,
+champion_improved_critical,fighter,3,,champion,,,set_override:crit_threshold:19:cap;note:Weapon attacks and Unarmed Strikes only,Improved Critical,,Your attack rolls with weapons and Unarmed Strikes can score a Critical Hit on a roll of 19 or 20 on the d20.,
 champion_remarkable_athlete,fighter,3,,champion,,,advantage:initiative;advantage:skill.athletics,Remarkable Athlete,,"Thanks to your athleticism, you have Advantage on Initiative rolls and Strength (Athletics) checks.
 In addition, immediately after you score a Critical Hit, you can move up to half your Speed without provoking Opportunity Attacks.",
 champion_additional_fighting_style,fighter,7,,champion,,,,Additional Fighting Style,,You gain another Fighting Style feat of your choice.,
 champion_heroic_warrior,fighter,10,,champion,,,,Heroic Warrior,,"The thrill of battle drives you toward victory. During combat, you can give yourself Heroic Inspiration whenever you start your turn without it.",
-champion_superior_critical,fighter,15,,champion,,,,Superior Critical,,Your attack rolls with weapons and Unarmed Strikes can now score a Critical Hit on a roll of 18–20 on the d20.,
+champion_superior_critical,fighter,15,,champion,,,set_override:crit_threshold:18:cap;note:Weapon attacks and Unarmed Strikes only,Superior Critical,,Your attack rolls with weapons and Unarmed Strikes can now score a Critical Hit on a roll of 18–20 on the d20.,
 champion_survivor,fighter,18,,champion,,,is_bloodied and hp>=1 ? on_event:turn_start:heal:5+con_mod,Survivor,,"You attain the pinnacle of resilience in battle, giving you these benefits.
 _Defy Death._ You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.
 _Heroic Rally._ At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point.",

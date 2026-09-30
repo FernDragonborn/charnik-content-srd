@@ -1,11 +1,11 @@
-#content-hash: xxh64:a494a98e70d110bd
+#content-hash: xxh64:d1c1b314cc9eb2e7
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fd36-72ad-8fc3-f977f1cf41cb
 #content-schema: 2
-#content-updated_at: 2026-09-29
+#content-updated_at: 2026-09-30
 id,class_id,level,resource,subclass_id,expertise_slots,effects,name_en,name_uk,text_en,text_uk
 barbarian_rage,barbarian,1,,,,"grant_resource:rage:step(class_level.barbarian, 1->2, 3->3, 6->4, 12->5, 17->6, 20->inf):long",Rage,,"In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.
 While raging, you gain the following benefits if you aren't wearing heavy armor:
@@ -450,11 +450,11 @@ circleoftheland_sacred_plants_and_wood,druid,2,,circleoftheland,,,Sacred Plants 
 Similarly, a druid uses such woods to make other objects, such as weapons and shields. Yew is associated with death and rebirth, so weapon handles for scimitars or sickles might be fashioned from it. Ash is associated with life and oak with strength. These woods make excellent hafts or whole weapons, such as clubs or quarterstaffs, as well as shields. Alder is associated with air, and it might be used for thrown weapons, such as darts or javelins.
 Druids from regions that lack the plants described here have chosen other plants to take on similar uses. For instance, a druid of a desert region might value the yucca tree and cactus plants.",
 circleoftheland_druids_and_the_gods,druid,2,,circleoftheland,,,Druids and the Gods,,"Some druids venerate the forces of nature themselves, but most druids are devoted to one of the many nature deities worshiped in the multiverse (the lists of gods in appendix PH--B include many such deities). The worship of these deities is often considered a more ancient tradition than the faiths of clerics and urbanized peoples.",
-champion_improved_critical,fighter,3,,champion,,,Improved Critical,,"Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.",
+champion_improved_critical,fighter,3,,champion,,set_override:crit_threshold:19:cap;note:Weapon attacks only,Improved Critical,,"Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.",
 champion_remarkable_athlete,fighter,7,,champion,,,Remarkable Athlete,,"Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus.
 In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.",
 champion_additional_fighting_style,fighter,10,,champion,,,Additional Fighting Style,,"At 10th level, you can choose a second option from the Fighting Style class feature.",
-champion_superior_critical,fighter,15,,champion,,,Superior Critical,,"Starting at 15th level, your weapon attacks score a critical hit on a roll of 18-20.",
+champion_superior_critical,fighter,15,,champion,,set_override:crit_threshold:18:cap;note:Weapon attacks only,Superior Critical,,"Starting at 15th level, your weapon attacks score a critical hit on a roll of 18-20.",
 champion_survivor,fighter,18,,champion,,is_bloodied and hp>=1 ? on_event:turn_start:heal:5+con_mod,Survivor,,"At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.",
 wayoftheopenhand_open_hand_technique,monk,3,,wayoftheopenhand,,,Open Hand Technique,,"Starting when you choose this tradition at 3rd level, you can manipulate your enemy's ki when you harness your own. Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target:
 •It must succeed on a Dexterity saving throw or be knocked prone.
