@@ -1,4 +1,4 @@
-#content-hash: xxh64:d1c1b314cc9eb2e7
+#content-hash: xxh64:a1679608bfb269ba
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -451,7 +451,7 @@ Similarly, a druid uses such woods to make other objects, such as weapons and sh
 Druids from regions that lack the plants described here have chosen other plants to take on similar uses. For instance, a druid of a desert region might value the yucca tree and cactus plants.",
 circleoftheland_druids_and_the_gods,druid,2,,circleoftheland,,,Druids and the Gods,,"Some druids venerate the forces of nature themselves, but most druids are devoted to one of the many nature deities worshiped in the multiverse (the lists of gods in appendix PH--B include many such deities). The worship of these deities is often considered a more ancient tradition than the faiths of clerics and urbanized peoples.",
 champion_improved_critical,fighter,3,,champion,,set_override:crit_threshold:19:cap;note:Weapon attacks only,Improved Critical,,"Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.",
-champion_remarkable_athlete,fighter,7,,champion,,,Remarkable Athlete,,"Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus.
+champion_remarkable_athlete,fighter,7,,champion,,grant_proficiency:partial_up:check.str;grant_proficiency:partial_up:check.dex;grant_proficiency:partial_up:check.con;note:Running long jump reaches STR mod further,Remarkable Athlete,,"Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus.
 In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.",
 champion_additional_fighting_style,fighter,10,,champion,,,Additional Fighting Style,,"At 10th level, you can choose a second option from the Fighting Style class feature.",
 champion_superior_critical,fighter,15,,champion,,set_override:crit_threshold:18:cap;note:Weapon attacks only,Superior Critical,,"Starting at 15th level, your weapon attacks score a critical hit on a roll of 18-20.",
