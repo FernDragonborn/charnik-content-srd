@@ -1,4 +1,4 @@
-#content-hash: xxh64:fee4f44a7f1d128c
+#content-hash: xxh64:e968302f1302f003
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -7,9 +7,10 @@
 #content-id: deec91e4-50b6-434e-be88-e9a099ecdb26
 #content-schema: 3
 id,name_en,name_uk,text_en,text_uk,effects
-cleave,Cleave,,"If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon's damage, but don't add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.",,
+light,Light,,"When you take the Attack action on your turn and attack with a Light weapon, you can make one extra attack as a Bonus Action later on the same turn. That extra attack must be made with a different Light weapon, and you don't add your ability modifier to the extra attack's damage unless that modifier is negative. For example, you can attack with a Shortsword in one hand and a Dagger in the other using the Attack action and a Bonus Action, but you don't add your Strength or Dexterity modifier to the damage roll of the Bonus Action unless that modifier is negative.",,"extra_attack:light:bonus,other"
+cleave,Cleave,,"If you hit a creature with a melee attack roll using this weapon, you can make a melee attack roll with the weapon against a second creature within 5 feet of the first that is also within your reach. On a hit, the second creature takes the weapon's damage, but don't add your ability modifier to that damage unless that modifier is negative. You can make this extra attack only once per turn.",,"extra_attack:cleave:free,same"
 graze,Graze,,"If your attack roll with this weapon misses a creature, you can deal damage to that creature equal to the ability modifier you used to make the attack roll. This damage is the same type dealt by the weapon, and the damage can be increased only by increasing the ability modifier.",,"grant_value:miss_damage:max(0,attack_mod)"
-nick,Nick,,"When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.",,
+nick,Nick,,"When you make the extra attack of the Light property, you can make it as part of the Attack action instead of as a Bonus Action. You can make this extra attack only once per turn.",,extra_attack:light:free
 push,Push,,"If you hit a creature with this weapon, you can push the creature up to 10 feet straight away from yourself if it is Large or smaller.",,
 sap,Sap,,"If you hit a creature with this weapon, that creature has Disadvantage on its next attack roll before the start of your next turn.",,
 slow,Slow,,"If you hit a creature with this weapon and deal damage to it, you can reduce its Speed by 10 feet until the start of your next turn. If the creature is hit more than once by weapons that have this property, the Speed reduction doesn't exceed 10 feet.",,
