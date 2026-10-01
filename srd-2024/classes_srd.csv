@@ -1,4 +1,4 @@
-#content-hash: xxh64:dc5de153b80c8b2e
+#content-hash: xxh64:ac9e3174070bb4b0
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -6,16 +6,16 @@
 #content-id: 019f6ae3-f9e3-73e9-b5d8-eed9f6418232
 #content-updated_at: 2026-10-01
 #content-schema: 1
-id,hit_die,primary_ability,saves,caster,spell_ability,ritual_source,skills_choose,skills_from,weapon_profs,armor_profs,subclass_level,asi_levels,effects,name_en,name_uk,text_en,text_uk
-barbarian,d12,str,"str,con",none,,,2,"animal_handling,athletics,intimidation,nature,perception,survival","simple,martial","light,medium,shield",3,"4,8,12,16,19",,Barbarian,,,
-bard,d8,cha,"dex,cha",full,cha,prepared,3,any,simple,light,3,"4,8,12,16,19",,Bard,,,
-cleric,d8,wis,"wis,cha",full,wis,prepared,2,"history,insight,medicine,persuasion,religion",simple,"light,medium,shield",3,"4,8,12,16,19",,Cleric,,,
-druid,d8,wis,"int,wis",full,wis,prepared,2,"animal_handling,arcana,insight,medicine,nature,perception,religion,survival",simple,"light,shield",3,"4,8,12,16,19",,Druid,,,
-fighter,d10,"str,dex","str,con",none,,,2,"acrobatics,animal_handling,athletics,history,insight,intimidation,persuasion,perception,survival","simple,martial","light,medium,heavy,shield",3,"4,6,8,12,14,16,19",,Fighter,,,
-monk,d8,"dex,wis","str,dex",none,,,2,"acrobatics,athletics,history,insight,religion,stealth","simple,scimitar,shortsword,hand_crossbow",,3,"4,8,12,16,19",,Monk,,,
-paladin,d10,"str,cha","wis,cha",half,cha,prepared,2,"athletics,insight,intimidation,medicine,persuasion,religion","simple,martial","light,medium,heavy,shield",3,"4,8,12,16,19",,Paladin,,,
-ranger,d10,"dex,wis","str,dex",half,wis,prepared,3,"animal_handling,athletics,insight,investigation,nature,perception,stealth,survival","simple,martial","light,medium,shield",3,"4,8,12,16,19",,Ranger,,,
-rogue,d8,dex,"dex,int",none,,,4,"acrobatics,athletics,deception,insight,intimidation,investigation,perception,persuasion,sleight_of_hand,stealth","simple,rapier,scimitar,shortsword,whip,hand_crossbow",light,3,"4,8,10,12,16,19",,Rogue,,,
-sorcerer,d6,cha,"con,cha",full,cha,prepared,2,"arcana,deception,insight,intimidation,persuasion,religion",simple,,3,"4,8,12,16,19",,Sorcerer,,,
-warlock,d8,cha,"wis,cha",pact,cha,prepared,2,"arcana,deception,history,intimidation,investigation,nature,religion",simple,light,3,"4,8,12,16,19",,Warlock,,,
-wizard,d6,int,"int,wis",full,int,spellbook,2,"arcana,history,insight,investigation,medicine,nature,religion",simple,,3,"4,8,12,16,19",,Wizard,,,
+id,hit_die,primary_ability,saves,caster,prepare_style,spell_ability,ritual_source,skills_choose,skills_from,weapon_profs,armor_profs,subclass_level,asi_levels,effects,name_en,name_uk,text_en,text_uk
+barbarian,d12,str,"str,con",none,,,,2,"animal_handling,athletics,intimidation,nature,perception,survival","simple,martial","light,medium,shield",3,"4,8,12,16,19",,Barbarian,,,
+bard,d8,cha,"dex,cha",full,prepared,cha,prepared,3,any,simple,light,3,"4,8,12,16,19",,Bard,,,
+cleric,d8,wis,"wis,cha",full,prepared,wis,prepared,2,"history,insight,medicine,persuasion,religion",simple,"light,medium,shield",3,"4,8,12,16,19",,Cleric,,,
+druid,d8,wis,"int,wis",full,prepared,wis,prepared,2,"animal_handling,arcana,insight,medicine,nature,perception,religion,survival",simple,"light,shield",3,"4,8,12,16,19",,Druid,,,
+fighter,d10,"str,dex","str,con",none,,,,2,"acrobatics,animal_handling,athletics,history,insight,intimidation,persuasion,perception,survival","simple,martial","light,medium,heavy,shield",3,"4,6,8,12,14,16,19",,Fighter,,,
+monk,d8,"dex,wis","str,dex",none,,,,2,"acrobatics,athletics,history,insight,religion,stealth","simple,scimitar,shortsword,hand_crossbow",,3,"4,8,12,16,19",,Monk,,,
+paladin,d10,"str,cha","wis,cha",half,prepared,cha,prepared,2,"athletics,insight,intimidation,medicine,persuasion,religion","simple,martial","light,medium,heavy,shield",3,"4,8,12,16,19",,Paladin,,,
+ranger,d10,"dex,wis","str,dex",half,prepared,wis,prepared,3,"animal_handling,athletics,insight,investigation,nature,perception,stealth,survival","simple,martial","light,medium,shield",3,"4,8,12,16,19",,Ranger,,,
+rogue,d8,dex,"dex,int",none,,,,4,"acrobatics,athletics,deception,insight,intimidation,investigation,perception,persuasion,sleight_of_hand,stealth","simple,rapier,scimitar,shortsword,whip,hand_crossbow",light,3,"4,8,10,12,16,19",,Rogue,,,
+sorcerer,d6,cha,"con,cha",full,prepared,cha,prepared,2,"arcana,deception,insight,intimidation,persuasion,religion",simple,,3,"4,8,12,16,19",,Sorcerer,,,
+warlock,d8,cha,"wis,cha",pact,prepared,cha,prepared,2,"arcana,deception,history,intimidation,investigation,nature,religion",simple,light,3,"4,8,12,16,19",,Warlock,,,
+wizard,d6,int,"int,wis",full,prepared,int,spellbook,2,"arcana,history,insight,investigation,medicine,nature,religion",simple,,3,"4,8,12,16,19",,Wizard,,,
