@@ -1,10 +1,10 @@
-#content-hash: xxh64:bfffc05fbc43bb99
+#content-hash: xxh64:5645af1188b0d2a4
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f9e9-7ad8-b3a8-4511aa623e30
-#content-updated_at: 2026-09-30
+#content-updated_at: 2026-10-01
 #content-schema: 1
 id,class_id,level,resource,subclass_id,expertise_slots,mastery_slots,effects,name_en,name_uk,text_en,text_uk
 barbarian_rage,barbarian,1,,,,,"grant_resource:rage:step(class_level.barbarian, 1->2, 3->3, 6->4, 12->5, 17->6):short_one",Rage,,"You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.
@@ -551,7 +551,7 @@ _Druidic Warrior._ You learn two Druid cantrips of your choice (see the Druid cl
 ranger_ranger_subclass,ranger,3,,,,,,Ranger Subclass,,"You gain a Ranger subclass of your choice. The Hunter subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level or lower.",
 ranger_ability_score_improvement,ranger,4,,,,,,Ability Score Improvement,,"You gain the Ability Score Improvement feat (see ""Feats"") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16.",
 ranger_extra_attack,ranger,5,,,,,set_override:attacks:2:floor,Extra Attack,,You can attack twice instead of once whenever you take the Attack action on your turn.,
-ranger_roving,ranger,6,,,,,armor_type!=heavy ? flat_bonus:speed+10,Roving,,Your Speed increases by 10 feet while you aren't wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed.,
+ranger_roving,ranger,6,,,,,armor_type!=heavy ? flat_bonus:speed+10;set_override:speed.climb:speed:floor;set_override:speed.swim:speed:floor,Roving,,Your Speed increases by 10 feet while you aren't wearing Heavy armor. You also have a Climb Speed and a Swim Speed equal to your Speed.,
 ranger_expertise,ranger,9,,,9:2,,,Expertise,,Choose two of your skill proficiencies with which you lack Expertise. You gain Expertise in those skills.,
 ranger_tireless,ranger,10,,,,,,Tireless,,"Primal forces now help fuel you on your journeys, granting you the following benefits.
 _Temporary Hit Points._ As a Magic action, you can give yourself a number of Temporary Hit Points equal to 1d8 plus your Wisdom modifier (minimum of 1). You can use this action a number of times equal to your Wisdom modifier (minimum of once), and you regain all expended uses when you finish a Long Rest.
@@ -604,7 +604,7 @@ Once you use this feature, you can't use it again until you finish a Short or Lo
 thief_fast_hands,rogue,3,,thief,,,,Fast Hands,,"As a Bonus Action, you can do one of the following.
 _Sleight of Hand._ Make a Dexterity (Sleight of Hand) check to pick a lock or disarm a trap with Thieves' Tools or to pick a pocket.
 _Use an Object._ Take the Utilize action, or take the Magic action to use a magic item that requires that action.",
-thief_second_story_work,rogue,3,,thief,,,,Second-Story Work,,"You've trained to get into especially hard-to-reach places, granting you these benefits.
+thief_second_story_work,rogue,3,,thief,,,set_override:speed.climb:speed:floor,Second-Story Work,,"You've trained to get into especially hard-to-reach places, granting you these benefits.
 _Climber._ You gain a Climb Speed equal to your Speed.
 _Jumper._ You can determine your jump distance using your Dexterity rather than your Strength.",
 thief_supreme_sneak,rogue,9,,thief,,,,Supreme Sneak,,"You gain the following Cunning Strike option.
