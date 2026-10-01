@@ -16,7 +16,7 @@
 	"srd-2014/spell_slots_srd.csv": 60,
 	"srd-2014/spells_srd.csv": 319,
 	"srd-2014/subclasses_srd.csv": 12,
-	"srd-2014/weapon_properties_srd.csv": 1,
+	"srd-2014/weapon_properties_srd.csv": 10,
 	"srd-2024/backgrounds_srd.csv": 4,
 	"srd-2024/class_casting_srd.csv": 160,
 	"srd-2024/class_features_srd.csv": 232,
@@ -34,5 +34,5 @@
 	"srd-2024/spell_slots_srd.csv": 60,
 	"srd-2024/spells_srd.csv": 339,
 	"srd-2024/subclasses_srd.csv": 12,
-	"srd-2024/weapon_properties_srd.csv": 9
+	"srd-2024/weapon_properties_srd.csv": 17
 }
