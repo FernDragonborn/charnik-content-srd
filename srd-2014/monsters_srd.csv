@@ -1,11 +1,11 @@
-#content-hash: xxh64:2ba81fe8be27dfc5
+#content-hash: xxh64:fd25ac6b9031a1cf
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fcd5-7377-ab65-afb0860395ea
 #content-schema: 3
-#content-updated_at: 2026-09-22
+#content-updated_at: 2026-10-02
 id,size,creature_type,alignment,ac,hp,hp_formula,speed,str,dex,con,int,wis,cha,str_save,dex_save,con_save,int_save,wis_save,cha_save,cr,resistances,immunities,vulnerabilities,senses,languages,skills,attacks,effects,name_en,name_uk,text_en,text_uk
 aboleth,large,aberration,lawful evil,17,135,18d10 + 36,"10 ft., swim 40 ft.",21,9,15,18,15,18,,,6,8,6,,10,,,,"darkvision 120 ft., passive Perception 20",,"History +12, Perception +10",Tentacle:+9:10 ft:2d6+5 bludgeoning; Tail:+9:10 ft:3d6+5 bludgeoning,,Aboleth,,"Amphibious. The aboleth can breathe air and water.
 Mucous Cloud. While underwater, the aboleth is surrounded by transformative mucus. A creature that touches the aboleth or that hits it with a melee attack while within 5 feet of it must make a DC 14 Constitution saving throw. On a failure, the creature is diseased for 1d4 hours. The diseased creature can breathe only underwater.
@@ -2467,7 +2467,7 @@ Web Walker. The spider ignores movement restrictions caused by webbing.
 Actions.
 Bite. Melee Weapon Attack: +4 to hit, reach 5 ft., one creature.
 Hit: 1 piercing damage, and the target must succeed on a DC 9 Constitution saving throw or take 2 (1d4) poison damage.",
-swarm_of_bats,medium,swarm of tiny beasts,unaligned,12,22,5d8,"0 ft., fly 30 ft.",5,15,10,2,12,4,,,,,,,1/4,,,,"blindsight 60 ft., passive Perception 11",,,Bites:+4:0 ft:2d4 piercing,,Swarm of Bats,,"Medium swarm of Tiny beasts, unaligned
+swarm_of_bats,medium,swarm of tiny beasts,unaligned,12,22,5d8,"0 ft., fly 30 ft.",5,15,10,2,12,4,,,,,,,1/4,"bludgeoning, piercing, slashing",,,"blindsight 60 ft., passive Perception 11",,,Bites:+4:0 ft:2d4 piercing,,Swarm of Bats,,"Medium swarm of Tiny beasts, unaligned
 Armor Class 12
 Hit Points 22 (5d8)
 Speed 0 ft., fly 30 ft.
@@ -2483,7 +2483,7 @@ Swarm. The swarm can occupy another creature's space and vice versa, and the swa
 Actions.
 Bites. Melee Weapon Attack: +4 to hit, reach 0 ft., one creature in the swarm's space.
 Hit: 5 (2d4) piercing damage, or 2 (1d4) piercing damage if the swarm has half of its hit points or fewer.",
-swarm_of_insects,medium,swarm of tiny beasts,unaligned,12,22,5d8,"20 ft., climb 20 ft.",3,13,10,1,7,1,,,,,,,1/2,,,,"blindsight 10 ft., passive Perception 8",,,Bites:+3:0 ft:4d4 piercing,,Swarm of Insects,,"Medium swarm of Tiny beasts, unaligned
+swarm_of_insects,medium,swarm of tiny beasts,unaligned,12,22,5d8,"20 ft., climb 20 ft.",3,13,10,1,7,1,,,,,,,1/2,"bludgeoning, piercing, slashing",,,"blindsight 10 ft., passive Perception 8",,,Bites:+3:0 ft:4d4 piercing,,Swarm of Insects,,"Medium swarm of Tiny beasts, unaligned
 Armor Class 12 (natural armor)
 Hit Points 22 (5d8)
 Speed 20 ft., climb 20 ft.
@@ -2804,7 +2804,7 @@ Multiattack. The fanatic makes two melee attacks.
 Dagger. Melee or Ranged Weapon Attack: +4 to hit, reach 5 ft. or range 20/60 ft., one creature.
 Hit : 4 (1d4 +2) piercing damage.
 Fanatics are often part of a cult's leadership, using their charisma and dogma to influence and prey on those of weak will. Most are interested in personal power above all else.",
-druid,medium,humanoid (any race),any alignment,11,,,30 ft.,10,12,13,12,15,11,,,,,,,2,,,,passive Perception 14,Druidic plus any two languages,"Medicine +4, Nature +3, Perception +4",Quarterstaff:+2:5 ft:1d6 bludgeoning,,Druid,,"Medium humanoid (any race), any alignment
+druid,medium,humanoid (any race),any alignment,11,27,5d8 + 5,30 ft.,10,12,13,12,15,11,,,,,,,2,,,,passive Perception 14,Druidic plus any two languages,"Medicine +4, Nature +3, Perception +4",Quarterstaff:+2:5 ft:1d6 bludgeoning,,Druid,,"Medium humanoid (any race), any alignment
 Armor Class 11 (16 with barkskin )
 Hit
 Points 27 (5d8 + 5)
@@ -2941,7 +2941,7 @@ Multiattack. The scout makes two melee attacks or two ranged attacks.
 Shortsword. Melee Weapon Attack: +4 to hit, reach 5 ft., one target. Hit: 5 (1d6 + 2) piercing damage.
 Longbow. Ranged Weapon Attack: +4 to hit, ranged 150/600 ft., one target. Hit: 6 (1d8 + 2) piercing damage.
 Scouts are skilled hunters and trackers who offer their services for a fee. Most hunt wild game, but a few work as bounty hunters, serve as guides, or provide military reconnaissance.",
-spy,medium,humanoid (any race),any alignment,12,,,30 ft.,10,15,10,12,14,16,,,,,,,1,,,,passive Perception 16,any two languages,"Deception +5, Insight +4, Investigation +5, Perception +6, Persuasion +5, Sleight of Hand +4, Stealth +4",Shortsword:+4:5 ft:1d6+2 piercing; Hand Crossbow:+4:30/120 ft:1d6+2 piercing,,Spy,,"Medium humanoid (any race), any alignment
+spy,medium,humanoid (any race),any alignment,12,27,6d8,30 ft.,10,15,10,12,14,16,,,,,,,1,,,,passive Perception 16,any two languages,"Deception +5, Insight +4, Investigation +5, Perception +6, Persuasion +5, Sleight of Hand +4, Stealth +4",Shortsword:+4:5 ft:1d6+2 piercing; Hand Crossbow:+4:30/120 ft:1d6+2 piercing,,Spy,,"Medium humanoid (any race), any alignment
 Armor Class 12
 Hit Point s 27 (6d8)
 Speed 30 ft.
