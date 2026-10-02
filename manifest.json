@@ -1,7 +1,8 @@
 {
+	"srd-2014/advancement_srd.csv": 20,
 	"srd-2014/backgrounds_srd.csv": 1,
 	"srd-2014/class_casting_srd.csv": 140,
-	"srd-2014/class_features_srd.csv": 197,
+	"srd-2014/class_features_srd.csv": 196,
 	"srd-2014/classes_srd.csv": 12,
 	"srd-2014/conditions_srd.csv": 16,
 	"srd-2014/effects_srd.csv": 8,
@@ -17,6 +18,7 @@
 	"srd-2014/spells_srd.csv": 319,
 	"srd-2014/subclasses_srd.csv": 12,
 	"srd-2014/weapon_properties_srd.csv": 10,
+	"srd-2024/advancement_srd.csv": 20,
 	"srd-2024/backgrounds_srd.csv": 4,
 	"srd-2024/class_casting_srd.csv": 160,
 	"srd-2024/class_features_srd.csv": 232,

@@ -1,0 +1,29 @@
+#content-hash: xxh64:d5fbd7996bff34a5
+#content-source: SRD 5.1
+#content-systems: 5e
+#content-url: https://dnd.wizards.com/resources/systems-reference-document
+#content-license: CC-BY-4.0
+#content-updated_at: 2026-10-02
+#content-id: 30358e88-1b11-40d0-8fda-46b6de20b9a0
+#content-schema: 3
+id,level,xp
+level_1,1,0
+level_2,2,300
+level_3,3,900
+level_4,4,2700
+level_5,5,6500
+level_6,6,14000
+level_7,7,23000
+level_8,8,34000
+level_9,9,48000
+level_10,10,64000
+level_11,11,85000
+level_12,12,100000
+level_13,13,120000
+level_14,14,140000
+level_15,15,165000
+level_16,16,195000
+level_17,17,225000
+level_18,18,265000
+level_19,19,305000
+level_20,20,355000
