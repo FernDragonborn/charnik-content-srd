@@ -1,11 +1,11 @@
-#content-hash: xxh64:a1679608bfb269ba
+#content-hash: xxh64:feb440e692643366
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fd36-72ad-8fc3-f977f1cf41cb
 #content-schema: 2
-#content-updated_at: 2026-09-30
+#content-updated_at: 2026-10-02
 id,class_id,level,resource,subclass_id,expertise_slots,effects,name_en,name_uk,text_en,text_uk
 barbarian_rage,barbarian,1,,,,"grant_resource:rage:step(class_level.barbarian, 1->2, 3->3, 6->4, 12->5, 17->6, 20->inf):long",Rage,,"In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.
 While raging, you gain the following benefits if you aren't wearing heavy armor:
@@ -104,7 +104,7 @@ _Ritual Casting_
 You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.
 _Spellcasting Focus_
 You can use a druidic focus (see “Equipment”) as a spellcasting focus for your druid spells.",
-druid_wild_shape,druid,2,,,,,Wild Shape,,"Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.
+druid_wild_shape,druid,2,,,,"grant_resource:wild_shape:step(class_level.druid, 2->2, 20->inf):short;form:wild_shape:creature:beast;form:wild_shape:max_cr:step(class_level.druid, 2->1/4, 4->1/2, 8->1);class_level.druid<4 ? form:wild_shape:without:swim;class_level.druid<8 ? form:wild_shape:without:fly;form:wild_shape:own_hp;form:wild_shape:hours:floor(class_level.druid/2)",Wild Shape,,"Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.
 Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table. At 2nd level, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swimming speed.
 _Beast Shapes_
 <table><tr class=heading><th ><b>Level </b></th><th ><b>Max.  CR </b></th><th ><b>Limitations </b></th><th ><b>Example </b></th></tr><tr><td >2nd </td><td >1/4 </td><td >No flying or swimming  speed </td><td >Wolf </td></tr><tr><td >4th </td><td >1/2 </td><td >No flying speed </td><td >Crocodile </td></tr><tr><td >8th </td><td >1 </td><td >- </td><td >Giant  eagle </td></tr></table>
@@ -122,7 +122,7 @@ call lightning , that you've already cast.
 druid_druid_circle,druid,2,,,,,Druid Circle,,"At 2nd level, you choose to identify with a circle of druids, such as the Circle of the Land. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.",
 druid_ability_score_improvement,druid,4,,,,,Ability Score Improvement,,"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
 druid_timeless_body,druid,18,,,,,Timeless Body,,"Starting at 18th level, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.",
-druid_beast_spells,druid,18,,,,,Beast Spells,,"Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components.",
+druid_beast_spells,druid,18,,,,form:wild_shape:casts,Beast Spells,,"Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components.",
 druid_archdruid,druid,20,,,,,Archdruid,,"At 20th level, you can use your Wild Shape an unlimited number of times.
 Additionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape.",
 fighter_fighting_style,fighter,1,,,,,Fighting Style,,"You adopt a particular style of fighting as your specialty. Choose one of the following options. You can't take a Fighting Style option more than once, even if you later get to choose again.

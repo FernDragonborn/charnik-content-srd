@@ -1,10 +1,10 @@
-#content-hash: xxh64:9cee2cdaaed97d8d
+#content-hash: xxh64:3923ee79731d47f4
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f859d-bfcf-791e-b63f-372e93596042
-#content-updated_at: 2026-08-29
+#content-updated_at: 2026-10-02
 #content-schema: 1
 id,resource_id,cost,action,action_type,available,name_en,name_uk,text_en,text_uk
 flurry_of_blows,focus,1,attack:unarmed_strike:2,bonus_action,,Flurry of Blows,,"Immediately after the Attack action, make two Unarmed Strikes as a Bonus Action.",
@@ -14,4 +14,5 @@ fighter_second_wind,second_wind,1,heal:1d10+class_level.fighter,bonus_action,,Se
 fighter_action_surge,action_surge,1,gain_action,free,,Action Surge,,Take one additional action on your turn.,
 barbarian_persistent_rage_regain,persistent_rage,1,restore_resource:rage,free,is_combat_start,Persistent Rage,,"When you roll Initiative, regain all expended uses of Rage (once per Long Rest).",
 barbarian_rage_enter,rage,1,apply_effect:rage,bonus_action,,Enter Rage,,Enter a Rage as a Bonus Action if you aren't wearing Heavy armor.,
+druid_wild_shape_assume,wild_shape,1,assume_form:wild_shape,bonus_action,,Wild Shape,,"As a Bonus Action, you shape-shift into a Beast form that you have learned for this feature.",
 monk_uncanny_metabolism_regain,uncanny_metabolism,1,"restore_resource:focus;heal:1d step(class_level.monk, 1->6, 5->8, 11->10, 17->12)+class_level.monk",free,is_combat_start,Uncanny Metabolism,,"When you roll Initiative, regain all expended Focus Points and roll your Martial Arts die + your Monk level to regain that many Hit Points (once per Long Rest).",

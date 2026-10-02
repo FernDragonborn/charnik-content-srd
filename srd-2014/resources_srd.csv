@@ -1,9 +1,9 @@
-#content-hash: xxh64:588cd774b8fe6da8
+#content-hash: xxh64:93f4ce6d6a94e45b
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
-#content-updated_at: 2026-08-27
+#content-updated_at: 2026-10-02
 #content-id: 035d32a1-be41-4043-8121-c54ff3d0b60d
 #content-schema: 1
 id,name_en,name_uk,text_en,text_uk
@@ -12,3 +12,4 @@ bardic_inspiration,Bardic Inspiration,,,
 second_wind,Second Wind,,,
 action_surge,Action Surge,,,
 ki,Ki Points,,,
+wild_shape,Wild Shape,,,

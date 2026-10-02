@@ -1,10 +1,10 @@
-#content-hash: xxh64:0d4d2f4dc0bedb91
+#content-hash: xxh64:eefbd6f0ad05c584
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f859d-bfd4-717c-bb8d-cd555a0e6807
-#content-updated_at: 2026-08-29
+#content-updated_at: 2026-10-02
 #content-schema: 1
 id,resource_id,cost,action,action_type,name_en,name_uk,text_en,text_uk
 flurry_of_blows,ki,1,attack:unarmed_strike:2,bonus_action,Flurry of Blows,,"Immediately after the Attack action, make two Unarmed Strikes as a Bonus Action.",
@@ -13,3 +13,4 @@ step_of_the_wind,ki,1,note:Disengage or Dash; jump distance doubled,bonus_action
 fighter_second_wind,second_wind,1,heal:1d10+class_level.fighter,bonus_action,Second Wind,,Regain hit points equal to 1d10 + your fighter level.,
 fighter_action_surge,action_surge,1,gain_action,free,Action Surge,,Take one additional action on your turn.,
 barbarian_rage_enter,rage,1,apply_effect:rage,bonus_action,Enter Rage,,"On your turn, you can enter a rage as a bonus action.",
+druid_wild_shape_assume,wild_shape,1,assume_form:wild_shape,action,Wild Shape,,Use your action to magically assume the shape of a beast that you have seen before.,
