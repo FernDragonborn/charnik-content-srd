@@ -1,9 +1,9 @@
-#content-hash: xxh64:71c5d6edf586b0ee
+#content-hash: xxh64:be07382dacbe65d3
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
-#content-updated_at: 2026-10-01
+#content-updated_at: 2026-10-02
 #content-id: 9e889e82-0df4-400a-8640-5523e50cbcef
 #content-schema: 3
 id,name_en,name_uk,text_en,text_uk,effects
@@ -14,7 +14,7 @@ ammunition,Ammunition,,"You can use a weapon that has the ammunition property to
 
 If you use a weapon that has the ammunition property to make a melee attack, you treat the weapon as an improvised weapon (see “Improvised Weapons” later in the section). A sling must be loaded to deal any damage when used in this way.",,
 finesse,Finesse,,"When making an attack with a finesse weapon, you use your choice of your Strength or Dexterity modifier for the attack and damage rolls. You must use the same modifier for both rolls.",,
-heavy,Heavy,,Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon’s size and bulk make it too large for a Small creature to use effectively.,,
+heavy,Heavy,,Small creatures have disadvantage on attack rolls with heavy weapons. A heavy weapon’s size and bulk make it too large for a Small creature to use effectively.,,size==small ? disadvantage:attack
 loading,Loading,,"Because of the time required to load this weapon, you can fire only one piece of ammunition from it when you use an action, bonus action, or reaction to fire it, regardless of the number of attacks you can normally make.",,
 reach,Reach,,"This weapon adds 5 feet to your reach when you attack with it, as well as when determining your reach for opportunity attacks with it.",,
 special,Special,,"A weapon with the special property has unusual rules governing its use, explained in the weapon’s description (see “Special Weapons” later in this section).",,
