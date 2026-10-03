@@ -1,11 +1,11 @@
-#content-hash: xxh64:e70c34511d29d018
+#content-hash: xxh64:f059b5deb15c8981
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fb3a-7a28-894a-aedc0dd1440a
 #content-schema: 3
-#content-updated_at: 2026-09-22
+#content-updated_at: 2026-10-03
 id,size,creature_type,alignment,ac,initiative,hp,hp_formula,speed,str,dex,con,int,wis,cha,str_save,dex_save,con_save,int_save,wis_save,cha_save,cr,resistances,immunities,vulnerabilities,gear,senses,languages,skills,attacks,effects,name_en,name_uk,text_en,text_uk
 aboleth,large,aberration,Lawful Evil,17,+7 (17),150,20d10 + 40,"10 ft., Swim 40 ft.",21,9,15,18,15,18,5,3,6,8,6,4,10,,,,,Darkvision 120 ft.; Passive Perception 20,Deep Speech; telepathy 120 ft.,"History +12, Perception +10",Tentacle:+9:15 ft:2d6+5 bludgeoning,,Aboleth,,"#### Traits
 
@@ -5164,3 +5164,20 @@ wolf,medium,beast,Unaligned,12,+2 (12),11,2d8 + 2,40 ft.,14,15,12,3,12,6,2,2,1,-
 <hr>
 
 **_Bite._** _Melee Attack Roll:_ +4, reach 5 ft. _Hit:_ 5 (1d6 + 2) Piercing damage. If the target is a Medium or smaller creature, it has the Prone condition.",
+avatar_of_death,medium,undead,Neutral Evil,20,+3 (13),,,"60 ft., Fly 60 ft. (hover)",16,16,16,16,16,16,3,3,3,3,3,3,,,"Necrotic, Poison; Charmed, Exhaustion, Frightened, Paralyzed, Petrified, Poisoned, Unconscious",,,Truesight 60 ft.; Passive Perception 13,All languages known to its summoner,,,,Avatar of Death,,"**HP** Half the HP maximum of its summoner
+
+**CR** None (XP 0; PB equals its summoner's)
+
+#### Traits
+
+<hr>
+
+**_Incorporeal Movement._** The avatar can move through other creatures and objects as if they were Difficult Terrain. It takes 5 (1d10) Force damage if it ends its turn inside an object.
+
+#### Actions
+
+<hr>
+
+**_Multiattack._** The avatar makes a number of Reaping Scythe attacks equal to half the summoner's Proficiency Bonus (rounded up).
+
+**_Reaping Scythe._** _Melee Attack Roll:_ Automatic hit, reach 5 ft. _Hit:_ 7 (1d8 + 3) Slashing damage plus 4 (1d8) Necrotic damage.",
