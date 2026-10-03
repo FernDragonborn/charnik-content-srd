@@ -1,9 +1,9 @@
-#content-hash: xxh64:5cf728d3747181c6
+#content-hash: xxh64:0c2610a6262c0250
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
-#content-updated_at: 2026-10-02
+#content-updated_at: 2026-10-03
 #content-id: 681bceb5-74f9-49ba-b537-d4d97dadefaa
 #content-schema: 1
 id,name_en,name_uk,text_en,text_uk
@@ -15,3 +15,4 @@ focus,Focus Points,,,
 persistent_rage,Persistent Rage,,,
 uncanny_metabolism,Uncanny Metabolism,,,
 wild_shape,Wild Shape,,,
+wild_resurgence,Wild Resurgence,,,

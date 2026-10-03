@@ -1,10 +1,10 @@
-#content-hash: xxh64:e38279d5b0d6f58f
+#content-hash: xxh64:4035edb3f0c9c15e
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f9e9-7ad8-b3a8-4511aa623e30
-#content-updated_at: 2026-10-02
+#content-updated_at: 2026-10-03
 #content-schema: 1
 id,class_id,level,resource,subclass_id,expertise_slots,mastery_slots,effects,name_en,name_uk,text_en,text_uk
 barbarian_rage,barbarian,1,,,,,"grant_resource:rage:step(class_level.barbarian, 1->2, 3->3, 6->4, 12->5, 17->6):short_one",Rage,,"You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.
@@ -211,7 +211,7 @@ druid_wild_companion,druid,2,,,,,,Wild Companion,,"You can summon a nature spiri
 When you cast the spell in this way, the familiar is Fey and disappears when you finish a Long Rest.",
 druid_druid_subclass,druid,3,,,,,,Druid Subclass,,"You gain a Druid subclass of your choice. The Circle of the Land subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Druid levels. For the rest of your career, you gain each of your subclass's features that are of your Druid level or lower.",
 druid_ability_score_improvement,druid,4,,,,,,Ability Score Improvement,,"You gain the Ability Score Improvement feat (see ""Feats"") or another feat of your choice for which you qualify. You gain this feature again at Druid levels 8, 12, and 16.",
-druid_wild_resurgence,druid,5,,,,,,Wild Resurgence,,"Once on each of your turns, if you have no uses of Wild Shape left, you can give yourself one use by expending a spell slot (no action required).
+druid_wild_resurgence,druid,5,,,,,grant_resource:wild_resurgence:1:long,Wild Resurgence,,"Once on each of your turns, if you have no uses of Wild Shape left, you can give yourself one use by expending a spell slot (no action required).
 In addition, you can expend one use of Wild Shape (no action required) to give yourself a level 1 spell slot, but you can't do so again until you finish a Long Rest.",
 druid_elemental_fury,druid,7,,,,,,Elemental Fury,,"The might of the elements flows through you. You gain one of the following options of your choice.
 _Potent Spellcasting._ Add your Wisdom modifier to the damage you deal with any Druid cantrip.
