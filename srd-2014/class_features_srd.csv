@@ -1,4 +1,4 @@
-#content-hash: xxh64:e2771dfe7b4a8ad2
+#content-hash: xxh64:3ad43db8680e15ec
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -280,7 +280,7 @@ You are also aware of the location of any invisible creature within 30 feet of y
 ranger_foe_slayer,ranger,20,,,,,Foe Slayer,,"At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.",
 rogue_expertise,rogue,1,,,"1:2,6:2",,Expertise,,"At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
 At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.",
-rogue_sneak_attack,rogue,1,,,,grant_roll:sneak_attack:ceil(class_level.rogue/2) d 6,Sneak Attack,,"Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
+rogue_sneak_attack,rogue,1,,,,grant_roll:sneak_attack:ceil(class_level.rogue/2) d 6:turn,Sneak Attack,,"Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
 You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.
 The amount of the extra damage increases as you gain levels in this class, as shown in the Sneak Attack column of the Rogue table.",
 rogue_thieves_cant,rogue,1,,,,,Thieves' Cant,,"During your rogue training you learned thieves' cant, a secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages.

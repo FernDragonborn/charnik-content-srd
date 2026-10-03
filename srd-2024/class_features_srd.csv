@@ -1,4 +1,4 @@
-#content-hash: xxh64:296f97f9d2759fde
+#content-hash: xxh64:8e03959af0a03619
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -573,7 +573,7 @@ hunter_superior_hunters_prey,ranger,11,,hunter,,,,Superior Hunter's Prey,,"Once 
 hunter_superior_hunters_defense,ranger,15,,hunter,,,,Superior Hunter's Defense,,"When you take damage, you can take a Reaction to give yourself Resistance to that damage and any other damage of the same type until the end of the current turn.",
 rogue_expertise,rogue,1,,,"1:2,6:2",,,Expertise,,"You gain Expertise in two of your skill proficiencies of your choice. Sleight of Hand and Stealth are recommended if you have proficiency in them.
 At Rogue level 6, you gain Expertise in two more of your skill proficiencies of your choice.",
-rogue_sneak_attack,rogue,1,,,,,grant_roll:sneak_attack:ceil(class_level.rogue/2) d 6,Sneak Attack,,"You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.
+rogue_sneak_attack,rogue,1,,,,,grant_roll:sneak_attack:ceil(class_level.rogue/2) d 6:turn,Sneak Attack,,"You know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack roll if you have Advantage on the roll and the attack uses a Finesse or a Ranged weapon. The extra damage's type is the same as the weapon's type.
 You don't need Advantage on the attack roll if at least one of your allies is within 5 feet of the target, the ally doesn't have the Incapacitated condition, and you don't have Disadvantage on the attack roll. The extra damage increases as you gain Rogue levels, as shown in the Sneak Attack column of the Rogue Features table.",
 rogue_thieves_cant,rogue,1,,,,,,Thieves' Cant,,"You picked up various languages in the communities where you plied your roguish talents. You know Thieves' Cant and one other language of your choice, which you choose from the language tables in ""Character Creation.""",
 rogue_weapon_mastery,rogue,1,,,,1:2,,Weapon Mastery,,"Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Daggers and Shortbows.
