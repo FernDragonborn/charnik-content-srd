@@ -1,11 +1,11 @@
-#content-hash: xxh64:91515078f1601fd9
+#content-hash: xxh64:8e19dfb11fc60f28
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fd4e-7cbd-ab16-da8d50473527
 #content-schema: 3
-#content-updated_at: 2026-10-02
+#content-updated_at: 2026-10-05
 id,category,tags,damage,base_item_id,effects,rarity,cost,weight_lb,name_en,name_uk,text_en,text_uk,bonus_choice,choice_options
 club,weapon,"simple, melee, light",1d4 bludgeoning,,,,1 sp,2,Club,,,,,
 dagger,weapon,"simple, melee, finesse, light, thrown:20/60",1d4 piercing,,,,2 gp,1,Dagger,,,,,
@@ -193,7 +193,7 @@ vial,gear,,,,,,1 gp,,Vial,,,,,
 waterskin,gear,,,,,,2 sp,5,Waterskin,,,,,
 whetstone,gear,,,,,,1 cp,1,Whetstone,,,,,
 adamantine_armor,armor,,,,,uncommon,,,Adamantine Armor,,"This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",,,
-ammunition_1_2_or_3,weapon,,,,flat_bonus:attack+item_bonus;flat_bonus:damage+item_bonus,very_rare,,,"Ammunition, +1, +2, or +3",,"You have a bonus to attack and damage rolls made with this piece of magic ammunition. The bonus is determined by the rarity of the ammunition. Once it hits a target, the ammunition is no longer magical.",,"1,2,3",
+ammunition_1_2_or_3,weapon,,,,flat_bonus:attack+item_bonus;flat_bonus:damage+item_bonus,very_rare,,,"Ammunition, +1, +2, or +3",,"You have a bonus to attack and damage rolls made with this piece of magic ammunition. The bonus is determined by the rarity of the ammunition. Once it hits a target, the ammunition is no longer magical.",,"uncommon:1,rare:2,very_rare:3",
 amulet_of_health,wondrous,attunement,,,set_override:con:19:floor,rare,,,Amulet of Health,,Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher.,,,
 location,wondrous,attunement,,,,uncommon,,,Location,,"While wearing this amulet, you are hidden from divination magic. You can't be targeted by such magic or perceived through magical scrying sensors.",,,
 amulet_of_the_planes,wondrous,attunement,,,,very_rare,,,Amulet of the Planes,,"While wearing this amulet, you can use an action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence check. On a successful check, you cast the
@@ -266,7 +266,7 @@ Damage Immunities: poison, psychic To be used as a vehicle, the apparatus requir
 </tr>
 </tbody>
 </table>",,,
-armor_1_2_or_3,armor,,,,flat_bonus:ac+item_bonus,very_rare,,,"Armor, +1, +2, or +3",,You have a bonus to AC while wearing this armor. The bonus is determined by its rarity.,,"1,2,3",
+armor_1_2_or_3,armor,,,,flat_bonus:ac+item_bonus,very_rare,,,"Armor, +1, +2, or +3",,You have a bonus to AC while wearing this armor. The bonus is determined by its rarity.,,"rare:1,very_rare:2,legendary:3",
 armor_of_invulnerability,armor,attunement,,plate,"note:Resistance to nonmagical damage, and an action (once per dawn) for immunity to nonmagical damage for 10 minutes",legendary,,,Armor of Invulnerability,,"You have resistance to nonmagical damage while you wear this armor. Additionally, you can use an action to make yourself immune to nonmagical damage for 10 minutes or until you are no longer wearing the armor. Once this special action
 is used, it can't be used again until the next dawn.",,,
 armor_of_resistance,armor,attunement,,,damage_sensitivity:resist:item_choice,rare,,,Armor of Resistance,,"You have resistance to one type of damage while you wear this armor. The GM chooses the type or determines it randomly from the options below.
@@ -1866,7 +1866,7 @@ scarab_of_protection,wondrous,attunement,,,advantage:saves.spell;note:12 charges
 •You have advantage on saving throws against spells.
 •The scarab has 12 charges. If you fail a saving throw against a necromancy spell or a harmful effect originating from an undead creature, youcan use your reaction to expend 1 charge and turn the failed save into a successful one. The scarab crumbles into powder and is destroyed when its last charge is expended.",,,
 scimitar_of_speed,weapon,attunement,,scimitar,flat_bonus:attack+2;flat_bonus:damage+2;note:One attack with it as a bonus action on each of your turns,very_rare,,,Scimitar of Speed,,"You gain a +2 bonus to attack and damage rolls made with this magic weapon. In addition, you can make one attack with it as a bonus action on each of your turns.",,,
-shield_1_2_or_3,shield,,,shield,flat_bonus:ac+item_bonus,very_rare,,,"Shield, +1, +2, or +3",,"While holding this shield, you have a bonus to AC determined by the shield's rarity. This bonus is in addition to the shield's normal bonus to AC.",,"1,2,3",
+shield_1_2_or_3,shield,,,shield,flat_bonus:ac+item_bonus,very_rare,,,"Shield, +1, +2, or +3",,"While holding this shield, you have a bonus to AC determined by the shield's rarity. This bonus is in addition to the shield's normal bonus to AC.",,"uncommon:1,rare:2,very_rare:3",
 shield_of_missile_attraction,shield,attunement,,shield,"note:Cursed — resistance to damage from ranged weapon attacks, but ranged attacks aimed within 10 feet of you target you instead",rare,,,Shield of Missile Attraction,,"While holding this shield, you have resistance to damage from ranged weapon attacks.
 Curse. This shield is cursed. Attuning to it curses you until you are targeted by the remove curse spell or similar magic. Removing the shield fails to end the curse on you. Whenever a ranged weapon attack is made against a target within 10 feet of you, the curse causes you to become the target instead.",,,
 slippers_of_spider_climbing,wondrous,attunement,,,set_override:speed.climb:speed:floor,uncommon,,,Slippers of Spider Climbing,,"While you wear these light shoes, you can move up, down, and across vertical surfaces and upside down along ceilings, while leaving your hands free. You have a climbing speed equal to your walking speed. However, the slippers don't allow you to move this way on a slippery surface, such as one covered by ice or oil.",,,
@@ -2052,7 +2052,7 @@ wand_of_polymorph,wand,attunement,,,grant_resource:wand_of_polymorph:7:dawn(1d6+
 polymorph spell (save DC 15) from it.
 The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.",,,
 wand_of_secrets,wand,,,,grant_resource:wand_of_secrets:3:dawn(1d3),uncommon,,,Wand of Secrets,,"The wand has 3 charges. While holding it, you can use an action to expend 1 of its charges, and if a secret door or trap is within 30 feet of you, the wand pulses and points at the one nearest to you. The wand regains 1d3 expended charges daily at dawn.",,,
-wand_of_the_war_mage_1_2_or_3,wand,attunement,,,flat_bonus:spell_attack+item_bonus;note:You ignore half cover when making a spell attack,very_rare,,,"Wand of the War Mage, +1, +2, or +3",,"While holding this wand, you gain a bonus to spell attack rolls determined by the wand's rarity. In addition, you ignore half cover when making a spell attack.",,"1,2,3",
+wand_of_the_war_mage_1_2_or_3,wand,attunement,,,flat_bonus:spell_attack+item_bonus;note:You ignore half cover when making a spell attack,very_rare,,,"Wand of the War Mage, +1, +2, or +3",,"While holding this wand, you gain a bonus to spell attack rolls determined by the wand's rarity. In addition, you ignore half cover when making a spell attack.",,"uncommon:1,rare:2,very_rare:3",
 wand_of_web,wand,attunement,,,grant_resource:wand_of_web:7:dawn(1d6+1),uncommon,,,Wand of Web,,"This wand has 7 charges. While holding it, you can use an action to expend 1 of its charges to cast the
 web spell (save DC 15) from it.
 The wand regains 1d6 + 1 expended charges daily at dawn. If you expend the wand's last charge, roll a d20. On a 1, the wand crumbles into ashes and is destroyed.",,,
@@ -2158,7 +2158,7 @@ multiple possible subjects, the GM randomly determines which ones are affected. 
 </tr>
 </tbody>
 </table>",,,
-weapon_1_2_or_3,weapon,,,,flat_bonus:attack+item_bonus;flat_bonus:damage+item_bonus,very_rare,,,"Weapon, +1, +2, or +3",,You have a bonus to attack and damage rolls made with this magic weapon. The bonus is determined by the weapon's rarity.,,"1,2,3",
+weapon_1_2_or_3,weapon,,,,flat_bonus:attack+item_bonus;flat_bonus:damage+item_bonus,very_rare,,,"Weapon, +1, +2, or +3",,You have a bonus to attack and damage rolls made with this magic weapon. The bonus is determined by the weapon's rarity.,,"uncommon:1,rare:2,very_rare:3",
 well_of_many_worlds,wondrous,,,,,legendary,,,Well of Many Worlds,,"This fine black cloth, soft as silk, is folded up to the dimensions of a handkerchief. It unfolds into a circular sheet 6 feet in diameter.
 You can use an action to unfold and place the well of many worlds
 on a solid surface, whereupon it creates a two-way portal to another world or plane of existence. Each time the item opens a portal, the GM decides where it leads. You can use an action to close an open portal by taking hold of the edges of the cloth and folding it up. Once
