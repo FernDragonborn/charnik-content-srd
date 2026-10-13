@@ -1,4 +1,4 @@
-#content-hash: xxh64:98c85f44e940cc5c
+#content-hash: xxh64:962c8c6fcd29ae58
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -60,3 +60,5 @@ The figurine has a 10 percent chance each time you use it to ignore your orders,
 onyx_dog,item:figurine_of_wondrous_power,,,rare,,,Onyx Dog,,"This onyx statuette of a dog can become a **Mastiff** for up to 6 hours. The mastiff has an Intelligence of 8 and can speak Common. It also has Blindsight with a range of 60 feet. Once it has been used, it can't be used again until 7 days have passed.",
 serpentine_owl,item:figurine_of_wondrous_power,,,rare,,,Serpentine Owl,,"This serpentine statuette of an owl can become a **Giant Owl** for up to 8 hours. The owl can communicate telepathically with you at any range if you and it are on the same plane of existence. Once it has been used, it can't be used again until 2 days have passed.",
 silver_raven,item:figurine_of_wondrous_power,,,uncommon,,,Silver Raven,,"This silver statuette of a raven can become a **Raven** for up to 12 hours. Once it has been used, it can't be used again until 2 days have passed. While in raven form, the figurine grants you the ability to cast _Animal Messenger_ on it.",
+potent_spellcasting,class_feature:druid_elemental_fury,,,,,,Potent Spellcasting,,Add your Wisdom modifier to the damage you deal with any Druid cantrip.,
+primal_strike,class_feature:druid_elemental_fury,,,,,"grant_roll:primal_strike:step(class_level.druid, 7->1, 15->2) d 8:turn",Primal Strike,,"Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 Cold, Fire, Lightning, or Thunder damage (choose when you hit).",
