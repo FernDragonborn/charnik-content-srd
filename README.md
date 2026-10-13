@@ -24,14 +24,14 @@ some-folder/
 └─ charnik-content-srd/   ← this repo
 ```
 
-A different location goes in `charnik.config.json` in the app repo (`{ "contentRepo": "…" }`), or in
+A different location goes in `charnik.dev.json` in the app repo (`{ "contentRepo": "…" }`), or in
 the `CHARNIK_CONTENT` environment variable. The app vendors these CSVs into its build, so a release
 always carries a working copy of the content as its floor.
 
 ## Editing
 
-The CSVs are **generated** from the published SRD markdown by the converters in the app repo
-(`tools/srd/`) — data is never authored from memory. After any hand-edit, re-stamp the file's hash
+Every row is **transcribed** from the published SRD text — data is never authored from memory.
+After any hand-edit, re-stamp the file's hash
 from the app repo, or the app's content-health panel flags it as drifted:
 
 ```
@@ -55,7 +55,7 @@ No install, no dependencies. It catches a truncated file, a bad hand-edit or a h
 *wrong*, only that the pack is no longer the shape it was released as.
 
 Count rows with this, never with `wc -l`: most of this content is multi-line prose inside quoted
-cells, so line counts run about eight times high — `items_srd.csv` is 3576 lines and 420 items.
+cells, so line counts run about eight times high — `srd-2024/items_srd.csv` is 3576 lines and 420 items.
 
 ## License
 
