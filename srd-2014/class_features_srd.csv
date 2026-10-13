@@ -1,4 +1,4 @@
-#content-hash: xxh64:76c5c06ec36e7a5e
+#content-hash: xxh64:6592fa0c2c225efc
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -104,7 +104,7 @@ _Ritual Casting_
 You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.
 _Spellcasting Focus_
 You can use a druidic focus (see “Equipment”) as a spellcasting focus for your druid spells.",,
-druid_wild_shape,druid,2,,,"grant_resource:wild_shape:step(class_level.druid, 2->2, 20->inf):short;form:wild_shape:creature:beast;form:wild_shape:max_cr:step(class_level.druid, 2->1/4, 4->1/2, 8->1);class_level.druid<4 ? form:wild_shape:without:swim;class_level.druid<8 ? form:wild_shape:without:fly;form:wild_shape:own_hp;form:wild_shape:only_senses;form:wild_shape:hours:floor(class_level.druid/2);form:wild_shape:ends_when:unconscious",Wild Shape,,"Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.
+druid_wild_shape,druid,2,,,"grant_resource:wild_shape:step(class_level.druid, 2->2, 20->inf):short;form:wild_shape:creature:beast;form:wild_shape:max_cr:step(class_level.druid, 2->1/4, 4->1/2, 8->1);class_level.druid<4 ? form:wild_shape:without:swim;class_level.druid<8 ? form:wild_shape:without:fly;form:wild_shape:own_hp;form:wild_shape:only_senses;form:wild_shape:worn_only;form:wild_shape:hours:floor(class_level.druid/2);form:wild_shape:ends_when:unconscious",Wild Shape,,"Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.
 Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table. At 2nd level, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swimming speed.
 _Beast Shapes_
 <table><tr class=heading><th ><b>Level </b></th><th ><b>Max.  CR </b></th><th ><b>Limitations </b></th><th ><b>Example </b></th></tr><tr><td >2nd </td><td >1/4 </td><td >No flying or swimming  speed </td><td >Wolf </td></tr><tr><td >4th </td><td >1/2 </td><td >No flying speed </td><td >Crocodile </td></tr><tr><td >8th </td><td >1 </td><td >- </td><td >Giant  eagle </td></tr></table>
