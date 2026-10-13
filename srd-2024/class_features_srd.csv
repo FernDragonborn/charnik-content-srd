@@ -1,4 +1,4 @@
-#content-hash: xxh64:731112846ccdd01c
+#content-hash: xxh64:aabc479bf6f5fa6a
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -221,7 +221,7 @@ _Potent Spellcasting._ When you cast a Druid cantrip with a range of 10 feet or 
 _Primal Strike._ The extra damage of your Primal Strike increases to 2d8.",,
 druid_beast_spells,druid,18,,,,form:wild_shape:casts,Beast Spells,,"While using Wild Shape, you can cast spells in Beast form, except for any spell that has a Material component with a cost specified or that consumes its Material component.",,
 druid_epic_boon,druid,19,,,,,Epic Boon,,"You gain an Epic Boon feat (see ""Feats"") or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.",,
-druid_archdruid,druid,20,,,,regain_on_initiative:wild_shape:1,Archdruid,,"The vitality of nature constantly blooms within you, granting you the following benefits.
+druid_archdruid,druid,20,,,,regain_on_initiative:wild_shape:1;grant_resource:nature_magician:1:long,Archdruid,,"The vitality of nature constantly blooms within you, granting you the following benefits.
 _Evergreen Wild Shape._ Whenever you roll Initiative and have no uses of Wild Shape left, you regain one expended use of it.
 _Nature Magician._ You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. For example, if you convert two uses of Wild Shape, you produce a level 4 spell slot. Once you use this benefit, you can't do so again until you finish a Long Rest.
 _Longevity._ The primal magic that you wield causes you to age more slowly. For every ten years that pass, your body ages only one year.",,

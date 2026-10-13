@@ -1,10 +1,10 @@
-#content-hash: xxh64:fe69961110ec3dba
+#content-hash: xxh64:28289c181c51849f
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f859d-bfcf-791e-b63f-372e93596042
-#content-updated_at: 2026-10-03
+#content-updated_at: 2026-10-13
 #content-schema: 1
 id,resource_id,cost,action,action_type,available,name_en,name_uk,text_en,text_uk,granted_by
 flurry_of_blows,focus,1,attack:unarmed_strike:2,bonus_action,,Flurry of Blows,,"Immediately after the Attack action, make two Unarmed Strikes as a Bonus Action.",,
@@ -18,5 +18,7 @@ druid_wild_shape_assume,wild_shape,1,assume_form:wild_shape,bonus_action,,Wild S
 monk_uncanny_metabolism_regain,uncanny_metabolism,1,"restore_resource:focus;heal:1d step(class_level.monk, 1->6, 5->8, 11->10, 17->12)+class_level.monk",free,is_combat_start,Uncanny Metabolism,,"When you roll Initiative, regain all expended Focus Points and roll your Martial Arts die + your Monk level to regain that many Hit Points (once per Long Rest).",,
 druid_wild_companion,wild_shape,1,note:Cast Find Familiar without Material components,action,,Wild Companion,,"As a Magic action, you can expend a use of Wild Shape to cast the Find Familiar spell without Material components. When you cast the spell in this way, the familiar is Fey and disappears when you finish a Long Rest.",,druid_wild_companion
 druid_wild_resurgence_slot,wild_resurgence,1,spend_resource:wild_shape;gain_slot:1,free,,Wild Resurgence,,"You can expend one use of Wild Shape (no action required) to give yourself a level 1 spell slot, but you can't do so again until you finish a Long Rest.",,
+druid_wild_resurgence_use,wild_shape,0,spend_slot;restore_resource:wild_shape:1,free,resource.wild_shape==0,Wild Resurgence,,"Once on each of your turns, if you have no uses of Wild Shape left, you can give yourself one use by expending a spell slot (no action required).",,druid_wild_resurgence
+druid_nature_magician,wild_shape,x,spend_resource:nature_magician;gain_slot:2*x,free,,Nature Magician,,"You can convert uses of Wild Shape into a spell slot (no action required). Choose a number of your unexpended uses of Wild Shape and convert them into a single spell slot, with each use contributing 2 spell levels. For example, if you convert two uses of Wild Shape, you produce a level 4 spell slot. Once you use this benefit, you can't do so again until you finish a Long Rest.",,druid_archdruid
 circle_of_the_land_lands_aid,wild_shape,1,"roll:step(class_level.druid, 3->2, 10->3, 14->4)d6",action,,Land's Aid,,"As a Magic action, you can expend a use of your Wild Shape and choose a point within 60 feet of yourself. Each creature of your choice in a 10-foot-radius Sphere centered on that point must make a Constitution saving throw against your spell save DC, taking 2d6 Necrotic damage on a failed save or half as much damage on a successful one. One creature of your choice in that area regains 2d6 Hit Points. The damage and healing increase by 1d6 when you reach Druid levels 10 (3d6) and 14 (4d6).",,circle_of_the_land_lands_aid
 circle_of_the_land_natures_sanctuary,wild_shape,1,note:Spectral trees and vines fill a 15-foot Cube within 120 feet for 1 minute,action,,Nature's Sanctuary,,"As a Magic action, you can expend a use of your Wild Shape and cause spectral trees and vines to appear in a 15-foot Cube on the ground within 120 feet of yourself. They last there for 1 minute or until you have the Incapacitated condition or die. You and your allies have Half Cover while in that area, and your allies gain the current Resistance of your Nature's Ward while there. As a Bonus Action, you can move the Cube up to 60 feet to ground within 120 feet of yourself.",,circle_of_the_land_natures_sanctuary
