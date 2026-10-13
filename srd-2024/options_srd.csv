@@ -1,0 +1,62 @@
+#content-hash: xxh64:98c85f44e940cc5c
+#content-source: SRD 5.2.1
+#content-systems: 5.5e
+#content-url: https://dnd.wizards.com/resources/systems-reference-document
+#content-license: CC-BY-4.0
+#content-updated_at: 2026-10-13
+#content-id: 4c0515e6-285a-4053-99e8-8a378e8a7423
+#content-schema: 3
+id,option_of,level,requires,rarity,ritual_source,effects,name_en,name_uk,text_en,text_uk
+belt_of_hill_giant_strength,item:belt_of_giant_strength,,,rare,,set_override:str:21:floor,Belt of Giant Strength (hill),,,
+belt_of_stone_frost_giant_strength,item:belt_of_giant_strength,,,very_rare,,set_override:str:23:floor,Belt of Giant Strength (frost or stone),,,
+belt_of_fire_giant_strength,item:belt_of_giant_strength,,,very_rare,,set_override:str:25:floor,Belt of Giant Strength (fire),,,
+belt_of_cloud_giant_strength,item:belt_of_giant_strength,,,legendary,,set_override:str:27:floor,Belt of Giant Strength (cloud),,,
+belt_of_storm_giant_strength,item:belt_of_giant_strength,,,legendary,,set_override:str:29:floor,Belt of Giant Strength (storm),,,
+potion_of_hill_giant_strength,item:potion_of_giant_strength,,,uncommon,,,Potion of Giant Strength (hill),,,
+potion_of_stone_frost_giant_strength,item:potion_of_giant_strength,,,rare,,,Potion of Giant Strength (frost or stone),,,
+potion_of_fire_giant_strength,item:potion_of_giant_strength,,,rare,,,Potion of Giant Strength (fire),,,
+potion_of_cloud_giant_strength,item:potion_of_giant_strength,,,very_rare,,,Potion of Giant Strength (cloud),,,
+potion_of_storm_giant_strength,item:potion_of_giant_strength,,,legendary,,,Potion of Giant Strength (storm),,,
+potion_of_healing,item:potions_of_healing,,,common,,,Potion of Healing,,,
+potion_of_greater_healing,item:potions_of_healing,,,uncommon,,,Potion of Healing (greater),,,
+potion_of_superior_healing,item:potions_of_healing,,,rare,,,Potion of Healing (superior),,,
+potion_of_supreme_healing,item:potions_of_healing,,,very_rare,,,Potion of Healing (supreme),,,
+spell_scroll_cantrip,item:spell_scroll_2,,,common,,,Spell Scroll (Cantrip),,,
+spell_scroll_1,item:spell_scroll_2,,,common,,,Spell Scroll (Level 1),,,
+spell_scroll_2,item:spell_scroll_2,,,uncommon,,,Spell Scroll (Level 2),,,
+spell_scroll_3,item:spell_scroll_2,,,uncommon,,,Spell Scroll (Level 3),,,
+spell_scroll_4,item:spell_scroll_2,,,rare,,,Spell Scroll (Level 4),,,
+spell_scroll_5,item:spell_scroll_2,,,rare,,,Spell Scroll (Level 5),,,
+spell_scroll_6,item:spell_scroll_2,,,very_rare,,,Spell Scroll (Level 6),,,
+spell_scroll_7,item:spell_scroll_2,,,very_rare,,,Spell Scroll (Level 7),,,
+spell_scroll_8,item:spell_scroll_2,,,very_rare,,,Spell Scroll (Level 8),,,
+spell_scroll_9,item:spell_scroll_2,,,legendary,,,Spell Scroll (Level 9),,,
+ioun_stone_absorption,item:ioun_stone,,,very_rare,,,Ioun Stone (Absorption),,"While this pale lavender ellipsoid orbits your head, you can take a Reaction to cancel a spell of level 4 or lower cast by a creature you can see. A canceled spell has no effect, and any resources used to cast it are wasted. Once the stone has canceled 20 levels of spells, it burns out, turns dull gray, and loses its magic.",
+ioun_stone_agility,item:ioun_stone,,,very_rare,,flat_bonus:dex+2;set_override:dex:20:cap,Ioun Stone (Agility),,"Your Dexterity increases by 2, to a maximum of 20, while this deep-red sphere orbits your head.",
+ioun_stone_awareness,item:ioun_stone,,,rare,,advantage:initiative;advantage:skill.perception,Ioun Stone (Awareness),,"While this dark-blue rhomboid orbits your head, you have Advantage on Initiative rolls and Wisdom (Perception) checks.",
+ioun_stone_fortitude,item:ioun_stone,,,very_rare,,flat_bonus:con+2;set_override:con:20:cap,Ioun Stone (Fortitude),,"Your Constitution increases by 2, to a maximum of 20, while this pink rhomboid orbits your head.",
+ioun_stone_greater_absorption,item:ioun_stone,,,legendary,,,Ioun Stone (Greater Absorption),,"While this marbled lavender and green ellipsoid orbits your head, you can take a Reaction to cancel a spell of level 8 or lower cast by a creature you can see. A canceled spell has no effect, and any resources used to cast it are wasted. Once the stone has canceled 20 levels of spells, it burns out, turns dull gray, and loses its magic.",
+ioun_stone_insight,item:ioun_stone,,,very_rare,,flat_bonus:wis+2;set_override:wis:20:cap,Ioun Stone (Insight),,"Your Wisdom increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head.",
+ioun_stone_intellect,item:ioun_stone,,,very_rare,,flat_bonus:int+2;set_override:int:20:cap,Ioun Stone (Intellect),,"Your Intelligence increases by 2, to a maximum of 20, while this marbled scarlet and blue sphere orbits your head.",
+ioun_stone_leadership,item:ioun_stone,,,very_rare,,flat_bonus:cha+2;set_override:cha:20:cap,Ioun Stone (Leadership),,"Your Charisma increases by 2, to a maximum of 20, while this marbled pink and green sphere orbits your head.",
+ioun_stone_mastery,item:ioun_stone,,,legendary,,note:Your proficiency bonus increases by 1.,Ioun Stone (Mastery),,Your Proficiency Bonus increases by 1 while this pale green prism orbits your head.,
+ioun_stone_protection,item:ioun_stone,,,rare,,flat_bonus:ac+1,Ioun Stone (Protection),,You gain a +1 bonus to Armor Class while this dusty-rose prism orbits your head.,
+ioun_stone_regeneration,item:ioun_stone,,,legendary,,note:You regain 15 hit points at the end of each hour if you have at least 1 hit point.,Ioun Stone (Regeneration),,You regain 15 Hit Points at the end of each hour this pearly white spindle orbits your head if you have at least 1 Hit Point.,
+ioun_stone_reserve,item:ioun_stone,,,rare,,,Ioun Stone (Reserve),,"This vibrant purple prism stores spells cast into it, holding them until you use them. The stone can store up to 4 levels of spells at a time. When found, it contains 1d4 levels of stored spells chosen by the GM.
+Any creature can cast a spell of level 1 through 4 into the stone by touching it as the spell is cast. The spell has no effect, other than to be stored in the stone. If the stone can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.
+While this stone orbits your head, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster but is otherwise treated as if you cast the spell. The spell cast from the stone is no longer stored in it, freeing up space.",
+ioun_stone_strength,item:ioun_stone,,,very_rare,,flat_bonus:str+2;set_override:str:20:cap,Ioun Stone (Strength),,"Your Strength increases by 2, to a maximum of 20, while this pale blue rhomboid orbits your head.",
+ioun_stone_sustenance,item:ioun_stone,,,rare,,note:You don't need to eat or drink.,Ioun Stone (Sustenance),,You don't need to eat or drink while this clear spindle orbits your head.,
+bronze_griffon,item:figurine_of_wondrous_power,,,rare,,,Bronze Griffon,,"This bronze statuette is of a griffon rampant. It can become a **Griffon** for up to 6 hours. Once it has been used, it can't be used again until 5 days have passed.",
+ebony_fly,item:figurine_of_wondrous_power,,,rare,,,Ebony Fly,,"This ebony statuette, carved in the likeness of a horsefly, can become a **Giant Fly** (see the accompanying stat block) for up to 12 hours and can be ridden as a mount. Once it has been used, it can't be used again until 2 days have passed.",
+golden_lions,item:figurine_of_wondrous_power,,,rare,,,Golden Lions,,"These gold statuettes of lions are always created in pairs. You can use one figurine or both simultaneously. Each can become a **Lion** for up to 1 hour. Once a lion has been used, it can't be used again until 7 days have passed.",
+ivory_goats,item:figurine_of_wondrous_power,,,rare,,,Ivory Goats,,"These ivory statuettes of goats are always created in sets of three. Each goat looks unique and functions differently from the others. Their properties are as follows:
+**Goat of Terror.** This figurine can become a **Giant Goat** for up to 3 hours. The goat can't attack, but you can (harmlessly) remove its horns and use them as weapons. One horn becomes a _+1 Lance_, and the other becomes a _+2 Longsword_. Removing a horn requires a Magic action, and the weapons disappear and the horns return when the goat reverts to figurine form. While you ride the goat, any Hostile creature that starts its turn within a 30-foot Emanation originating from the goat must succeed on a DC 15 Wisdom saving throw or have the Frightened condition for 1 minute, until you are no longer riding the goat, or until the goat reverts to figurine form. The Frightened creature repeats the save at the end of each of its turns, ending the effect on itself on a success. Once it succeeds on the save, a creature is immune to this effect for the next 24 hours. Once the figurine has been used, it can't be used again until 15 days have passed.
+**Goat of Traveling.** This figurine can become a Large goat with the same statistics as a **Riding Horse**. It has 24 charges, and each hour or portion thereof it spends in goat form costs 1 charge. While it has charges, you can use it as often as you wish. When it runs out of charges, it reverts to a figurine and can't be used again until 7 days have passed, when it regains all expended charges.
+**Goat of Travail.** This figurine can become a Giant **Goat** for up to 3 hours. Once it has been used, it can't be used again until 30 days have passed.",
+marble_elephant,item:figurine_of_wondrous_power,,,rare,,,Marble Elephant,,"This marble statuette resembles a trumpeting elephant. It can become an **Elephant** for up to 24 hours. Once it has been used, it can't be used again until 7 days have passed.",
+obsidian_steed,item:figurine_of_wondrous_power,,,very_rare,,,Obsidian Steed,,"This polished obsidian horse can become a **Nightmare** for up to 24 hours. The nightmare fights only to defend itself. Once it has been used, it can't be used again until 5 days have passed.
+The figurine has a 10 percent chance each time you use it to ignore your orders, including a command to revert to figurine form. If you mount the nightmare while it is ignoring your orders, you and the nightmare are instantly transported to a random location on the plane of Hades, where the nightmare reverts to figurine form.",
+onyx_dog,item:figurine_of_wondrous_power,,,rare,,,Onyx Dog,,"This onyx statuette of a dog can become a **Mastiff** for up to 6 hours. The mastiff has an Intelligence of 8 and can speak Common. It also has Blindsight with a range of 60 feet. Once it has been used, it can't be used again until 7 days have passed.",
+serpentine_owl,item:figurine_of_wondrous_power,,,rare,,,Serpentine Owl,,"This serpentine statuette of an owl can become a **Giant Owl** for up to 8 hours. The owl can communicate telepathically with you at any range if you and it are on the same plane of existence. Once it has been used, it can't be used again until 2 days have passed.",
+silver_raven,item:figurine_of_wondrous_power,,,uncommon,,,Silver Raven,,"This silver statuette of a raven can become a **Raven** for up to 12 hours. Once it has been used, it can't be used again until 2 days have passed. While in raven form, the figurine grants you the ability to cast _Animal Messenger_ on it.",
