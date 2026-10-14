@@ -1,4 +1,4 @@
-#content-hash: xxh64:51db5db7b0eab912
+#content-hash: xxh64:ce30880adf9b93fc
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -1741,7 +1741,7 @@ Any creature can cast a spell of 1st through 5th level into the ring by touching
 is cast. The spell has no effect, other than to be stored in the ring. If the ring can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.
 While wearing this ring, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster, but is otherwise treated as if you cast the spell. The spell cast from the ring is no longer stored in it, freeing up space.",,,
 ring_of_spell_turning,ring,attunement,,,advantage:saves.spell,legendary,,,Ring of Spell Turning,,"While wearing this ring, you have advantage on saving throws against any spell that targets only you (not in an area of effect). In addition, if you roll a 20 for the save and the spell is 7th level or lower, the spell has no effect on you and instead targets the caster, using the slot level, spell save DC, attack bonus, and spellcasting ability of the caster.",,,
-ring_of_swimming,ring,,,,set_override:speed.swim:40,uncommon,,,Ring of Swimming,,You have a swimming speed of 40 feet while wearing this ring.,,,
+ring_of_swimming,ring,,,,set_base:speed.swim:40,uncommon,,,Ring of Swimming,,You have a swimming speed of 40 feet while wearing this ring.,,,
 ring_of_telekinesis,ring,attunement,,,,very_rare,,,Ring of Telekinesis,,"While wearing this ring, you can cast the telekinesis spell at will, but you can target only objects that aren't being worn or carried.",,,
 ring_of_the_ram,ring,attunement,,,grant_resource:ring_of_the_ram:3:dawn(1d3),rare,,,Ring of the Ram,,"This ring has 3 charges, and it regains 1d3 expended charges daily at dawn. While wearing the ring, you can use an action to expend 1 to 3 of its charges to attack one creature you can see within 60 feet of you. The ring produces a spectral ram's head and makes its attack roll with a +7 bonus. On a hit, for each charge you spend, the target takes 2d10 force damage and is pushed 5 feet away from you. Alternatively, you can expend 1 to 3 of the ring's charges as an action to try to break an object you can see within 60 feet of you that isn't being worn or carried. The ring makes a Strength check with a +5 bonus for each charge you spend.",,,
 ring_of_three_wishes,ring,,,,grant_resource:ring_of_three_wishes:3:consumable;note:Each charge casts Wish. The ring becomes nonmagical when the last one is used,legendary,,,Ring of Three Wishes,,"While wearing this ring, you can use an action to expend 1 of its 3 charges to cast the wish spell from it. The ring becomes nonmagical when you use the last charge.",,,

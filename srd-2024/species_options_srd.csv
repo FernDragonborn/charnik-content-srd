@@ -1,11 +1,11 @@
-#content-hash: xxh64:453f1076b67798c6
+#content-hash: xxh64:251f4333931bc96a
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f976-7552-b17a-956ec8debbde
 #content-schema: 2
-#content-updated_at: 2026-09-29
+#content-updated_at: 2026-10-14
 id,species_id,kind,option_label,effects,name_en,name_uk,text_en,text_uk
 dragonborn_black,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:acid,Black,,Your Breath Weapon and Damage Resistance are Acid.,
 dragonborn_gold,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:fire,Gold,,Your Breath Weapon and Damage Resistance are Fire.,
@@ -19,7 +19,7 @@ dragonborn_copper,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resis
 dragonborn_white,dragonborn,ancestry,Draconic Ancestry,damage_sensitivity:resist:cold,White,,Your Breath Weapon and Damage Resistance are Cold.,
 elf_drow,elf,lineage,Elven Lineage,set_override:senses.darkvision:120:floor,Drow,,The range of your Darkvision increases to 120 feet. You also know the Dancing Lights cantrip.,
 elf_high_elf,elf,lineage,Elven Lineage,,High Elf,,"You know the Prestidigitation cantrip. Whenever you finish a Long Rest, you can replace that cantrip with a different cantrip from the Wizard spell list.",
-elf_wood_elf,elf,lineage,Elven Lineage,set_override:speed:35,Wood Elf,,Your Speed increases to 35 feet. You also know the Druidcraft cantrip.,
+elf_wood_elf,elf,lineage,Elven Lineage,set_base:speed:35,Wood Elf,,Your Speed increases to 35 feet. You also know the Druidcraft cantrip.,
 gnome_forest_gnome,gnome,lineage,Gnomish Lineage,,Forest Gnome,,"You know the _Minor Illusion_ cantrip. You also always have the _Speak with Animals_ spell prepared. You can cast it without a spell slot a number of times equal to your Proficiency Bonus, and you regain all expended uses when you finish a Long Rest. You can also use any spell slots you have to cast the spell.",
 gnome_rock_gnome,gnome,lineage,Gnomish Lineage,,Rock Gnome,,"You know the _Mending_ and _Prestidigitation_ cantrips. In addition, you can spend 10 minutes casting _Prestidigitation_ to create a Tiny clockwork device (AC 5, 1 HP), such as a toy, fire starter, or music box. When you create the device, you determine its function by choosing one effect from _Prestidigitation_; the device produces that effect whenever you or another creature takes a Bonus Action to activate it with a touch. If the chosen effect has options within it, you choose one of those options for the device when you create it. For example, if you choose the spell's ignite-extinguish effect, you determine whether the device ignites or extinguishes fire; the device doesn't do both. You can have three such devices in existence at a time, and each falls apart 8 hours after its creation or when you dismantle it with a touch as a Utilize action.",
 goliath_clouds_jaunt,goliath,ancestry,Giant Ancestry,grant_resource:goliath_clouds_jaunt:proficiency_bonus:long,Cloud's Jaunt (Cloud Giant),,"As a Bonus Action, you magically teleport up to 30 feet to an unoccupied space you can see.",

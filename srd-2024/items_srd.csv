@@ -1,4 +1,4 @@
-#content-hash: xxh64:40e9f99ee029f194
+#content-hash: xxh64:671b0173f1794e14
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -1392,7 +1392,7 @@ You gain a +1 bonus to Armor Class and saving throws while you wear this cloak."
 cloak_of_the_bat,wondrous,attunement,,,"advantage:skill.stealth;note:In Dim Light or Darkness, gripping the cloak gives a Fly Speed of 40 feet",rare,,,Cloak of the Bat,,"_Wondrous Item, Rare (Requires Attunement)_
 While wearing this cloak, you have Advantage on Dexterity (Stealth) checks. In an area of Dim Light or Darkness, you can grip the edges of the cloak and use it to gain a Fly Speed of 40 feet. If you ever fail to grip the cloak's edges while flying in this way, or if you are no longer in Dim Light or Darkness, you lose this Fly Speed.
 While wearing the cloak in an area of Dim Light or Darkness, you can cast _Polymorph_ on yourself, shape-shifting into a Bat. While in that form, you retain your Intelligence, Wisdom, and Charisma scores. The cloak can't be used this way again until the next dawn.",,,
-cloak_of_the_manta_ray,wondrous,attunement,,,set_override:speed.swim:60;note:You can breathe underwater while wearing it,uncommon,,,Cloak of the Manta Ray,,"_Wondrous Item, Uncommon (Requires Attunement)_
+cloak_of_the_manta_ray,wondrous,attunement,,,set_base:speed.swim:60;note:You can breathe underwater while wearing it,uncommon,,,Cloak of the Manta Ray,,"_Wondrous Item, Uncommon (Requires Attunement)_
 While wearing this cloak, you can breathe underwater, and you have a Swim Speed of 60 feet.",,,
 crystal_ball,wondrous,attunement,,,,very_rare,,,Crystal Ball,,"_Wondrous Item, Very Rare (Requires Attunement)_
 While touching this crystal orb, you can cast _Scrying_ (save DC 17) with it.",,,
@@ -2746,7 +2746,7 @@ Any creature can cast a spell of level 1 through 5 into the ring by touching the
 While wearing this ring, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster but is otherwise treated as if you cast the spell. The spell cast from the ring is no longer stored in it, freeing up space.",,,
 ring_of_spell_turning,ring,attunement,,,advantage:saves.spell,legendary,,,Ring of Spell Turning,,"_Ring, Legendary (Requires Attunement)_
 While wearing this ring, you have Advantage on saving throws against spells. If you succeed on the save for a spell of level 7 or lower, the spell has no effect on you. If that spell targeted only you and didn't create an area of effect, you can take a Reaction to deflect the spell back at the spell's caster; the caster must make a saving throw against the spell using their own spell save DC.",,,
-ring_of_swimming,ring,,,,set_override:speed.swim:40,uncommon,,,Ring of Swimming,,"_Ring, Uncommon_
+ring_of_swimming,ring,,,,set_base:speed.swim:40,uncommon,,,Ring of Swimming,,"_Ring, Uncommon_
 You have a Swim Speed of 40 feet while wearing this ring.",,,
 ring_of_telekinesis,ring,attunement,,,,very_rare,,,Ring of Telekinesis,,"_Ring, Very Rare (Requires Attunement)_
 While wearing this ring, you can cast _Telekinesis_ from it.",,,
