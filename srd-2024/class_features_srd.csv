@@ -1,10 +1,10 @@
-#content-hash: xxh64:73a166283cb841b3
+#content-hash: xxh64:c3c8ff35cbfefc21
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f9e9-7ad8-b3a8-4511aa623e30
-#content-updated_at: 2026-10-13
+#content-updated_at: 2026-10-14
 #content-schema: 1
 id,class_id,level,subclass_id,expertise_slots,mastery_slots,effects,name_en,name_uk,text_en,text_uk,choose
 barbarian_rage,barbarian,1,,,,"grant_resource:rage:step(class_level.barbarian, 1->2, 3->3, 6->4, 12->5, 17->6):short_one",Rage,,"You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.
@@ -19,7 +19,7 @@ _Duration._ The Rage lasts until the end of your next turn, and it ends early if
 - Force an enemy to make a saving throw.
 - Take a Bonus Action to extend your Rage.
 Each time the Rage is extended, it lasts until the end of your next turn. You can maintain a Rage for up to 10 minutes.",,
-barbarian_unarmored_defense,barbarian,1,,,,not is_wearing_armor ? set_override:ac:10+dex_mod+con_mod,Unarmored Defense,,"While you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.",,
+barbarian_unarmored_defense,barbarian,1,,,,not is_wearing_armor ? set_base:ac:10+dex_mod+con_mod,Unarmored Defense,,"While you aren't wearing any armor, your base Armor Class equals 10 plus your Dexterity and Constitution modifiers. You can use a Shield and still gain this benefit.",,
 barbarian_weapon_mastery,barbarian,1,,,"1:2,4:1,10:1",,Weapon Mastery,,"Your training with weapons allows you to use the mastery properties of two kinds of Simple or Martial Melee weapons of your choice, such as Greataxes and Handaxes. Whenever you finish a Long Rest, you can practice weapon drills and change one of those weapon choices.
 When you reach certain Barbarian levels, you gain the ability to use the mastery properties of more kinds of weapons, as shown in the Weapon Mastery column of the Barbarian Features table.",,
 barbarian_danger_sense,barbarian,2,,,,not has_condition.incapacitated ? advantage:save.dex,Danger Sense,,"You gain an uncanny sense of when things aren't as they should be, giving you an edge when you dodge perils. You have Advantage on Dexterity saving throws unless you have the Incapacitated condition.",,
@@ -403,7 +403,7 @@ You gain the following benefits while you are unarmed or wielding only Monk weap
 _Bonus Unarmed Strike._ You can make an Unarmed Strike as a Bonus Action.
 _Martial Arts Die._ You can roll 1d6 in place of the normal damage of your Unarmed Strike or Monk weapons. This die changes as you gain Monk levels, as shown in the Martial Arts column of the Monk Features table.
 _Dexterous Attacks._ You can use your Dexterity modifier instead of your Strength modifier for the attack and damage rolls of your Unarmed Strikes and Monk weapons. In addition, when you use the Grapple or Shove option of your Unarmed Strike, you can use your Dexterity modifier instead of your Strength modifier to determine the save DC.",,
-monk_unarmored_defense,monk,1,,,,not is_wearing_armor and not is_wearing_shield ? set_override:ac:10+dex_mod+wis_mod,Unarmored Defense,,"While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers.",,
+monk_unarmored_defense,monk,1,,,,not is_wearing_armor and not is_wearing_shield ? set_base:ac:10+dex_mod+wis_mod,Unarmored Defense,,"While you aren't wearing armor or wielding a Shield, your base Armor Class equals 10 plus your Dexterity and Wisdom modifiers.",,
 monk_monks_focus,monk,2,,,,grant_resource:focus:class_level.monk:short,Monk's Focus,,"Your focus and martial training allow you to harness a well of extraordinary energy within yourself. This energy is represented by Focus Points. Your Monk level determines the number of points you have, as shown in the Focus Points column of the Monk Features table.
 You can expend these points to enhance or fuel certain Monk features. You start knowing three such features: Flurry of Blows, Patient Defense, and Step of the Wind, each of which is detailed below.
 When you expend a Focus Point, it is unavailable until you finish a Short or Long Rest, at the end of which you regain all your expended points.
@@ -681,7 +681,7 @@ sorcerer_sorcery_incarnate,sorcerer,7,,,,,Sorcery Incarnate,,"If you have no use
 In addition, while your Innate Sorcery feature is active, you can use up to two of your Metamagic options on each spell you cast.",,
 sorcerer_epic_boon,sorcerer,19,,,,,Epic Boon,,"You gain an Epic Boon feat (see ""Feats"") or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.",,
 sorcerer_arcane_apotheosis,sorcerer,20,,,,,Arcane Apotheosis,,"While your Innate Sorcery feature is active, you can use one Metamagic option on each of your turns without spending Sorcery Points on it.",,
-draconic_sorcery_draconic_resilience,sorcerer,3,draconic_sorcery,,,not is_wearing_armor ? set_override:ac:10+dex_mod+cha_mod,Draconic Resilience,,"The magic in your body manifests physical traits of your draconic gift. Your Hit Point maximum increases by 3, and it increases by 1 whenever you gain another Sorcerer level.
+draconic_sorcery_draconic_resilience,sorcerer,3,draconic_sorcery,,,not is_wearing_armor ? set_base:ac:10+dex_mod+cha_mod,Draconic Resilience,,"The magic in your body manifests physical traits of your draconic gift. Your Hit Point maximum increases by 3, and it increases by 1 whenever you gain another Sorcerer level.
 Parts of you are also covered by dragon-like scales. While you aren't wearing armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers.",,
 draconic_sorcery_draconic_spells,sorcerer,3,draconic_sorcery,,,,Draconic Spells,,"When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared.
 **Draconic Spells**

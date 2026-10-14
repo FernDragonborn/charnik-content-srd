@@ -1,4 +1,4 @@
-#content-hash: xxh64:e65722b4d237f493
+#content-hash: xxh64:40e9f99ee029f194
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -2774,7 +2774,7 @@ robe_of_stars,wondrous,attunement,,,"flat_bonus:saves+1;note:Six stars each cast
 This black or dark-blue robe is embroidered with small white or silver stars. You gain a +1 bonus to saving throws while you wear it.
 Six stars, located on the robe's upper-front portion, are particularly large. While wearing this robe, you can take a Magic action to remove one of the stars and expend it to cast the level 5 version of _Magic Missile_. Daily at dusk, 1d6 removed stars reappear on the robe.
 While you wear the robe, you can take a Magic action to enter the Astral Plane along with everything you are wearing and carrying. You remain there until you take a Magic action to return to the plane you were on. You reappear in the last space you occupied or, if that space is occupied, the nearest unoccupied space.",,,
-robe_of_the_archmagi,wondrous,attunement,,,not is_wearing_armor ? set_override:ac:15+dex_mod;flat_bonus:spell_dc+2;flat_bonus:spell_attack+2;advantage:saves.magical,legendary,,,Robe of the Archmagi,,"_Wondrous Item, Legendary (Requires Attunement by a Sorcerer, Warlock, or Wizard)_
+robe_of_the_archmagi,wondrous,attunement,,,not is_wearing_armor ? set_base:ac:15+dex_mod;flat_bonus:spell_dc+2;flat_bonus:spell_attack+2;advantage:saves.magical,legendary,,,Robe of the Archmagi,,"_Wondrous Item, Legendary (Requires Attunement by a Sorcerer, Warlock, or Wizard)_
 This elegant garment is made from exquisite cloth and adorned with runes.
 You gain these benefits while wearing the robe.
 _Armor._ If you aren't wearing armor, your base Armor Class is 15 plus your Dexterity modifier.

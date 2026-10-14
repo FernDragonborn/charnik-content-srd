@@ -1,10 +1,10 @@
-#content-hash: xxh64:2efa6bbcf5bf5a4b
+#content-hash: xxh64:c6684cdf8c1f3ef7
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f7172-ddd7-73d6-a565-f3f21a4cc776
-#content-updated_at: 2026-10-03
+#content-updated_at: 2026-10-14
 #content-schema: 1
 id,level,school,casting_time,range,components,material,duration,concentration,ritual,classes,resolution,save_ability,damage,higher_level,upcast,effects,name_en,name_uk,text_en,text_uk
 acid_splash,0,evocation,Action,60 feet,"V,S",,Instantaneous,false,false,"sorcerer,wizard",save,dex,1d6 acid,"The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).",,,Acid Splash,,"You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere. Each creature in that Sphere must succeed on a Dexterity saving throw or take 1d6 Acid damage.",
@@ -137,7 +137,7 @@ A creature that has Truesight can read the hidden message.",
 inflict_wounds,1,necromancy,Action,Touch,"V,S",,Instantaneous,false,false,cleric,save,con,2d10 necrotic,The damage increases by 1d10 for each spell slot level above 1.,damage:per_slot(1d10),,Inflict Wounds,,"A creature you touch makes a Constitution saving throw, taking 2d10 Necrotic damage on a failed save or half as much damage on a successful one.",
 jump,1,transmutation,Bonus Action,Touch,"V,S,M",a grasshopper's hind leg,1 minute,false,false,"druid,ranger,sorcerer,wizard",none,,,You can target one additional creature for each spell slot level above 1.,,,Jump,,"You touch a willing creature. Once on each of its turns until the spell ends, that creature can jump up to 30 feet by spending 10 feet of movement.",
 longstrider,1,transmutation,Action,Touch,"V,S,M",a pinch of dirt,1 hour,false,false,"bard,druid,ranger,wizard",none,,,You can target one additional creature for each spell slot level above 1.,,flat_bonus:speed+10,Longstrider,,You touch a creature. The target's Speed increases by 10 feet until the spell ends.,
-mage_armor,1,abjuration,Action,Touch,"V,S,M",a piece of cured leather,8 hours,false,false,"sorcerer,wizard",none,,,,,not is_wearing_armor ? set_override:ac:13+dex_mod,Mage Armor,,"You touch a willing creature who isn't wearing armor. Until the spell ends, the target's base AC becomes 13 plus its Dexterity modifier. The spell ends early if the target dons armor.",
+mage_armor,1,abjuration,Action,Touch,"V,S,M",a piece of cured leather,8 hours,false,false,"sorcerer,wizard",none,,,,,not is_wearing_armor ? set_base:ac:13+dex_mod,Mage Armor,,"You touch a willing creature who isn't wearing armor. Until the spell ends, the target's base AC becomes 13 plus its Dexterity modifier. The spell ends early if the target dons armor.",
 magic_missile,1,evocation,Action,120 feet,"V,S",,Instantaneous,false,false,"sorcerer,wizard",none,,,The spell creates one more dart for each spell slot level above 1.,,,Magic Missile,,"You create three glowing darts of magical force. Each dart strikes a creature of your choice that you can see within range. A dart deals 1d4 + 1 Force damage to its target. The darts all strike simultaneously, and you can direct them to hit one creature or several.",
 protection_from_evil_and_good,1,abjuration,Action,Touch,"V,S,M","a flask of Holy Water worth 25+ GP, which the spell consumes","Concentration, up to 10 minutes",true,false,"cleric,druid,paladin,warlock,wizard",none,,,,,,Protection from Evil and Good,,"Until the spell ends, one willing creature you touch is protected against creatures that are Aberrations, Celestials, Elementals, Fey, Fiends, or Undead.
 The protection grants several benefits. Creatures of those types have Disadvantage on attack rolls against the target. The target also can't be possessed by or gain the Charmed or Frightened conditions from them. If the target is already possessed, Charmed, or Frightened by such a creature, the target has Advantage on any new saving throw against the relevant effect.",
