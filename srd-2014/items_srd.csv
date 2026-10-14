@@ -1,11 +1,11 @@
-#content-hash: xxh64:8e19dfb11fc60f28
+#content-hash: xxh64:f36365da2841d8cc
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fd4e-7cbd-ab16-da8d50473527
 #content-schema: 3
-#content-updated_at: 2026-10-05
+#content-updated_at: 2026-10-14
 id,category,tags,damage,base_item_id,effects,rarity,cost,weight_lb,name_en,name_uk,text_en,text_uk,bonus_choice,choice_options
 club,weapon,"simple, melee, light",1d4 bludgeoning,,,,1 sp,2,Club,,,,,
 dagger,weapon,"simple, melee, finesse, light, thrown:20/60",1d4 piercing,,,,2 gp,1,Dagger,,,,,
@@ -193,7 +193,7 @@ vial,gear,,,,,,1 gp,,Vial,,,,,
 waterskin,gear,,,,,,2 sp,5,Waterskin,,,,,
 whetstone,gear,,,,,,1 cp,1,Whetstone,,,,,
 adamantine_armor,armor,,,,,uncommon,,,Adamantine Armor,,"This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any critical hit against you becomes a normal hit.",,,
-ammunition_1_2_or_3,weapon,,,,flat_bonus:attack+item_bonus;flat_bonus:damage+item_bonus,very_rare,,,"Ammunition, +1, +2, or +3",,"You have a bonus to attack and damage rolls made with this piece of magic ammunition. The bonus is determined by the rarity of the ammunition. Once it hits a target, the ammunition is no longer magical.",,"uncommon:1,rare:2,very_rare:3",
+ammunition_1_2_or_3,ammunition,,,,flat_bonus:attack+item_bonus;flat_bonus:damage+item_bonus,very_rare,,,"Ammunition, +1, +2, or +3",,"You have a bonus to attack and damage rolls made with this piece of magic ammunition. The bonus is determined by the rarity of the ammunition. Once it hits a target, the ammunition is no longer magical.",,"uncommon:1,rare:2,very_rare:3",
 amulet_of_health,wondrous,attunement,,,set_override:con:19:floor,rare,,,Amulet of Health,,Your Constitution score is 19 while you wear this amulet. It has no effect on you if your Constitution is already 19 or higher.,,,
 location,wondrous,attunement,,,,uncommon,,,Location,,"While wearing this amulet, you are hidden from divination magic. You can't be targeted by such magic or perceived through magical scrying sensors.",,,
 amulet_of_the_planes,wondrous,attunement,,,,very_rare,,,Amulet of the Planes,,"While wearing this amulet, you can use an action to name a location that you are familiar with on another plane of existence. Then make a DC 15 Intelligence check. On a successful check, you cast the

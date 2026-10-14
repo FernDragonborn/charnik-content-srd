@@ -1,11 +1,11 @@
-#content-hash: xxh64:71dbb696a2dd8bc6
+#content-hash: xxh64:e65722b4d237f493
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fa92-7ecb-9807-4042842f8ba9
 #content-schema: 3
-#content-updated_at: 2026-10-01
+#content-updated_at: 2026-10-14
 id,category,tags,damage,base_item_id,effects,rarity,cost,weight_lb,name_en,name_uk,text_en,text_uk,bonus_choice,choice_options
 club,weapon,"simple, melee, light, mastery:slow",1d4 bludgeoning,,,,1 SP,2,Club,,,,,
 dagger,weapon,"simple, melee, finesse, light, thrown:20/60, mastery:nick",1d4 piercing,,,,2 GP,1,Dagger,,,,,
@@ -765,7 +765,7 @@ bullets_sling,ammunition,"ammo:bullet, quantity:20",,,,,4 CP,1,"Bullets, Sling",
 needles,ammunition,"ammo:needle, quantity:50",,,,,1 GP,1,Needles,,50 per purchase; stored in a Pouch.,,,
 adamantine_armor,armor,,,,,uncommon,,,Adamantine Armor,,"_Armor (Any Medium or Heavy, Except Hide Armor), Uncommon_
 This suit of armor is reinforced with adamantine, one of the hardest substances in existence. While you're wearing it, any Critical Hit against you becomes a normal hit.",,,
-ammunition_1_2_or_3,weapon,,,,flat_bonus:attack+item_bonus;flat_bonus:damage+item_bonus,very_rare,,,"Ammunition, +1, +2, or +3",,"_Weapon (Any Ammunition), Uncommon (+1), Rare (+2), or Very Rare (+3)_
+ammunition_1_2_or_3,ammunition,,,,flat_bonus:attack+item_bonus;flat_bonus:damage+item_bonus,very_rare,,,"Ammunition, +1, +2, or +3",,"_Weapon (Any Ammunition), Uncommon (+1), Rare (+2), or Very Rare (+3)_
 You have a bonus to attack rolls and damage rolls made with this piece of magic ammunition. The bonus is determined by the rarity of the ammunition. Once it hits a target, the ammunition is no longer magical.
 This ammunition is typically found or sold in quantities of ten or twenty pieces. Ten pieces of this ammunition are equivalent in value to a potion of the same rarity.",,"uncommon:1,rare:2,very_rare:3",
 ammunition_of_slaying,weapon,,,,,very_rare,,,Ammunition of Slaying,,"_Weapon (Any Ammunition), Very Rare_
