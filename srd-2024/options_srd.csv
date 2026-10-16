@@ -1,9 +1,9 @@
-#content-hash: xxh64:962c8c6fcd29ae58
+#content-hash: xxh64:47ce6b85cdc38204
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
-#content-updated_at: 2026-10-13
+#content-updated_at: 2026-10-16
 #content-id: 4c0515e6-285a-4053-99e8-8a378e8a7423
 #content-schema: 3
 id,option_of,level,requires,rarity,ritual_source,effects,name_en,name_uk,text_en,text_uk
@@ -62,3 +62,5 @@ serpentine_owl,item:figurine_of_wondrous_power,,,rare,,,Serpentine Owl,,"This se
 silver_raven,item:figurine_of_wondrous_power,,,uncommon,,,Silver Raven,,"This silver statuette of a raven can become a **Raven** for up to 12 hours. Once it has been used, it can't be used again until 2 days have passed. While in raven form, the figurine grants you the ability to cast _Animal Messenger_ on it.",
 potent_spellcasting,class_feature:druid_elemental_fury,,,,,,Potent Spellcasting,,Add your Wisdom modifier to the damage you deal with any Druid cantrip.,
 primal_strike,class_feature:druid_elemental_fury,,,,,"grant_roll:primal_strike:step(class_level.druid, 7->1, 15->2) d 8:turn",Primal Strike,,"Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 Cold, Fire, Lightning, or Thunder damage (choose when you hit).",
+blessed_warrior,class_feature:paladin_fighting_style,,,,,,Blessed Warrior,,"You learn two Cleric cantrips of your choice (see the Cleric class's section for a list of Cleric spells). _Guidance_ and _Sacred Flame_ are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.",
+druidic_warrior,class_feature:ranger_fighting_style,,,,,,Druidic Warrior,,"You learn two Druid cantrips of your choice (see the Druid class's section for a list of Druid spells). _Guidance_ and _Starry Wisp_ are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.",

@@ -1,4 +1,4 @@
-#content-hash: xxh64:e06578bfb29f5b37
+#content-hash: xxh64:e6e5ed6d6dd33ecd
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -462,7 +462,7 @@ If another Paladin feature gives you spells that you always have prepared, those
 paladin_weapon_mastery,paladin,1,,,1:2,,Weapon Mastery,,"Your training with weapons allows you to use the mastery properties of two kinds of weapons of your choice with which you have proficiency, such as Longswords and Javelins.
 Whenever you finish a Long Rest, you can change the kinds of weapons you chose. For example, you could switch to using the mastery properties of Halberds and Flails.",,,
 paladin_fighting_style,paladin,2,,,,,Fighting Style,,"You gain a Fighting Style feat of your choice (see ""Feats"" for feats). Instead of choosing one of those feats, you can choose the option below.
-**Blessed Warrior.** You learn two Cleric cantrips of your choice (see the Cleric class's section for a list of Cleric spells). _Guidance_ and _Sacred Flame_ are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.",,,
+**Blessed Warrior.** You learn two Cleric cantrips of your choice (see the Cleric class's section for a list of Cleric spells). _Guidance_ and _Sacred Flame_ are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.",,,fighting_style
 paladin_paladins_smite,paladin,2,,,,,Paladin's Smite,,"You always have the _Divine Smite_ spell prepared. In addition, you can cast it without expending a spell slot, but you must finish a Long Rest before you can cast it in this way again.",,,
 paladin_channel_divinity,paladin,3,,,,,Channel Divinity,,"You can channel divine energy directly from the Outer Planes, using it to fuel magical effects. You start with one such effect: Divine Sense, which is described below. Other Paladin features give additional Channel Divinity effect options. Each time you use this class's Channel Divinity, you choose which effect from this class to create.
 You can use this class's Channel Divinity twice. You regain one of its expended uses when you finish a Short Rest, and you regain all expended uses when you finish a Long Rest. You gain an additional use when you reach Paladin level 11.
@@ -547,7 +547,7 @@ ranger_deft_explorer,ranger,2,,,,,Deft Explorer,,"Thanks to your travels, you ga
 _Expertise._ Choose one of your skill proficiencies with which you lack Expertise. You gain Expertise in that skill.
 _Languages._ You know two languages of your choice from the language tables in ""Character Creation.""",,,
 ranger_fighting_style,ranger,2,,,,,Fighting Style,,"You gain a Fighting Style feat of your choice (see ""Feats""). Instead of choosing one of those feats, you can choose the option below.
-_Druidic Warrior._ You learn two Druid cantrips of your choice (see the Druid class's section for a list of Druid spells). _Guidance_ and _Starry Wisp_ are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.",,,
+_Druidic Warrior._ You learn two Druid cantrips of your choice (see the Druid class's section for a list of Druid spells). _Guidance_ and _Starry Wisp_ are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.",,,fighting_style
 ranger_ranger_subclass,ranger,3,,,,,Ranger Subclass,,"You gain a Ranger subclass of your choice. The Hunter subclass is detailed after this class's description. A subclass is a specialization that grants you features at certain Ranger levels. For the rest of your career, you gain each of your subclass's features that are of your Ranger level or lower.",,,
 ranger_ability_score_improvement,ranger,4,,,,,Ability Score Improvement,,"You gain the Ability Score Improvement feat (see ""Feats"") or another feat of your choice for which you qualify. You gain this feature again at Ranger levels 8, 12, and 16.",,,
 ranger_extra_attack,ranger,5,,,,set_override:attacks:2:floor,Extra Attack,,You can attack twice instead of once whenever you take the Attack action on your turn.,,,
