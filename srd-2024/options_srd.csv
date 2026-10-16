@@ -1,4 +1,4 @@
-#content-hash: xxh64:47ce6b85cdc38204
+#content-hash: xxh64:2be5b677386657f1
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -64,3 +64,26 @@ potent_spellcasting,class_feature:druid_elemental_fury,,,,,,Potent Spellcasting,
 primal_strike,class_feature:druid_elemental_fury,,,,,"grant_roll:primal_strike:step(class_level.druid, 7->1, 15->2) d 8:turn",Primal Strike,,"Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 Cold, Fire, Lightning, or Thunder damage (choose when you hit).",
 blessed_warrior,class_feature:paladin_fighting_style,,,,,,Blessed Warrior,,"You learn two Cleric cantrips of your choice (see the Cleric class's section for a list of Cleric spells). _Guidance_ and _Sacred Flame_ are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.",
 druidic_warrior,class_feature:ranger_fighting_style,,,,,,Druidic Warrior,,"You learn two Druid cantrips of your choice (see the Druid class's section for a list of Druid spells). _Guidance_ and _Starry Wisp_ are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.",
+careful_spell,class_feature:sorcerer_metamagic,,,,,,Careful Spell,,"_Cost: 1 Sorcery Point_
+When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, spend 1 Sorcery Point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell, and it takes no damage if it would normally take half damage on a successful save.",
+distant_spell,class_feature:sorcerer_metamagic,,,,,,Distant Spell,,"_Cost: 1 Sorcery Point_
+When you cast a spell that has a range of at least 5 feet, you can spend 1 Sorcery Point to double the spell's range. Or when you cast a spell that has a range of Touch, you can spend 1 Sorcery Point to make the spell's range 30 feet.",
+empowered_spell,class_feature:sorcerer_metamagic,,,,,,Empowered Spell,,"_Cost: 1 Sorcery Point_
+When you roll damage for a spell, you can spend 1 Sorcery Point to reroll a number of the damage dice up to your Charisma modifier (minimum of one), and you must use the new rolls.
+You can use Empowered Spell even if you've already used a different Metamagic option during the casting of the spell.",
+extended_spell,class_feature:sorcerer_metamagic,,,,,,Extended Spell,,"_Cost: 1 Sorcery Point_
+When you cast a spell that has a duration of 1 minute or longer, you can spend 1 Sorcery Point to double its duration to a maximum duration of 24 hours.
+If the affected spell requires Concentration, you have Advantage on any saving throw you make to maintain that Concentration.",
+heightened_spell,class_feature:sorcerer_metamagic,,,,,,Heightened Spell,,"_Cost: 2 Sorcery Points_
+When you cast a spell that forces a creature to make a saving throw, you can spend 2 Sorcery Points to give one target of the spell Disadvantage on saves against the spell.",
+quickened_spell,class_feature:sorcerer_metamagic,,,,,,Quickened Spell,,"_Cost: 2 Sorcery Points_
+When you cast a spell that has a casting time of an action, you can spend 2 Sorcery Points to change the casting time to a Bonus Action for this casting. You can't modify a spell in this way if you've already cast a level 1+ spell on the current turn, nor can you cast a level 1+ spell on this turn after modifying a spell in this way.",
+seeking_spell,class_feature:sorcerer_metamagic,,,,,,Seeking Spell,,"_Cost: 1 Sorcery Point_
+If you make an attack roll for a spell and miss, you can spend 1 Sorcery Point to reroll the d20, and you must use the new roll.
+You can use Seeking Spell even if you've already used a different Metamagic option during the casting of the spell.",
+subtle_spell,class_feature:sorcerer_metamagic,,,,,,Subtle Spell,,"_Cost: 1 Sorcery Point_
+When you cast a spell, you can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.",
+transmuted_spell,class_feature:sorcerer_metamagic,,,,,,Transmuted Spell,,"_Cost: 1 Sorcery Point_
+When you cast a spell that deals a type of damage from the following list, you can spend 1 Sorcery Point to change that damage type to one of the other listed types: Acid, Cold, Fire, Lightning, Poison, Thunder.",
+twinned_spell,class_feature:sorcerer_metamagic,,,,,,Twinned Spell,,"_Cost: 1 Sorcery Point_
+When you cast a spell, such as _Charm Person_, that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell's effective level by 1.",

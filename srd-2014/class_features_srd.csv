@@ -1,4 +1,4 @@
-#content-hash: xxh64:d5b8c9506a42da5f
+#content-hash: xxh64:b2667d2745a363d1
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -343,9 +343,7 @@ _Subtle Spell_
 When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.
 _Twinned Spell_
 When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).
-To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example,
-magic missile and
-scorching ray aren't eligible, but ray of frost is.",,
+To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, _magic missile_ and _scorching ray_ aren't eligible, but _ray of frost_ is.",,"3:2,10:1,17:1"
 sorcerer_ability_score_improvement,sorcerer,4,,,,Ability Score Improvement,,"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",,
 sorcerer_sorcerous_restoration,sorcerer,20,,,,Sorcerous Restoration,,"At 20th level, you regain 4 expended sorcery points whenever you finish a short rest.",,
 warlock_otherworldly_patron,warlock,1,,,,Otherworldly Patron,,"At 1st level, you have struck a bargain with an otherworldly being of your choice: the Archfey, the Fiend, or the Great Old One, each of which is detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.",,
