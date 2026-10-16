@@ -1,9 +1,9 @@
-#content-hash: xxh64:88cca215438a06e4
+#content-hash: xxh64:d5d3081525ee844c
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
-#content-updated_at: 2026-10-13
+#content-updated_at: 2026-10-16
 #content-id: 97162ebe-d7d2-4378-8f80-a7dc5307d0a4
 #content-schema: 3
 id,option_of,level,requires,rarity,ritual_source,effects,name_en,name_uk,text_en,text_uk
@@ -122,3 +122,9 @@ whispers_of_the_grave,class_feature:warlock_eldritch_invocations,9,,,,,Whispers 
 You can cast speak with dead at will, without expending a spell slot.",
 witch_sight,class_feature:warlock_eldritch_invocations,15,,,,,Witch Sight,,"Prerequisite: 15th level
 You can see the true form of any shapechanger or creature concealed by illusion or transmutation magic while the creature is within 30 feet of you and within line of sight.",
+archery,"class_feature:fighter_fighting_style,class_feature:ranger_fighting_style,class_feature:champion_additional_fighting_style",,,,,flat_bonus:attack:ranged+2,Archery,,You gain a +2 bonus to attack rolls you make with ranged weapons.,
+defense,"class_feature:fighter_fighting_style,class_feature:paladin_fighting_style,class_feature:ranger_fighting_style,class_feature:champion_additional_fighting_style",,,,,armor_type != none ? flat_bonus:ac+1,Defense,,"While you are wearing armor, you gain a +1 bonus to AC.",
+dueling,"class_feature:fighter_fighting_style,class_feature:paladin_fighting_style,class_feature:ranger_fighting_style,class_feature:champion_additional_fighting_style",,,,,,Dueling,,"When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.",
+great_weapon_fighting,"class_feature:fighter_fighting_style,class_feature:paladin_fighting_style,class_feature:champion_additional_fighting_style",,,,,"reroll:damage:two_handed,melee:2;reroll:damage:versatile,melee:2",Great Weapon Fighting,,"When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll, even if the new roll is a 1 or a 2. The weapon must have the two-handed or versatile property for you to gain this benefit.",
+protection,"class_feature:fighter_fighting_style,class_feature:paladin_fighting_style,class_feature:champion_additional_fighting_style",,,,,,Protection,,"When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.",
+two_weapon_fighting,"class_feature:fighter_fighting_style,class_feature:ranger_fighting_style,class_feature:champion_additional_fighting_style",,,,,extra_attack:light:modifier,Two-Weapon Fighting,,"When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",

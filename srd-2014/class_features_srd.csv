@@ -1,11 +1,11 @@
-#content-hash: xxh64:5ad5636fbbf3db22
+#content-hash: xxh64:d5b8c9506a42da5f
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fd36-72ad-8fc3-f977f1cf41cb
 #content-schema: 2
-#content-updated_at: 2026-10-14
+#content-updated_at: 2026-10-16
 id,class_id,level,subclass_id,expertise_slots,effects,name_en,name_uk,text_en,text_uk,choose
 barbarian_rage,barbarian,1,,,"grant_resource:rage:step(class_level.barbarian, 1->2, 3->3, 6->4, 12->5, 17->6, 20->inf):long",Rage,,"In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.
 While raging, you gain the following benefits if you aren't wearing heavy armor:
@@ -137,7 +137,7 @@ When you roll a 1 or 2 on a damage die for an attack you make with a melee weapo
 _Protection_
 When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.
 _Two-Weapon Fighting_
-When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",,
+When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",,1:1
 fighter_second_wind,fighter,1,,,grant_resource:second_wind:1:short,Second Wind,,"You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again.",,
 fighter_action_surge,fighter,2,,,"grant_resource:action_surge:step(class_level.fighter, 2->1, 17->2):short",Action Surge,,"Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action. Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.",,
 fighter_martial_archetype,fighter,3,,,,Martial Archetype,,"At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques, such as Champion. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.",,
@@ -193,7 +193,7 @@ While you are wearing armor, you gain a +1 bonus to AC.
 _Dueling_
 When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
 _Great Weapon Fighting_
-When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.",,
+When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.",,2:1
 paladin_protection,paladin,6,,,,Protection,,"When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.",,
 paladin_spellcasting,paladin,2,,,,Spellcasting,,"By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does.
 _Preparing and Casting Spells_
@@ -251,7 +251,7 @@ While you are wearing armor, you gain a +1 bonus to AC.
 _Dueling_
 When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
 _Two-Weapon Fighting_
-When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",,
+When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",,2:1
 ranger_spellcasting,ranger,2,,,,Spellcasting,,"By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does.
 _Spell Slots_
 The Ranger table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
@@ -453,7 +453,7 @@ circleoftheland_druids_and_the_gods,druid,2,circleoftheland,,,Druids and the God
 champion_improved_critical,fighter,3,champion,,set_override:crit_threshold:19:cap;note:Weapon attacks only,Improved Critical,,"Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.",,
 champion_remarkable_athlete,fighter,7,champion,,grant_proficiency:partial_up:check.str;grant_proficiency:partial_up:check.dex;grant_proficiency:partial_up:check.con;note:Running long jump reaches STR mod further,Remarkable Athlete,,"Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus.
 In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.",,
-champion_additional_fighting_style,fighter,10,champion,,,Additional Fighting Style,,"At 10th level, you can choose a second option from the Fighting Style class feature.",,
+champion_additional_fighting_style,fighter,10,champion,,,Additional Fighting Style,,"At 10th level, you can choose a second option from the Fighting Style class feature.",,10:1
 champion_superior_critical,fighter,15,champion,,set_override:crit_threshold:18:cap;note:Weapon attacks only,Superior Critical,,"Starting at 15th level, your weapon attacks score a critical hit on a roll of 18-20.",,
 champion_survivor,fighter,18,champion,,is_bloodied and hp>=1 ? on_event:turn_start:heal:5+con_mod,Survivor,,"At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.",,
 wayoftheopenhand_open_hand_technique,monk,3,wayoftheopenhand,,,Open Hand Technique,,"Starting when you choose this tradition at 3rd level, you can manipulate your enemy's ki when you harness your own. Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target:
