@@ -1,4 +1,4 @@
-#content-hash: xxh64:e58ed17e68ad3fee
+#content-hash: xxh64:79c0d0251b99aa99
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -56,7 +56,7 @@ bard_song_of_rest,bard,2,,,,Song of Rest,,"Beginning at 2nd level, you can use s
 Hit Dice, each of those creatures regains an extra 1d6 hit points.
 The extra hit points increase when you reach certain levels in this class: to 1d8 at 9th level, to 1d10 at 13th level, and to 1d12 at 17th level.",,
 bard_bard_college,bard,3,,,,Bard College,,"At 3rd level, you delve intothe advanced techniques of a bard college of your choice, such as the College of Lore. Your choice grants you features at 3rd level and again at 6th and 14th level.",,
-bard_expertise,bard,3,,"3:2,10:2",,Expertise,,"At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. At 10th level, you can choose another two skill proficiencies to gain this benefit.",,
+bard_expertise,bard,3,,"2@3,2@10",,Expertise,,"At 3rd level, choose two of your skill proficiencies. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies. At 10th level, you can choose another two skill proficiencies to gain this benefit.",,
 bard_ability_score_improvement,bard,4,,,,Ability Score Improvement,,"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",,
 bard_font_of_inspiration,bard,5,,,"grant_resource:bardic_inspiration:max(1,cha_mod):short",Font of Inspiration,,"Beginning when you reach 5th level, you regain all of your expended uses of Bardic Inspiration when you finish a short or long rest.",,
 bard_countercharm,bard,6,,,,Countercharm,,"At 6th level, you gain the ability to use musical notes or words of power to disrupt mind-influencing effects. As an action, you can start a performance that lasts until the end of your next turn. During that time, you and any friendly creatures within 30 feet of you have advantage on saving throws against being frightened or charmed. A creature must be able to hear you to gain this benefit. The performance ends early if you are incapacitated or silenced or if you voluntarily end it (no action required).",,
@@ -149,7 +149,7 @@ When you roll a 1 or 2 on a damage die for an attack you make with a melee weapo
 _Protection_
 When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.
 _Two-Weapon Fighting_
-When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",,1:1
+When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",,1@1
 fighter_second_wind,fighter,1,,,grant_resource:second_wind:1:short,Second Wind,,"You have a limited well of stamina that you can draw on to protect yourself from harm. On your turn, you can use a bonus action to regain hit points equal to 1d10 + your fighter level. Once you use this feature, you must finish a short or long rest before you can use it again.",,
 fighter_action_surge,fighter,2,,,"grant_resource:action_surge:step(class_level.fighter, 2->1, 17->2):short",Action Surge,,"Starting at 2nd level, you can push yourself beyond your normal limits for a moment. On your turn, you can take one additional action on top of your regular action and a possible bonus action. Once you use this feature, you must finish a short or long rest before you can use it again. Starting at 17th level, you can use it twice before a rest, but only once on the same turn.",,
 fighter_martial_archetype,fighter,3,,,,Martial Archetype,,"At 3rd level, you choose an archetype that you strive to emulate in your combat styles and techniques, such as Champion. The archetype you choose grants you features at 3rd level and again at 7th, 10th, 15th, and 18th level.",,
@@ -205,7 +205,7 @@ While you are wearing armor, you gain a +1 bonus to AC.
 _Dueling_
 When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
 _Great Weapon Fighting_
-When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.",,2:1
+When you roll a 1 or 2 on a damage die for an attack you make with a melee weapon that you are wielding with two hands, you can reroll the die and must use the new roll. The weapon must have the two-handed or versatile property for you to gain this benefit.",,1@2
 paladin_protection,paladin,6,,,,Protection,,"When a creature you can see attacks a target other than you that is within 5 feet of you, you can use your reaction to impose disadvantage on the attack roll. You must be wielding a shield.",,
 paladin_spellcasting,paladin,2,,,,Spellcasting,,"By 2nd level, you have learned to draw on divine magic through meditation and prayer to cast spells as a cleric does.
 _Preparing and Casting Spells_
@@ -263,7 +263,7 @@ While you are wearing armor, you gain a +1 bonus to AC.
 _Dueling_
 When you are wielding a melee weapon in one hand and no other weapons, you gain a +2 bonus to damage rolls with that weapon.
 _Two-Weapon Fighting_
-When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",,2:1
+When you engage in two-weapon fighting, you can add your ability modifier to the damage of the second attack.",,1@2
 ranger_spellcasting,ranger,2,,,,Spellcasting,,"By the time you reach 2nd level, you have learned to use the magical essence of nature to cast spells, much as a druid does.
 _Spell Slots_
 The Ranger table shows how many spell slots you have to cast your spells of 1st level and higher. To cast one of these spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.
@@ -290,7 +290,7 @@ ranger_vanish,ranger,14,,,,Vanish,,"Starting at 14th level, you can use the Hide
 ranger_feral_senses,ranger,18,,,,Feral Senses,,"At 18th level, you gain preternatural senses that help you fight creatures you can't see. When you attack a creature you can't see, your inability to see it doesn't impose disadvantage on your attack rolls against it.
 You are also aware of the location of any invisible creature within 30 feet of you, provided that the creature isn't hidden from you and you aren't blinded or deafened.",,
 ranger_foe_slayer,ranger,20,,,,Foe Slayer,,"At 20th level, you become an unparalleled hunter of your enemies. Once on each of your turns, you can add your Wisdom modifier to the attack roll or the damage roll of an attack you make against one of your favored enemies. You can choose to use this feature before or after the roll, but before any effects of the roll are applied.",,
-rogue_expertise,rogue,1,,"1:2,6:2",,Expertise,,"At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
+rogue_expertise,rogue,1,,"2@1,2@6",,Expertise,,"At 1st level, choose two of your skill proficiencies, or one of your skill proficiencies and your proficiency with thieves' tools. Your proficiency bonus is doubled for any ability check you make that uses either of the chosen proficiencies.
 At 6th level, you can choose two more of your proficiencies (in skills or with thieves' tools) to gain this benefit.",,
 rogue_sneak_attack,rogue,1,,,grant_roll:sneak_attack:ceil(class_level.rogue/2) d 6:turn,Sneak Attack,,"Beginning at 1st level, you know how to strike subtly and exploit a foe's distraction. Once per turn, you can deal an extra 1d6 damage to one creature you hit with an attack if you have advantage on the attack roll. The attack must use a finesse or a ranged weapon.
 You don't need advantage on the attack roll if another enemy of the target is within 5 feet of it, that enemy isn't incapacitated, and you don't have disadvantage on the attack roll.
@@ -363,7 +363,7 @@ _Subtle Spell_
 When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.
 _Twinned Spell_
 When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).
-To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, _magic missile_ and _scorching ray_ aren't eligible, but _ray of frost_ is.",,"3:2,10:1,17:1"
+To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, _magic missile_ and _scorching ray_ aren't eligible, but _ray of frost_ is.",,"2@3,1@10,1@17"
 sorcerer_ability_score_improvement,sorcerer,4,,,,Ability Score Improvement,,"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",,
 sorcerer_sorcerous_restoration,sorcerer,20,,,,Sorcerous Restoration,,"At 20th level, you regain 4 expended sorcery points whenever you finish a short rest.",,
 warlock_otherworldly_patron,warlock,1,,,,Otherworldly Patron,,"At 1st level, you have struck a bargain with an otherworldly being of your choice: the Archfey, the Fiend, or the Great Old One, each of which is detailed at the end of the class description. Your choice grants you features at 1st level and again at 6th, 10th, and 14th level.",,
@@ -383,7 +383,7 @@ _Spellcasting Focus_
 You can use an arcane focus as a spellcasting focus for your warlock spells.",,
 warlock_eldritch_invocations,warlock,2,,,,Eldritch Invocations,,"In your study of occult lore, you have unearthed eldritch invocations, fragments of forbidden knowledge that imbue you with an abiding magical ability.
 At 2nd level, you gain two eldritch invocations of your choice. Your invocation options are detailed at the end of the class description. When you gain certain warlock levels, you gain additional invocations of your choice, as shown in the Invocations Known column of the Warlock table.
-Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.",,"2:2,5:1,7:1,9:1,12:1,15:1,18:1"
+Additionally, when you gain a level in this class, you can choose one of the invocations you know and replace it with another invocation that you could learn at that level.",,"2@2,1@5,1@7,1@9,1@12,1@15,1@18"
 warlock_pact_boon,warlock,3,,,,Pact Boon,,"At 3rd level, your otherworldly patron bestows a gift upon you for your loyal service. You gain one of the following features
 of your choice.
 _Pact of the Chain_
@@ -396,7 +396,7 @@ Your pact weapon disappears if it is more than 5 feet away from you for 1 minute
 You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your
 pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.
 _Pact of the Tome_
-Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list (the three needn't be from the same list). While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If they don't appear on the warlock spell list, they are nonetheless warlock spells for you. If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.",,3:1
+Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list (the three needn't be from the same list). While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If they don't appear on the warlock spell list, they are nonetheless warlock spells for you. If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.",,1@3
 warlock_ability_score_improvement,warlock,4,,,,Ability Score Improvement,,"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",,
 warlock_mystic_arcanum,warlock,11,,,,Mystic Arcanum,,"At 11th level, your patron bestows upon you a magical secret called an arcanum. Choose one 6th-level spell from the warlock spell list as this arcanum. You can cast your arcanum spell once without expending a spell slot. You must finish a long rest before you can do so again. At higher levels, you gain more warlock spells of your choice that can be cast in this way: one 7th-level spell at 13th level, one 8th-level spell at 15th level, and one 9th-level spell at 17th level. You regain all uses of your Mystic Arcanum when you finish a long rest.",,
 warlock_eldritch_master,warlock,20,,,,Eldritch Master,,"At 20th level, you can draw on your inner reserve of mystical power while entreating your patron to regain expended spell slots. You can spend 1 minute entreating your patron for aid to regain all your expended spell slots from your Pact Magic feature. Once you regain spell slots with this feature, you must finish a long rest before you can do so again.",,
@@ -512,7 +512,7 @@ circleoftheland_druids_and_the_gods,druid,2,circleoftheland,,,Druids and the God
 champion_improved_critical,fighter,3,champion,,set_override:crit_threshold:19:cap;note:Weapon attacks only,Improved Critical,,"Beginning when you choose this archetype at 3rd level, your weapon attacks score a critical hit on a roll of 19 or 20.",,
 champion_remarkable_athlete,fighter,7,champion,,grant_proficiency:partial_up:check.str;grant_proficiency:partial_up:check.dex;grant_proficiency:partial_up:check.con;note:Running long jump reaches STR mod further,Remarkable Athlete,,"Starting at 7th level, you can add half your proficiency bonus (round up) to any Strength, Dexterity, or Constitution check you make that doesn't already use your proficiency bonus.
 In addition, when you make a running long jump, the distance you can cover increases by a number of feet equal to your Strength modifier.",,
-champion_additional_fighting_style,fighter,10,champion,,,Additional Fighting Style,,"At 10th level, you can choose a second option from the Fighting Style class feature.",,10:1
+champion_additional_fighting_style,fighter,10,champion,,,Additional Fighting Style,,"At 10th level, you can choose a second option from the Fighting Style class feature.",,1@10
 champion_superior_critical,fighter,15,champion,,set_override:crit_threshold:18:cap;note:Weapon attacks only,Superior Critical,,"Starting at 15th level, your weapon attacks score a critical hit on a roll of 18-20.",,
 champion_survivor,fighter,18,champion,,is_bloodied and hp>=1 ? on_event:turn_start:heal:5+con_mod,Survivor,,"At 18th level, you attain the pinnacle of resilience in battle. At the start of each of your turns, you regain hit points equal to 5 + your Constitution modifier if you have no more than half of your hit points left. You don't gain this benefit if you have 0 hit points.",,
 wayoftheopenhand_open_hand_technique,monk,3,wayoftheopenhand,,,Open Hand Technique,,"Starting when you choose this tradition at 3rd level, you can manipulate your enemy's ki when you harness your own. Whenever you hit a creature with one of the attacks granted by your Flurry of Blows, you can impose one of the following effects on that target:
