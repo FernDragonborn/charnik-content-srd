@@ -1,4 +1,4 @@
-#content-hash: xxh64:209a00ab51a81019
+#content-hash: xxh64:312d7c408fee1041
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -25,3 +25,4 @@ indomitable,Indomitable,,,
 arcane_recovery,Arcane Recovery,,,
 natural_recovery,Natural Recovery (slots),,,
 natural_recovery_spell,Natural Recovery (spell),,,
+boon_of_fate,Boon of Fate,,,

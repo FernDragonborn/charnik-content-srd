@@ -1,11 +1,11 @@
-#content-hash: xxh64:b602cdeef4094ab2
+#content-hash: xxh64:6b8907ab50e035db
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f968-7fd0-88fc-dbf43af3ecc8
 #content-schema: 2
-#content-updated_at: 2026-10-01
+#content-updated_at: 2026-10-21
 id,category,prereq,repeatable,ability_choice,skill_choice,skill_choice_kinds,spell_choice,spell_choice_lists,spell_choice_ability,ritual_source,effects,name_en,name_uk,text_en,text_uk
 alert,origin,,false,,,,,,,,flat_bonus:initiative+proficiency_bonus,Alert,,"_Origin Feat_
 You gain the following benefits.
@@ -47,7 +47,7 @@ boon_of_dimensional_travel,epic_boon,Level 19+,false,any,,,,,,,,Boon of Dimensio
 You gain the following benefits.
 _Ability Score Increase._ Increase one ability score of your choice by 1, to a maximum of 30.
 _Blink Steps._ Immediately after you take the Attack action or the Magic action, you can teleport up to 30 feet to an unoccupied space you can see.",
-boon_of_fate,epic_boon,Level 19+,false,any,,,,,,,,Boon of Fate,,"_Epic Boon Feat (Prerequisite: Level 19+)_
+boon_of_fate,epic_boon,Level 19+,false,any,,,,,,,grant_resource:boon_of_fate:1:short;regain_on_initiative:boon_of_fate:1;grant_roll:improve_fate:2d4,Boon of Fate,,"_Epic Boon Feat (Prerequisite: Level 19+)_
 You gain the following benefits.
 _Ability Score Increase._ Increase one ability score of your choice by 1, to a maximum of 30.
 _Improve Fate._ When you or another creature within 60 feet of you succeeds on or fails a D20 Test, you can roll 2d4 and apply the total rolled as a bonus or penalty to the d20 roll. Once you use this benefit, you can't use it again until you roll Initiative or finish a Short or Long Rest.",
@@ -65,7 +65,7 @@ You gain the following benefits.
 _Ability Score Increase._ Increase one ability score of your choice by 1, to a maximum of 30.
 _Merge with Shadows._ While within Dim Light or Darkness, you can give yourself the Invisible condition as a Bonus Action. The condition ends on you immediately after you take an action, a Bonus Action, or a Reaction.
 _Shadowy Form._ While within Dim Light or Darkness, you have Resistance to all damage except Psychic and Radiant.",
-boon_of_truesight,epic_boon,Level 19+,false,any,,,,,,,,Boon of Truesight,,"_Epic Boon Feat (Prerequisite: Level 19+)_
+boon_of_truesight,epic_boon,Level 19+,false,any,,,,,,,set_override:senses.truesight:60:floor,Boon of Truesight,,"_Epic Boon Feat (Prerequisite: Level 19+)_
 You gain the following benefits.
 _Ability Score Increase._ Increase one ability score of your choice by 1, to a maximum of 30.
 _Truesight._ You have Truesight with a range of 60 feet.",
