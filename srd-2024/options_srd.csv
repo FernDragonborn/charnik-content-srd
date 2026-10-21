@@ -1,4 +1,4 @@
-#content-hash: xxh64:bcf848a5e362e9bc
+#content-hash: xxh64:67dced0ff7edc5ae
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -157,3 +157,9 @@ whispers_of_the_grave,class_feature:warlock_eldritch_invocations,7,,,,,Whispers 
 You can cast _Speak with Dead_ without expending a spell slot.",
 witch_sight,class_feature:warlock_eldritch_invocations,15,,,,set_override:senses.truesight:30:floor,Witch Sight,,"_Prerequisite: Level 15+ Warlock_
 You have Truesight with a range of 30 feet.",
+protector,class_feature:cleric_divine_order,,,,,grant_proficiency:weapon.martial;grant_proficiency:armor.heavy,Protector,,"Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.",
+thaumaturge,class_feature:cleric_divine_order,,,,,"flat_bonus:skill.arcana+max(1,wis_mod);flat_bonus:skill.religion+max(1,wis_mod)",Thaumaturge,,"You know one extra cantrip from the Cleric spell list. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1).",
+magician,class_feature:druid_primal_order,,,,,"flat_bonus:skill.arcana+max(1,wis_mod);flat_bonus:skill.nature+max(1,wis_mod)",Magician,,"You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).",
+warden,class_feature:druid_primal_order,,,,,grant_proficiency:weapon.martial;grant_proficiency:armor.medium,Warden,,"Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.",
+divine_strike,class_feature:cleric_blessed_strikes,,,,,"grant_roll:divine_strike:step(class_level.cleric, 7->1, 14->2) d 8:turn",Divine Strike,,"Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).",
+cleric_potent_spellcasting,class_feature:cleric_blessed_strikes,,,,,,Potent Spellcasting,,Add your Wisdom modifier to the damage you deal with any Cleric cantrip.,
