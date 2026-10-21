@@ -1,4 +1,4 @@
-#content-hash: xxh64:829149ea38e09e21
+#content-hash: xxh64:6749995df7054c59
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -1013,7 +1013,7 @@ staff_of_swarming_insects,staff,attunement,,,grant_resource:staff_of_swarming_in
 Spells. While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC:
 giant insect (4 charges) or insect plague (5 charges).
 Insect Cloud. While holding the staff, you can use an action and expend 1 charge to cause a swarm of harmless flying insects to spread out in a 30-foot radius from you. The insects remain for 10 minutes, making the area heavily obscured for creatures other than you. The swarm moves with you, remaining centered on you. A wind of at least 10 miles per hour disperses the swarm and ends the effect.",,,,
-staff_of_the_magi,staff,attunement,,,flat_bonus:attack+2;flat_bonus:damage+2;flat_bonus:spell_attack+2,legendary,,,Staff of the Magi,,"This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While you hold it, you gain a +2 bonus to spell attack rolls.
+staff_of_the_magi,staff,attunement,,,flat_bonus:attack+2;flat_bonus:damage+2;flat_bonus:spell_attack+2;advantage:saves.spell,legendary,,,Staff of the Magi,,"This staff can be wielded as a magic quarterstaff that grants a +2 bonus to attack and damage rolls made with it. While you hold it, you gain a +2 bonus to spell attack rolls.
 The staff has 50 charges for the following properties. It regains 4d6 + 2 expended charges daily at dawn. If you expend the last charge, roll a d20. On a 20, the staff regains 1d12 + 1 charges.
 Spell Absorption. While holding the staff, you have advantage on saving throws against spells. In addition, you can use your reaction when another creature casts a spell that targets only you. If you do, the staff absorbs the magic of the spell, canceling its effect and gaining a number of charges equal to the absorbed spell's level. However, if doing so brings the staff's total number of charges above 50, the staff explodes as if you activated its retributive strike (see below).
 Spells. While holding the staff, you can use an action to expend some of its charges to cast one of the following spells from it, using your spell save DC and spellcasting ability:
