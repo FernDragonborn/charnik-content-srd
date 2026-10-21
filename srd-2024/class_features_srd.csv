@@ -1,4 +1,4 @@
-#content-hash: xxh64:1107203b7d95e6df
+#content-hash: xxh64:04188e8a6bbb40c3
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -346,7 +346,7 @@ paladin_ability_score_improvement,paladin,4,,,,,Ability Score Improvement,,"You 
 paladin_extra_attack,paladin,5,,,,set_override:attacks:2:floor,Extra Attack,,You can attack twice instead of once whenever you take the Attack action on your turn.,,,
 paladin_faithful_steed,paladin,5,,,,,Faithful Steed,,"You can call on the aid of an otherworldly steed. You always have the _Find Steed_ spell prepared.
 You can also cast the spell once without expending a spell slot, and you regain the ability to do so when you finish a Long Rest.",,,
-paladin_aura_of_protection,paladin,6,,,,,Aura of Protection,,"You radiate a protective, unseeable aura in a 10-foot Emanation that originates from you. The aura is inactive while you have the Incapacitated condition.
+paladin_aura_of_protection,paladin,6,,,,"not has_condition.incapacitated ? flat_bonus:saves+max(1,cha_mod)",Aura of Protection,,"You radiate a protective, unseeable aura in a 10-foot Emanation that originates from you. The aura is inactive while you have the Incapacitated condition.
 You and your allies in the aura gain a bonus to saving throws equal to your Charisma modifier (minimum bonus of +1).
 If another Paladin is present, a creature can benefit from only one Aura of Protection at a time; the creature chooses which aura while in them.",,,
 paladin_abjure_foes,paladin,9,,,,,Abjure Foes,,"As a Magic action, you can expend one use of this class's Channel Divinity to overwhelm foes with awe. As you present your Holy Symbol or weapon, you can target a number of creatures equal to your Charisma modifier (minimum of one creature) that you can see within 60 feet of yourself. Each target must succeed on a Wisdom saving throw or have the Frightened condition for 1 minute or until it takes any damage. While Frightened in this way, a target can do only one of the following on its turns: move, take an action, or take a Bonus Action.",,,

@@ -1,4 +1,4 @@
-#content-hash: xxh64:611c54050315fec5
+#content-hash: xxh64:fb2ef546437c1e81
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -235,7 +235,7 @@ _Channel Divinity_
 Your oath allows you to channel divine energy to fuel magical effects. Each Channel Divinity option provided by your oath explains how to use it. When you use your Channel Divinity, you choose which option to use. You must then finish a short or long rest to use your Channel Divinity again. Some Channel Divinity effects require saving throws. When you use such an effect from this class, the DC equals your paladin spell save DC.",,
 paladin_ability_score_improvement,paladin,4,,,,Ability Score Improvement,,"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",,
 paladin_extra_attack,paladin,5,,,set_override:attacks:2:floor,Extra Attack,,"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn.",,
-paladin_aura_of_protection,paladin,6,,,,Aura of Protection,,"Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.
+paladin_aura_of_protection,paladin,6,,,"not has_condition.unconscious ? flat_bonus:saves+max(1,cha_mod)",Aura of Protection,,"Starting at 6th level, whenever you or a friendly creature within 10 feet of you must make a saving throw, the creature gains a bonus to the saving throw equal to your Charisma modifier (with a minimum bonus of +1). You must be conscious to grant this bonus.
 At 18th level, the range of this aura increases to 30 feet.",,
 paladin_aura_of_courage,paladin,10,,,,Aura of Courage,,"Starting at 10th level, you and friendly creatures within 10 feet of you can't be frightened while you are conscious.
 At 18th level, the range of this aura increases to 30 feet.",,
