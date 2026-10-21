@@ -1,4 +1,4 @@
-#content-hash: xxh64:67dced0ff7edc5ae
+#content-hash: xxh64:7796e5116ed31751
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -6,160 +6,160 @@
 #content-updated_at: 2026-10-21
 #content-id: 4c0515e6-285a-4053-99e8-8a378e8a7423
 #content-schema: 3
-id,option_of,level,requires,rarity,ritual_source,effects,name_en,name_uk,text_en,text_uk
-belt_of_hill_giant_strength,item:belt_of_giant_strength,,,rare,,set_override:str:21:floor,Belt of Giant Strength (hill),,,
-belt_of_stone_frost_giant_strength,item:belt_of_giant_strength,,,very_rare,,set_override:str:23:floor,Belt of Giant Strength (frost or stone),,,
-belt_of_fire_giant_strength,item:belt_of_giant_strength,,,very_rare,,set_override:str:25:floor,Belt of Giant Strength (fire),,,
-belt_of_cloud_giant_strength,item:belt_of_giant_strength,,,legendary,,set_override:str:27:floor,Belt of Giant Strength (cloud),,,
-belt_of_storm_giant_strength,item:belt_of_giant_strength,,,legendary,,set_override:str:29:floor,Belt of Giant Strength (storm),,,
-potion_of_hill_giant_strength,item:potion_of_giant_strength,,,uncommon,,,Potion of Giant Strength (hill),,,
-potion_of_stone_frost_giant_strength,item:potion_of_giant_strength,,,rare,,,Potion of Giant Strength (frost or stone),,,
-potion_of_fire_giant_strength,item:potion_of_giant_strength,,,rare,,,Potion of Giant Strength (fire),,,
-potion_of_cloud_giant_strength,item:potion_of_giant_strength,,,very_rare,,,Potion of Giant Strength (cloud),,,
-potion_of_storm_giant_strength,item:potion_of_giant_strength,,,legendary,,,Potion of Giant Strength (storm),,,
-potion_of_healing,item:potions_of_healing,,,common,,,Potion of Healing,,,
-potion_of_greater_healing,item:potions_of_healing,,,uncommon,,,Potion of Healing (greater),,,
-potion_of_superior_healing,item:potions_of_healing,,,rare,,,Potion of Healing (superior),,,
-potion_of_supreme_healing,item:potions_of_healing,,,very_rare,,,Potion of Healing (supreme),,,
-spell_scroll_cantrip,item:spell_scroll_2,,,common,,,Spell Scroll (Cantrip),,,
-spell_scroll_1,item:spell_scroll_2,,,common,,,Spell Scroll (Level 1),,,
-spell_scroll_2,item:spell_scroll_2,,,uncommon,,,Spell Scroll (Level 2),,,
-spell_scroll_3,item:spell_scroll_2,,,uncommon,,,Spell Scroll (Level 3),,,
-spell_scroll_4,item:spell_scroll_2,,,rare,,,Spell Scroll (Level 4),,,
-spell_scroll_5,item:spell_scroll_2,,,rare,,,Spell Scroll (Level 5),,,
-spell_scroll_6,item:spell_scroll_2,,,very_rare,,,Spell Scroll (Level 6),,,
-spell_scroll_7,item:spell_scroll_2,,,very_rare,,,Spell Scroll (Level 7),,,
-spell_scroll_8,item:spell_scroll_2,,,very_rare,,,Spell Scroll (Level 8),,,
-spell_scroll_9,item:spell_scroll_2,,,legendary,,,Spell Scroll (Level 9),,,
-ioun_stone_absorption,item:ioun_stone,,,very_rare,,,Ioun Stone (Absorption),,"While this pale lavender ellipsoid orbits your head, you can take a Reaction to cancel a spell of level 4 or lower cast by a creature you can see. A canceled spell has no effect, and any resources used to cast it are wasted. Once the stone has canceled 20 levels of spells, it burns out, turns dull gray, and loses its magic.",
-ioun_stone_agility,item:ioun_stone,,,very_rare,,flat_bonus:dex+2;set_override:dex:20:cap,Ioun Stone (Agility),,"Your Dexterity increases by 2, to a maximum of 20, while this deep-red sphere orbits your head.",
-ioun_stone_awareness,item:ioun_stone,,,rare,,advantage:initiative;advantage:skill.perception,Ioun Stone (Awareness),,"While this dark-blue rhomboid orbits your head, you have Advantage on Initiative rolls and Wisdom (Perception) checks.",
-ioun_stone_fortitude,item:ioun_stone,,,very_rare,,flat_bonus:con+2;set_override:con:20:cap,Ioun Stone (Fortitude),,"Your Constitution increases by 2, to a maximum of 20, while this pink rhomboid orbits your head.",
-ioun_stone_greater_absorption,item:ioun_stone,,,legendary,,,Ioun Stone (Greater Absorption),,"While this marbled lavender and green ellipsoid orbits your head, you can take a Reaction to cancel a spell of level 8 or lower cast by a creature you can see. A canceled spell has no effect, and any resources used to cast it are wasted. Once the stone has canceled 20 levels of spells, it burns out, turns dull gray, and loses its magic.",
-ioun_stone_insight,item:ioun_stone,,,very_rare,,flat_bonus:wis+2;set_override:wis:20:cap,Ioun Stone (Insight),,"Your Wisdom increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head.",
-ioun_stone_intellect,item:ioun_stone,,,very_rare,,flat_bonus:int+2;set_override:int:20:cap,Ioun Stone (Intellect),,"Your Intelligence increases by 2, to a maximum of 20, while this marbled scarlet and blue sphere orbits your head.",
-ioun_stone_leadership,item:ioun_stone,,,very_rare,,flat_bonus:cha+2;set_override:cha:20:cap,Ioun Stone (Leadership),,"Your Charisma increases by 2, to a maximum of 20, while this marbled pink and green sphere orbits your head.",
-ioun_stone_mastery,item:ioun_stone,,,legendary,,note:Your proficiency bonus increases by 1.,Ioun Stone (Mastery),,Your Proficiency Bonus increases by 1 while this pale green prism orbits your head.,
-ioun_stone_protection,item:ioun_stone,,,rare,,flat_bonus:ac+1,Ioun Stone (Protection),,You gain a +1 bonus to Armor Class while this dusty-rose prism orbits your head.,
-ioun_stone_regeneration,item:ioun_stone,,,legendary,,note:You regain 15 hit points at the end of each hour if you have at least 1 hit point.,Ioun Stone (Regeneration),,You regain 15 Hit Points at the end of each hour this pearly white spindle orbits your head if you have at least 1 Hit Point.,
+id,option_of,level,requires,rarity,ritual_source,effects,name_en,name_uk,text_en,text_uk,answer
+belt_of_hill_giant_strength,item:belt_of_giant_strength,,,rare,,set_override:str:21:floor,Belt of Giant Strength (hill),,,,
+belt_of_stone_frost_giant_strength,item:belt_of_giant_strength,,,very_rare,,set_override:str:23:floor,Belt of Giant Strength (frost or stone),,,,
+belt_of_fire_giant_strength,item:belt_of_giant_strength,,,very_rare,,set_override:str:25:floor,Belt of Giant Strength (fire),,,,
+belt_of_cloud_giant_strength,item:belt_of_giant_strength,,,legendary,,set_override:str:27:floor,Belt of Giant Strength (cloud),,,,
+belt_of_storm_giant_strength,item:belt_of_giant_strength,,,legendary,,set_override:str:29:floor,Belt of Giant Strength (storm),,,,
+potion_of_hill_giant_strength,item:potion_of_giant_strength,,,uncommon,,,Potion of Giant Strength (hill),,,,
+potion_of_stone_frost_giant_strength,item:potion_of_giant_strength,,,rare,,,Potion of Giant Strength (frost or stone),,,,
+potion_of_fire_giant_strength,item:potion_of_giant_strength,,,rare,,,Potion of Giant Strength (fire),,,,
+potion_of_cloud_giant_strength,item:potion_of_giant_strength,,,very_rare,,,Potion of Giant Strength (cloud),,,,
+potion_of_storm_giant_strength,item:potion_of_giant_strength,,,legendary,,,Potion of Giant Strength (storm),,,,
+potion_of_healing,item:potions_of_healing,,,common,,,Potion of Healing,,,,
+potion_of_greater_healing,item:potions_of_healing,,,uncommon,,,Potion of Healing (greater),,,,
+potion_of_superior_healing,item:potions_of_healing,,,rare,,,Potion of Healing (superior),,,,
+potion_of_supreme_healing,item:potions_of_healing,,,very_rare,,,Potion of Healing (supreme),,,,
+spell_scroll_cantrip,item:spell_scroll_2,,,common,,,Spell Scroll (Cantrip),,,,
+spell_scroll_1,item:spell_scroll_2,,,common,,,Spell Scroll (Level 1),,,,
+spell_scroll_2,item:spell_scroll_2,,,uncommon,,,Spell Scroll (Level 2),,,,
+spell_scroll_3,item:spell_scroll_2,,,uncommon,,,Spell Scroll (Level 3),,,,
+spell_scroll_4,item:spell_scroll_2,,,rare,,,Spell Scroll (Level 4),,,,
+spell_scroll_5,item:spell_scroll_2,,,rare,,,Spell Scroll (Level 5),,,,
+spell_scroll_6,item:spell_scroll_2,,,very_rare,,,Spell Scroll (Level 6),,,,
+spell_scroll_7,item:spell_scroll_2,,,very_rare,,,Spell Scroll (Level 7),,,,
+spell_scroll_8,item:spell_scroll_2,,,very_rare,,,Spell Scroll (Level 8),,,,
+spell_scroll_9,item:spell_scroll_2,,,legendary,,,Spell Scroll (Level 9),,,,
+ioun_stone_absorption,item:ioun_stone,,,very_rare,,,Ioun Stone (Absorption),,"While this pale lavender ellipsoid orbits your head, you can take a Reaction to cancel a spell of level 4 or lower cast by a creature you can see. A canceled spell has no effect, and any resources used to cast it are wasted. Once the stone has canceled 20 levels of spells, it burns out, turns dull gray, and loses its magic.",,
+ioun_stone_agility,item:ioun_stone,,,very_rare,,flat_bonus:dex+2;set_override:dex:20:cap,Ioun Stone (Agility),,"Your Dexterity increases by 2, to a maximum of 20, while this deep-red sphere orbits your head.",,
+ioun_stone_awareness,item:ioun_stone,,,rare,,advantage:initiative;advantage:skill.perception,Ioun Stone (Awareness),,"While this dark-blue rhomboid orbits your head, you have Advantage on Initiative rolls and Wisdom (Perception) checks.",,
+ioun_stone_fortitude,item:ioun_stone,,,very_rare,,flat_bonus:con+2;set_override:con:20:cap,Ioun Stone (Fortitude),,"Your Constitution increases by 2, to a maximum of 20, while this pink rhomboid orbits your head.",,
+ioun_stone_greater_absorption,item:ioun_stone,,,legendary,,,Ioun Stone (Greater Absorption),,"While this marbled lavender and green ellipsoid orbits your head, you can take a Reaction to cancel a spell of level 8 or lower cast by a creature you can see. A canceled spell has no effect, and any resources used to cast it are wasted. Once the stone has canceled 20 levels of spells, it burns out, turns dull gray, and loses its magic.",,
+ioun_stone_insight,item:ioun_stone,,,very_rare,,flat_bonus:wis+2;set_override:wis:20:cap,Ioun Stone (Insight),,"Your Wisdom increases by 2, to a maximum of 20, while this incandescent blue sphere orbits your head.",,
+ioun_stone_intellect,item:ioun_stone,,,very_rare,,flat_bonus:int+2;set_override:int:20:cap,Ioun Stone (Intellect),,"Your Intelligence increases by 2, to a maximum of 20, while this marbled scarlet and blue sphere orbits your head.",,
+ioun_stone_leadership,item:ioun_stone,,,very_rare,,flat_bonus:cha+2;set_override:cha:20:cap,Ioun Stone (Leadership),,"Your Charisma increases by 2, to a maximum of 20, while this marbled pink and green sphere orbits your head.",,
+ioun_stone_mastery,item:ioun_stone,,,legendary,,note:Your proficiency bonus increases by 1.,Ioun Stone (Mastery),,Your Proficiency Bonus increases by 1 while this pale green prism orbits your head.,,
+ioun_stone_protection,item:ioun_stone,,,rare,,flat_bonus:ac+1,Ioun Stone (Protection),,You gain a +1 bonus to Armor Class while this dusty-rose prism orbits your head.,,
+ioun_stone_regeneration,item:ioun_stone,,,legendary,,note:You regain 15 hit points at the end of each hour if you have at least 1 hit point.,Ioun Stone (Regeneration),,You regain 15 Hit Points at the end of each hour this pearly white spindle orbits your head if you have at least 1 Hit Point.,,
 ioun_stone_reserve,item:ioun_stone,,,rare,,,Ioun Stone (Reserve),,"This vibrant purple prism stores spells cast into it, holding them until you use them. The stone can store up to 4 levels of spells at a time. When found, it contains 1d4 levels of stored spells chosen by the GM.
 Any creature can cast a spell of level 1 through 4 into the stone by touching it as the spell is cast. The spell has no effect, other than to be stored in the stone. If the stone can't hold the spell, the spell is expended without effect. The level of the slot used to cast the spell determines how much space it uses.
-While this stone orbits your head, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster but is otherwise treated as if you cast the spell. The spell cast from the stone is no longer stored in it, freeing up space.",
-ioun_stone_strength,item:ioun_stone,,,very_rare,,flat_bonus:str+2;set_override:str:20:cap,Ioun Stone (Strength),,"Your Strength increases by 2, to a maximum of 20, while this pale blue rhomboid orbits your head.",
-ioun_stone_sustenance,item:ioun_stone,,,rare,,note:You don't need to eat or drink.,Ioun Stone (Sustenance),,You don't need to eat or drink while this clear spindle orbits your head.,
-bronze_griffon,item:figurine_of_wondrous_power,,,rare,,,Bronze Griffon,,"This bronze statuette is of a griffon rampant. It can become a **Griffon** for up to 6 hours. Once it has been used, it can't be used again until 5 days have passed.",
-ebony_fly,item:figurine_of_wondrous_power,,,rare,,,Ebony Fly,,"This ebony statuette, carved in the likeness of a horsefly, can become a **Giant Fly** (see the accompanying stat block) for up to 12 hours and can be ridden as a mount. Once it has been used, it can't be used again until 2 days have passed.",
-golden_lions,item:figurine_of_wondrous_power,,,rare,,,Golden Lions,,"These gold statuettes of lions are always created in pairs. You can use one figurine or both simultaneously. Each can become a **Lion** for up to 1 hour. Once a lion has been used, it can't be used again until 7 days have passed.",
+While this stone orbits your head, you can cast any spell stored in it. The spell uses the slot level, spell save DC, spell attack bonus, and spellcasting ability of the original caster but is otherwise treated as if you cast the spell. The spell cast from the stone is no longer stored in it, freeing up space.",,
+ioun_stone_strength,item:ioun_stone,,,very_rare,,flat_bonus:str+2;set_override:str:20:cap,Ioun Stone (Strength),,"Your Strength increases by 2, to a maximum of 20, while this pale blue rhomboid orbits your head.",,
+ioun_stone_sustenance,item:ioun_stone,,,rare,,note:You don't need to eat or drink.,Ioun Stone (Sustenance),,You don't need to eat or drink while this clear spindle orbits your head.,,
+bronze_griffon,item:figurine_of_wondrous_power,,,rare,,,Bronze Griffon,,"This bronze statuette is of a griffon rampant. It can become a **Griffon** for up to 6 hours. Once it has been used, it can't be used again until 5 days have passed.",,
+ebony_fly,item:figurine_of_wondrous_power,,,rare,,,Ebony Fly,,"This ebony statuette, carved in the likeness of a horsefly, can become a **Giant Fly** (see the accompanying stat block) for up to 12 hours and can be ridden as a mount. Once it has been used, it can't be used again until 2 days have passed.",,
+golden_lions,item:figurine_of_wondrous_power,,,rare,,,Golden Lions,,"These gold statuettes of lions are always created in pairs. You can use one figurine or both simultaneously. Each can become a **Lion** for up to 1 hour. Once a lion has been used, it can't be used again until 7 days have passed.",,
 ivory_goats,item:figurine_of_wondrous_power,,,rare,,,Ivory Goats,,"These ivory statuettes of goats are always created in sets of three. Each goat looks unique and functions differently from the others. Their properties are as follows:
 **Goat of Terror.** This figurine can become a **Giant Goat** for up to 3 hours. The goat can't attack, but you can (harmlessly) remove its horns and use them as weapons. One horn becomes a _+1 Lance_, and the other becomes a _+2 Longsword_. Removing a horn requires a Magic action, and the weapons disappear and the horns return when the goat reverts to figurine form. While you ride the goat, any Hostile creature that starts its turn within a 30-foot Emanation originating from the goat must succeed on a DC 15 Wisdom saving throw or have the Frightened condition for 1 minute, until you are no longer riding the goat, or until the goat reverts to figurine form. The Frightened creature repeats the save at the end of each of its turns, ending the effect on itself on a success. Once it succeeds on the save, a creature is immune to this effect for the next 24 hours. Once the figurine has been used, it can't be used again until 15 days have passed.
 **Goat of Traveling.** This figurine can become a Large goat with the same statistics as a **Riding Horse**. It has 24 charges, and each hour or portion thereof it spends in goat form costs 1 charge. While it has charges, you can use it as often as you wish. When it runs out of charges, it reverts to a figurine and can't be used again until 7 days have passed, when it regains all expended charges.
-**Goat of Travail.** This figurine can become a Giant **Goat** for up to 3 hours. Once it has been used, it can't be used again until 30 days have passed.",
-marble_elephant,item:figurine_of_wondrous_power,,,rare,,,Marble Elephant,,"This marble statuette resembles a trumpeting elephant. It can become an **Elephant** for up to 24 hours. Once it has been used, it can't be used again until 7 days have passed.",
+**Goat of Travail.** This figurine can become a Giant **Goat** for up to 3 hours. Once it has been used, it can't be used again until 30 days have passed.",,
+marble_elephant,item:figurine_of_wondrous_power,,,rare,,,Marble Elephant,,"This marble statuette resembles a trumpeting elephant. It can become an **Elephant** for up to 24 hours. Once it has been used, it can't be used again until 7 days have passed.",,
 obsidian_steed,item:figurine_of_wondrous_power,,,very_rare,,,Obsidian Steed,,"This polished obsidian horse can become a **Nightmare** for up to 24 hours. The nightmare fights only to defend itself. Once it has been used, it can't be used again until 5 days have passed.
-The figurine has a 10 percent chance each time you use it to ignore your orders, including a command to revert to figurine form. If you mount the nightmare while it is ignoring your orders, you and the nightmare are instantly transported to a random location on the plane of Hades, where the nightmare reverts to figurine form.",
-onyx_dog,item:figurine_of_wondrous_power,,,rare,,,Onyx Dog,,"This onyx statuette of a dog can become a **Mastiff** for up to 6 hours. The mastiff has an Intelligence of 8 and can speak Common. It also has Blindsight with a range of 60 feet. Once it has been used, it can't be used again until 7 days have passed.",
-serpentine_owl,item:figurine_of_wondrous_power,,,rare,,,Serpentine Owl,,"This serpentine statuette of an owl can become a **Giant Owl** for up to 8 hours. The owl can communicate telepathically with you at any range if you and it are on the same plane of existence. Once it has been used, it can't be used again until 2 days have passed.",
-silver_raven,item:figurine_of_wondrous_power,,,uncommon,,,Silver Raven,,"This silver statuette of a raven can become a **Raven** for up to 12 hours. Once it has been used, it can't be used again until 2 days have passed. While in raven form, the figurine grants you the ability to cast _Animal Messenger_ on it.",
-potent_spellcasting,class_feature:druid_elemental_fury,,,,,,Potent Spellcasting,,Add your Wisdom modifier to the damage you deal with any Druid cantrip.,
-primal_strike,class_feature:druid_elemental_fury,,,,,"grant_roll:primal_strike:step(class_level.druid, 7->1, 15->2) d 8:turn",Primal Strike,,"Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 Cold, Fire, Lightning, or Thunder damage (choose when you hit).",
-blessed_warrior,class_feature:paladin_fighting_style,,,,,,Blessed Warrior,,"You learn two Cleric cantrips of your choice (see the Cleric class's section for a list of Cleric spells). _Guidance_ and _Sacred Flame_ are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.",
-druidic_warrior,class_feature:ranger_fighting_style,,,,,,Druidic Warrior,,"You learn two Druid cantrips of your choice (see the Druid class's section for a list of Druid spells). _Guidance_ and _Starry Wisp_ are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.",
+The figurine has a 10 percent chance each time you use it to ignore your orders, including a command to revert to figurine form. If you mount the nightmare while it is ignoring your orders, you and the nightmare are instantly transported to a random location on the plane of Hades, where the nightmare reverts to figurine form.",,
+onyx_dog,item:figurine_of_wondrous_power,,,rare,,,Onyx Dog,,"This onyx statuette of a dog can become a **Mastiff** for up to 6 hours. The mastiff has an Intelligence of 8 and can speak Common. It also has Blindsight with a range of 60 feet. Once it has been used, it can't be used again until 7 days have passed.",,
+serpentine_owl,item:figurine_of_wondrous_power,,,rare,,,Serpentine Owl,,"This serpentine statuette of an owl can become a **Giant Owl** for up to 8 hours. The owl can communicate telepathically with you at any range if you and it are on the same plane of existence. Once it has been used, it can't be used again until 2 days have passed.",,
+silver_raven,item:figurine_of_wondrous_power,,,uncommon,,,Silver Raven,,"This silver statuette of a raven can become a **Raven** for up to 12 hours. Once it has been used, it can't be used again until 2 days have passed. While in raven form, the figurine grants you the ability to cast _Animal Messenger_ on it.",,
+potent_spellcasting,class_feature:druid_elemental_fury,,,,,,Potent Spellcasting,,Add your Wisdom modifier to the damage you deal with any Druid cantrip.,,
+primal_strike,class_feature:druid_elemental_fury,,,,,"grant_roll:primal_strike:step(class_level.druid, 7->1, 15->2) d 8:turn",Primal Strike,,"Once on each of your turns when you hit a creature with an attack roll using a weapon or a Beast form's attack in Wild Shape, you can cause the target to take an extra 1d8 Cold, Fire, Lightning, or Thunder damage (choose when you hit).",,
+blessed_warrior,class_feature:paladin_fighting_style,,,,,,Blessed Warrior,,"You learn two Cleric cantrips of your choice (see the Cleric class's section for a list of Cleric spells). _Guidance_ and _Sacred Flame_ are recommended. The chosen cantrips count as Paladin spells for you, and Charisma is your spellcasting ability for them. Whenever you gain a Paladin level, you can replace one of these cantrips with another Cleric cantrip.",,
+druidic_warrior,class_feature:ranger_fighting_style,,,,,,Druidic Warrior,,"You learn two Druid cantrips of your choice (see the Druid class's section for a list of Druid spells). _Guidance_ and _Starry Wisp_ are recommended. The chosen cantrips count as Ranger spells for you, and Wisdom is your spellcasting ability for them. Whenever you gain a Ranger level, you can replace one of these cantrips with another Druid cantrip.",,
 careful_spell,class_feature:sorcerer_metamagic,,,,,,Careful Spell,,"_Cost: 1 Sorcery Point_
-When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, spend 1 Sorcery Point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell, and it takes no damage if it would normally take half damage on a successful save.",
+When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, spend 1 Sorcery Point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell, and it takes no damage if it would normally take half damage on a successful save.",,
 distant_spell,class_feature:sorcerer_metamagic,,,,,,Distant Spell,,"_Cost: 1 Sorcery Point_
-When you cast a spell that has a range of at least 5 feet, you can spend 1 Sorcery Point to double the spell's range. Or when you cast a spell that has a range of Touch, you can spend 1 Sorcery Point to make the spell's range 30 feet.",
+When you cast a spell that has a range of at least 5 feet, you can spend 1 Sorcery Point to double the spell's range. Or when you cast a spell that has a range of Touch, you can spend 1 Sorcery Point to make the spell's range 30 feet.",,
 empowered_spell,class_feature:sorcerer_metamagic,,,,,,Empowered Spell,,"_Cost: 1 Sorcery Point_
 When you roll damage for a spell, you can spend 1 Sorcery Point to reroll a number of the damage dice up to your Charisma modifier (minimum of one), and you must use the new rolls.
-You can use Empowered Spell even if you've already used a different Metamagic option during the casting of the spell.",
+You can use Empowered Spell even if you've already used a different Metamagic option during the casting of the spell.",,
 extended_spell,class_feature:sorcerer_metamagic,,,,,,Extended Spell,,"_Cost: 1 Sorcery Point_
 When you cast a spell that has a duration of 1 minute or longer, you can spend 1 Sorcery Point to double its duration to a maximum duration of 24 hours.
-If the affected spell requires Concentration, you have Advantage on any saving throw you make to maintain that Concentration.",
+If the affected spell requires Concentration, you have Advantage on any saving throw you make to maintain that Concentration.",,
 heightened_spell,class_feature:sorcerer_metamagic,,,,,,Heightened Spell,,"_Cost: 2 Sorcery Points_
-When you cast a spell that forces a creature to make a saving throw, you can spend 2 Sorcery Points to give one target of the spell Disadvantage on saves against the spell.",
+When you cast a spell that forces a creature to make a saving throw, you can spend 2 Sorcery Points to give one target of the spell Disadvantage on saves against the spell.",,
 quickened_spell,class_feature:sorcerer_metamagic,,,,,,Quickened Spell,,"_Cost: 2 Sorcery Points_
-When you cast a spell that has a casting time of an action, you can spend 2 Sorcery Points to change the casting time to a Bonus Action for this casting. You can't modify a spell in this way if you've already cast a level 1+ spell on the current turn, nor can you cast a level 1+ spell on this turn after modifying a spell in this way.",
+When you cast a spell that has a casting time of an action, you can spend 2 Sorcery Points to change the casting time to a Bonus Action for this casting. You can't modify a spell in this way if you've already cast a level 1+ spell on the current turn, nor can you cast a level 1+ spell on this turn after modifying a spell in this way.",,
 seeking_spell,class_feature:sorcerer_metamagic,,,,,,Seeking Spell,,"_Cost: 1 Sorcery Point_
 If you make an attack roll for a spell and miss, you can spend 1 Sorcery Point to reroll the d20, and you must use the new roll.
-You can use Seeking Spell even if you've already used a different Metamagic option during the casting of the spell.",
+You can use Seeking Spell even if you've already used a different Metamagic option during the casting of the spell.",,
 subtle_spell,class_feature:sorcerer_metamagic,,,,,,Subtle Spell,,"_Cost: 1 Sorcery Point_
-When you cast a spell, you can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.",
+When you cast a spell, you can spend 1 Sorcery Point to cast it without any Verbal, Somatic, or Material components, except Material components that are consumed by the spell or that have a cost specified in the spell.",,
 transmuted_spell,class_feature:sorcerer_metamagic,,,,,,Transmuted Spell,,"_Cost: 1 Sorcery Point_
-When you cast a spell that deals a type of damage from the following list, you can spend 1 Sorcery Point to change that damage type to one of the other listed types: Acid, Cold, Fire, Lightning, Poison, Thunder.",
+When you cast a spell that deals a type of damage from the following list, you can spend 1 Sorcery Point to change that damage type to one of the other listed types: Acid, Cold, Fire, Lightning, Poison, Thunder.",,
 twinned_spell,class_feature:sorcerer_metamagic,,,,,,Twinned Spell,,"_Cost: 1 Sorcery Point_
-When you cast a spell, such as _Charm Person_, that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell's effective level by 1.",
-agonizing_blast,class_feature:warlock_eldritch_invocations,2,,,,,Agonizing Blast,,"_Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage_
+When you cast a spell, such as _Charm Person_, that can be cast with a higher-level spell slot to target an additional creature, you can spend 1 Sorcery Point to increase the spell's effective level by 1.",,
+agonizing_blast,class_feature:warlock_eldritch_invocations,2,,,,flat_bonus:damage.option_choice+cha_mod,Agonizing Blast,,"_Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage_
 Choose one of your known Warlock cantrips that deals damage. You can add your Charisma modifier to that spell's damage rolls.
-_Repeatable._ You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.",
-armor_of_shadows,class_feature:warlock_eldritch_invocations,,,,,,Armor of Shadows,,You can cast _Mage Armor_ on yourself without expending a spell slot.,
+_Repeatable._ You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.",,cantrip.damage
+armor_of_shadows,class_feature:warlock_eldritch_invocations,,,,,,Armor of Shadows,,You can cast _Mage Armor_ on yourself without expending a spell slot.,,
 ascendant_step,class_feature:warlock_eldritch_invocations,5,,,,,Ascendant Step,,"_Prerequisite: Level 5+ Warlock_
-You can cast _Levitate_ on yourself without expending a spell slot.",
+You can cast _Levitate_ on yourself without expending a spell slot.",,
 devils_sight,class_feature:warlock_eldritch_invocations,2,,,,,Devil's Sight,,"_Prerequisite: Level 2+ Warlock_
-You can see normally in Dim Light and Darkness—both magical and nonmagical—within 120 feet of yourself.",
+You can see normally in Dim Light and Darkness—both magical and nonmagical—within 120 feet of yourself.",,
 devouring_blade,class_feature:warlock_eldritch_invocations,12,thirsting_blade,,,,Devouring Blade,,"_Prerequisite: Level 12+ Warlock, Thirsting Blade Invocation_
-The Extra Attack of your Thirsting Blade invocation confers two extra attacks rather than one.",
-eldritch_mind,class_feature:warlock_eldritch_invocations,,,,,,Eldritch Mind,,You have Advantage on Constitution saving throws that you make to maintain Concentration.,
+The Extra Attack of your Thirsting Blade invocation confers two extra attacks rather than one.",,
+eldritch_mind,class_feature:warlock_eldritch_invocations,,,,,,Eldritch Mind,,You have Advantage on Constitution saving throws that you make to maintain Concentration.,,
 eldritch_smite,class_feature:warlock_eldritch_invocations,5,pact_of_the_blade,,,,Eldritch Smite,,"_Prerequisite: Level 5+ Warlock, Pact of the Blade Invocation_
-Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.",
+Once per turn when you hit a creature with your pact weapon, you can expend a Pact Magic spell slot to deal an extra 1d8 Force damage to the target, plus another 1d8 per level of the spell slot, and you can give the target the Prone condition if it is Huge or smaller.",,
 eldritch_spear,class_feature:warlock_eldritch_invocations,2,,,,,Eldritch Spear,,"_Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage_
 Choose one of your known Warlock cantrips that deals damage and has a range of 10+ feet. When you cast that spell, its range increases by a number of feet equal to 30 times your Warlock level.
-_Repeatable._ You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.",
+_Repeatable._ You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.",,cantrip.damage
 fiendish_vigor,class_feature:warlock_eldritch_invocations,2,,,,,Fiendish Vigor,,"_Prerequisite: Level 2+ Warlock_
-You can cast _False Life_ on yourself without expending a spell slot. When you cast the spell with this feature, you don't roll the die for the Temporary Hit Points; you automatically get the highest number on the die.",
+You can cast _False Life_ on yourself without expending a spell slot. When you cast the spell with this feature, you don't roll the die for the Temporary Hit Points; you automatically get the highest number on the die.",,
 gaze_of_two_minds,class_feature:warlock_eldritch_invocations,5,,,,,Gaze of Two Minds,,"_Prerequisite: Level 5+ Warlock_
 You can use a Bonus Action to touch a willing creature and perceive through its senses until the end of your next turn. As long as the creature is on the same plane of existence as you, you can take a Bonus Action on subsequent turns to maintain this connection, extending the duration until the end of your next turn. The connection ends if you don't maintain it in this way.
-While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature's space if the two of you are within 60 feet of each other.",
+While perceiving through the other creature's senses, you benefit from any special senses possessed by that creature, and you can cast spells as if you were in your space or the other creature's space if the two of you are within 60 feet of each other.",,
 gift_of_the_depths,class_feature:warlock_eldritch_invocations,5,,,,set_override:speed.swim:speed:floor;grant_resource:gift_of_the_depths:1:long,Gift of the Depths,,"_Prerequisite: Level 5+ Warlock_
 You can breathe underwater, and you gain a Swim Speed equal to your Speed.
-You can also cast _Water Breathing_ once without expending a spell slot. You regain the ability to cast it in this way again when you finish a Long Rest.",
+You can also cast _Water Breathing_ once without expending a spell slot. You regain the ability to cast it in this way again when you finish a Long Rest.",,
 gift_of_the_protectors,class_feature:warlock_eldritch_invocations,9,pact_of_the_tome,,,,Gift of the Protectors,,"_Prerequisite: Level 9+ Warlock, Pact of the Tome Invocation_
 A new page appears in your _Book of Shadows_ when you conjure it. With your permission, a creature can take an action to write its name on that page, which can contain a number of names equal to your Charisma modifier (minimum of one name).
 When any creature whose name is on the page is reduced to 0 Hit Points but not killed outright, the creature magically drops to 1 Hit Point instead. Once this magic is triggered, no creature can benefit from it until you finish a Long Rest.
-As a Magic action, you can erase a name on the page by touching it.",
+As a Magic action, you can erase a name on the page by touching it.",,
 investment_of_the_chain_master,class_feature:warlock_eldritch_invocations,5,pact_of_the_chain,,,,Investment of the Chain Master,,"_Prerequisite: Level 5+ Warlock, Pact of the Chain Invocation_
 When you cast _Find Familiar_, you infuse the summoned familiar with a measure of your eldritch power, granting the creature the following benefits.
 _Aerial or Aquatic._ The familiar gains either a Fly Speed or a Swim Speed (your choice) of 40 feet.
 _Quick Attack._ As a Bonus Action, you can command the familiar to take the Attack action.
 _Necrotic or Radiant Damage._ Whenever the familiar deals Bludgeoning, Piercing, or Slashing damage, you can make it deal Necrotic or Radiant damage instead.
 _Your Save DC._ If the familiar forces a creature to make a saving throw, it uses your spell save DC.
-_Resistance._ When the familiar takes damage, you can take a Reaction to grant it Resistance against that damage.",
+_Resistance._ When the familiar takes damage, you can take a Reaction to grant it Resistance against that damage.",,
 lessons_of_the_first_ones,class_feature:warlock_eldritch_invocations,2,,,,,Lessons of the First Ones,,"_Prerequisite: Level 2+ Warlock_
 You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice (see ""Feats"").
-_Repeatable._ You can gain this invocation more than once. Each time you do so, choose a different Origin feat.",
+_Repeatable._ You can gain this invocation more than once. Each time you do so, choose a different Origin feat.",,
 lifedrinker,class_feature:warlock_eldritch_invocations,9,pact_of_the_blade,,,,Lifedrinker,,"_Prerequisite: Level 9+ Warlock, Pact of the Blade Invocation_
-Once per turn when you hit a creature with your pact weapon, you can deal an extra 1d6 Necrotic, Psychic, or Radiant damage (your choice) to the creature, and you can expend one of your Hit Point Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1 Hit Point).",
+Once per turn when you hit a creature with your pact weapon, you can deal an extra 1d6 Necrotic, Psychic, or Radiant damage (your choice) to the creature, and you can expend one of your Hit Point Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1 Hit Point).",,
 mask_of_many_faces,class_feature:warlock_eldritch_invocations,2,,,,,Mask of Many Faces,,"_Prerequisite: Level 2+ Warlock_
-You can cast _Disguise Self_ without expending a spell slot.",
+You can cast _Disguise Self_ without expending a spell slot.",,
 master_of_myriad_forms,class_feature:warlock_eldritch_invocations,5,,,,,Master of Myriad Forms,,"_Prerequisite: Level 5+ Warlock_
-You can cast _Alter Self_ without expending a spell slot.",
+You can cast _Alter Self_ without expending a spell slot.",,
 misty_visions,class_feature:warlock_eldritch_invocations,2,,,,,Misty Visions,,"_Prerequisite: Level 2+ Warlock_
-You can cast _Silent Image_ without expending a spell slot.",
+You can cast _Silent Image_ without expending a spell slot.",,
 one_with_shadows,class_feature:warlock_eldritch_invocations,5,,,,,One with Shadows,,"_Prerequisite: Level 5+ Warlock_
-While you're in an area of Dim Light or Darkness, you can cast _Invisibility_ on yourself without expending a spell slot.",
+While you're in an area of Dim Light or Darkness, you can cast _Invisibility_ on yourself without expending a spell slot.",,
 otherworldly_leap,class_feature:warlock_eldritch_invocations,2,,,,,Otherworldly Leap,,"_Prerequisite: Level 2+ Warlock_
-You can cast _Jump_ on yourself without expending a spell slot.",
+You can cast _Jump_ on yourself without expending a spell slot.",,
 pact_of_the_blade,class_feature:warlock_eldritch_invocations,,,,,,Pact of the Blade,,"As a Bonus Action, you can conjure a pact weapon in your hand—a Simple or Martial Melee weapon of your choice with which you bond—or create a bond with a magic weapon you touch; you can't bond with a magic weapon if someone else is attuned to it or another Warlock is bonded with it. Until the bond ends, you have proficiency with the weapon, and you can use it as a Spellcasting Focus.
 Whenever you attack with the bonded weapon, you can use your Charisma modifier for the attack and damage rolls instead of using Strength or Dexterity; and you can cause the weapon to deal Necrotic, Psychic, or Radiant damage or its normal damage type.
-Your bond with the weapon ends if you use this feature's Bonus Action again, if the weapon is more than 5 feet away from you for 1 minute or more, or if you die. A conjured weapon disappears when the bond ends.",
+Your bond with the weapon ends if you use this feature's Bonus Action again, if the weapon is more than 5 feet away from you for 1 minute or more, or if you die. A conjured weapon disappears when the bond ends.",,
 pact_of_the_chain,class_feature:warlock_eldritch_invocations,,,,,,Pact of the Chain,,"You learn the _Find Familiar_ spell and can cast it as a Magic action without expending a spell slot.
 When you cast the spell, you choose one of the normal forms for your familiar or one of the following special forms: **Imp, Pseudodragon, Quasit, Skeleton, Sphinx of Wonder, Sprite,** or **Venomous Snake** (see ""Monsters"" for the familiar's stat block).
-Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction.",
+Additionally, when you take the Attack action, you can forgo one of your own attacks to allow your familiar to make one attack of its own with its Reaction.",,
 pact_of_the_tome,class_feature:warlock_eldritch_invocations,,,,,,Pact of the Tome,,"Stitching together strands of shadow, you conjure forth a book in your hand at the end of a Short or Long Rest. This _Book of Shadows_ (you determine its appearance) contains eldritch magic that only you can access, granting you the benefits below. The book disappears if you conjure another book with this feature or if you die.
 _Cantrips and Rituals._ When the book appears, choose three cantrips, and choose two level 1 spells that have the Ritual tag. The spells can be from any class's spell list, and they must be spells you don't already have prepared. While the book is on your person, you have the chosen spells prepared, and they function as Warlock spells for you.
-_Spellcasting Focus._ You can use the book as a Spellcasting Focus.",
+_Spellcasting Focus._ You can use the book as a Spellcasting Focus.",,
 repelling_blast,class_feature:warlock_eldritch_invocations,2,,,,,Repelling Blast,,"_Prerequisite: Level 2+ Warlock, a Warlock Cantrip That Deals Damage via an Attack Roll_
 Choose one of your known Warlock cantrips that requires an attack roll. When you hit a Large or smaller creature with that cantrip, you can push the creature up to 10 feet straight away from you.
-_Repeatable._ You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.",
+_Repeatable._ You can gain this invocation more than once. Each time you do so, choose a different eligible cantrip.",,cantrip.attack
 thirsting_blade,class_feature:warlock_eldritch_invocations,5,pact_of_the_blade,,,,Thirsting Blade,,"_Prerequisite: Level 5+ Warlock, Pact of the Blade Invocation_
-You gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon instead of once when you take the Attack action on your turn.",
+You gain the Extra Attack feature for your pact weapon only. With that feature, you can attack twice with the weapon instead of once when you take the Attack action on your turn.",,
 visions_of_distant_realms,class_feature:warlock_eldritch_invocations,9,,,,,Visions of Distant Realms,,"_Prerequisite: Level 9+ Warlock_
-You can cast _Arcane Eye_ without expending a spell slot.",
+You can cast _Arcane Eye_ without expending a spell slot.",,
 whispers_of_the_grave,class_feature:warlock_eldritch_invocations,7,,,,,Whispers of the Grave,,"_Prerequisite: Level 7+ Warlock_
-You can cast _Speak with Dead_ without expending a spell slot.",
+You can cast _Speak with Dead_ without expending a spell slot.",,
 witch_sight,class_feature:warlock_eldritch_invocations,15,,,,set_override:senses.truesight:30:floor,Witch Sight,,"_Prerequisite: Level 15+ Warlock_
-You have Truesight with a range of 30 feet.",
-protector,class_feature:cleric_divine_order,,,,,grant_proficiency:weapon.martial;grant_proficiency:armor.heavy,Protector,,"Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.",
-thaumaturge,class_feature:cleric_divine_order,,,,,"flat_bonus:skill.arcana+max(1,wis_mod);flat_bonus:skill.religion+max(1,wis_mod)",Thaumaturge,,"You know one extra cantrip from the Cleric spell list. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1).",
-magician,class_feature:druid_primal_order,,,,,"flat_bonus:skill.arcana+max(1,wis_mod);flat_bonus:skill.nature+max(1,wis_mod)",Magician,,"You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).",
-warden,class_feature:druid_primal_order,,,,,grant_proficiency:weapon.martial;grant_proficiency:armor.medium,Warden,,"Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.",
-divine_strike,class_feature:cleric_blessed_strikes,,,,,"grant_roll:divine_strike:step(class_level.cleric, 7->1, 14->2) d 8:turn",Divine Strike,,"Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).",
-cleric_potent_spellcasting,class_feature:cleric_blessed_strikes,,,,,,Potent Spellcasting,,Add your Wisdom modifier to the damage you deal with any Cleric cantrip.,
+You have Truesight with a range of 30 feet.",,
+protector,class_feature:cleric_divine_order,,,,,grant_proficiency:weapon.martial;grant_proficiency:armor.heavy,Protector,,"Trained for battle, you gain proficiency with Martial weapons and training with Heavy armor.",,
+thaumaturge,class_feature:cleric_divine_order,,,,,"flat_bonus:skill.arcana+max(1,wis_mod);flat_bonus:skill.religion+max(1,wis_mod)",Thaumaturge,,"You know one extra cantrip from the Cleric spell list. In addition, your mystical connection to the divine gives you a bonus to your Intelligence (Arcana or Religion) checks. The bonus equals your Wisdom modifier (minimum of +1).",,
+magician,class_feature:druid_primal_order,,,,,"flat_bonus:skill.arcana+max(1,wis_mod);flat_bonus:skill.nature+max(1,wis_mod)",Magician,,"You know one extra cantrip from the Druid spell list. In addition, your mystical connection to nature gives you a bonus to your Intelligence (Arcana or Nature) checks. The bonus equals your Wisdom modifier (minimum bonus of +1).",,
+warden,class_feature:druid_primal_order,,,,,grant_proficiency:weapon.martial;grant_proficiency:armor.medium,Warden,,"Trained for battle, you gain proficiency with Martial weapons and training with Medium armor.",,
+divine_strike,class_feature:cleric_blessed_strikes,,,,,"grant_roll:divine_strike:step(class_level.cleric, 7->1, 14->2) d 8:turn",Divine Strike,,"Once on each of your turns when you hit a creature with an attack roll using a weapon, you can cause the target to take an extra 1d8 Necrotic or Radiant damage (your choice).",,
+cleric_potent_spellcasting,class_feature:cleric_blessed_strikes,,,,,,Potent Spellcasting,,Add your Wisdom modifier to the damage you deal with any Cleric cantrip.,,
