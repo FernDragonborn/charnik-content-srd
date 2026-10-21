@@ -1,9 +1,9 @@
-#content-hash: xxh64:fff84ba85c953da3
+#content-hash: xxh64:22248a614089f05d
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
-#content-updated_at: 2026-10-16
+#content-updated_at: 2026-10-21
 #content-id: 97162ebe-d7d2-4378-8f80-a7dc5307d0a4
 #content-schema: 3
 id,option_of,level,requires,rarity,ritual_source,effects,name_en,name_uk,text_en,text_uk
@@ -68,7 +68,7 @@ Your pact weapon disappears if it is more than 5 feet away from you for 1 minute
 You can transform one magic weapon into your pact weapon by performing a special ritual while you hold the weapon. You perform the ritual over the course of 1 hour, which can be done during a short rest. You can then dismiss the weapon, shunting it into an extradimensional space, and it appears whenever you create your pact weapon thereafter. You can't affect an artifact or a sentient weapon in this way. The weapon ceases being your pact weapon if you die, if you perform the 1-hour ritual on a different weapon, or if you use a 1-hour ritual to break your bond to it. The weapon appears at your feet if it is in the extradimensional space when the bond breaks.",
 pact_of_the_tome,class_feature:warlock_pact_boon,,,,,,Pact of the Tome,,"Your patron gives you a grimoire called a Book of Shadows. When you gain this feature, choose three cantrips from any class's spell list (the three needn't be from the same list). While the book is on your person, you can cast those cantrips at will. They don't count against your number of cantrips known. If they don't appear on the warlock spell list, they are nonetheless warlock spells for you.
 If you lose your Book of Shadows, you can perform a 1-hour ceremony to receive a replacement from your patron. This ceremony can be performed during a short or long rest, and it destroys the previous book. The book turns to ash when you die.",
-agonizing_blast,class_feature:warlock_eldritch_invocations,,,,,,Agonizing Blast,,"Prerequisite: eldritch blast cantrip
+agonizing_blast,class_feature:warlock_eldritch_invocations,,,,,flat_bonus:damage.eldritch_blast+cha_mod,Agonizing Blast,,"Prerequisite: eldritch blast cantrip
 When you cast eldritch blast, add your Charisma modifier to the damage it deals on a hit.",
 armor_of_shadows,class_feature:warlock_eldritch_invocations,,,,,,Armor of Shadows,,"You can cast mage armor on yourself at will, without expending a spell slot or material components.",
 ascendant_step,class_feature:warlock_eldritch_invocations,9,,,,,Ascendant Step,,"Prerequisite: 9th level

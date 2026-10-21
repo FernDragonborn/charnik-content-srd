@@ -1,10 +1,10 @@
-#content-hash: xxh64:2d17322e002b1e64
+#content-hash: xxh64:2f93a73f467cfe83
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f9e9-7ad8-b3a8-4511aa623e30
-#content-updated_at: 2026-10-16
+#content-updated_at: 2026-10-21
 #content-schema: 1
 id,class_id,level,subclass_id,expertise_slots,mastery_slots,effects,name_en,name_uk,text_en,text_uk,choose,feat_choice
 barbarian_rage,barbarian,1,,,,"grant_resource:rage:step(class_level.barbarian, 1->2, 3->3, 6->4, 12->5, 17->6):short_one",Rage,,"You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.
@@ -721,7 +721,7 @@ warlock_eldritch_invocations,warlock,1,,,,,Eldritch Invocations,,"You have unear
 _Prerequisites._ If an invocation has a prerequisite, you must meet it to learn that invocation. For example, if an invocation requires you to be a level 5+ Warlock, you can select the invocation once you reach Warlock level 5.
 _Replacing and Gaining Invocations._ Whenever you gain a Warlock level, you can replace one of your invocations with another one for which you qualify. You can't replace an invocation if it's a prerequisite for another invocation that you have.
 When you gain certain Warlock levels, you gain more invocations of your choice, as shown in the Invocations column of the Warlock Features table.
-You can't pick the same invocation more than once unless its description says otherwise.",,,
+You can't pick the same invocation more than once unless its description says otherwise.",,"1:1,2:2,5:2,7:1,9:1,12:1,15:1,18:1",
 warlock_pact_magic,warlock,1,,,,,Pact Magic,,"Through occult ceremony, you have formed a pact with a mysterious entity to gain magical powers. The entity is a voice in the shadows—its identity unclear—but its boon to you is concrete: the ability to cast spells. See ""Spells"" for the rules on spellcasting. The information below details how you use those rules with Warlock spells, which appear in the Warlock spell list later in the class's description.
 _Cantrips._ You know two Warlock cantrips of your choice. _Eldritch Blast_ and _Prestidigitation_ are recommended. Whenever you gain a Warlock level, you can replace one of your cantrips from this feature with another Warlock cantrip of your choice.
 When you reach Warlock levels 4 and 10, you learn another Warlock cantrip of your choice, as shown in the Cantrips column of the Warlock Features table.
