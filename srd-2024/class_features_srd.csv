@@ -1,4 +1,4 @@
-#content-hash: xxh64:05876c2cd41ea4e1
+#content-hash: xxh64:1107203b7d95e6df
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -497,7 +497,7 @@ sorcerer_sorcery_incarnate,sorcerer,7,,,,,Sorcery Incarnate,,"If you have no use
 In addition, while your Innate Sorcery feature is active, you can use up to two of your Metamagic options on each spell you cast.",,,
 sorcerer_epic_boon,sorcerer,19,,,,,Epic Boon,,"You gain an Epic Boon feat (see ""Feats"") or another feat of your choice for which you qualify. Boon of Dimensional Travel is recommended.",,,
 sorcerer_arcane_apotheosis,sorcerer,20,,,,,Arcane Apotheosis,,"While your Innate Sorcery feature is active, you can use one Metamagic option on each of your turns without spending Sorcery Points on it.",,,
-draconic_sorcery_draconic_resilience,sorcerer,3,draconic_sorcery,,,not is_wearing_armor ? set_base:ac:10+dex_mod+cha_mod,Draconic Resilience,,"The magic in your body manifests physical traits of your draconic gift. Your Hit Point maximum increases by 3, and it increases by 1 whenever you gain another Sorcerer level.
+draconic_sorcery_draconic_resilience,sorcerer,3,draconic_sorcery,,,not is_wearing_armor ? set_base:ac:10+dex_mod+cha_mod;flat_bonus:hp_max+class_level.sorcerer,Draconic Resilience,,"The magic in your body manifests physical traits of your draconic gift. Your Hit Point maximum increases by 3, and it increases by 1 whenever you gain another Sorcerer level.
 Parts of you are also covered by dragon-like scales. While you aren't wearing armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers.",,,
 draconic_sorcery_draconic_spells,sorcerer,3,draconic_sorcery,,,,Draconic Spells,,"When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared.
 **Draconic Spells**
