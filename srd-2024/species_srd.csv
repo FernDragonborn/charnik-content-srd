@@ -1,4 +1,4 @@
-#content-hash: xxh64:751b56d6edbf5a15
+#content-hash: xxh64:1f7afec228ee9745
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -24,7 +24,7 @@ You can use this Breath Weapon a number of times equal to your Proficiency Bonus
 _Damage Resistance._ You have Resistance to the damage type determined by your Draconic Ancestry trait.
 _Darkvision._ You have Darkvision with a range of 60 feet.
 _Draconic Flight._ When you reach character level 5, you can channel draconic magic to give yourself temporary flight. As a Bonus Action, you sprout spectral wings on your back that last for 10 minutes or until you retract the wings (no action required) or have the Incapacitated condition. During that time, you have a Fly Speed equal to your Speed. Your wings appear to be made of the same energy as your Breath Weapon. Once you use this trait, you can't use it again until you finish a Long Rest.",
-dwarf,medium,30,humanoid,damage_sensitivity:resist:poison;set_override:senses.darkvision:120:floor,Dwarf,,"As a Dwarf, you have these special traits.
+dwarf,medium,30,humanoid,damage_sensitivity:resist:poison;set_override:senses.darkvision:120:floor;flat_bonus:hp_max+level,Dwarf,,"As a Dwarf, you have these special traits.
 _Darkvision._ You have Darkvision with a range of 120 feet.
 _Dwarven Resilience._ You have Resistance to Poison damage. You also have Advantage on saving throws you make to avoid or end the Poisoned condition.
 _Dwarven Toughness._ Your Hit Point maximum increases by 1, and it increases by 1 again whenever you gain a level.
