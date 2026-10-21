@@ -1,16 +1,29 @@
-#content-hash: xxh64:eefbd6f0ad05c584
+#content-hash: xxh64:9d5b634a87e5a496
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f859d-bfd4-717c-bb8d-cd555a0e6807
-#content-updated_at: 2026-10-02
+#content-updated_at: 2026-10-21
 #content-schema: 1
-id,resource_id,cost,action,action_type,name_en,name_uk,text_en,text_uk
-flurry_of_blows,ki,1,attack:unarmed_strike:2,bonus_action,Flurry of Blows,,"Immediately after the Attack action, make two Unarmed Strikes as a Bonus Action.",
-patient_defense,ki,1,note:Take the Dodge action,bonus_action,Patient Defense,,Take the Dodge action as a Bonus Action.,
-step_of_the_wind,ki,1,note:Disengage or Dash; jump distance doubled,bonus_action,Step of the Wind,,Take the Disengage or Dash action as a Bonus Action; your jump distance is doubled.,
-fighter_second_wind,second_wind,1,heal:1d10+class_level.fighter,bonus_action,Second Wind,,Regain hit points equal to 1d10 + your fighter level.,
-fighter_action_surge,action_surge,1,gain_action,free,Action Surge,,Take one additional action on your turn.,
-barbarian_rage_enter,rage,1,apply_effect:rage,bonus_action,Enter Rage,,"On your turn, you can enter a rage as a bonus action.",
-druid_wild_shape_assume,wild_shape,1,assume_form:wild_shape,action,Wild Shape,,Use your action to magically assume the shape of a beast that you have seen before.,
+id,resource_id,cost,action,action_type,name_en,name_uk,text_en,text_uk,granted_by
+flurry_of_blows,ki,1,attack:unarmed_strike:2,bonus_action,Flurry of Blows,,"Immediately after the Attack action, make two Unarmed Strikes as a Bonus Action.",,
+patient_defense,ki,1,note:Take the Dodge action,bonus_action,Patient Defense,,Take the Dodge action as a Bonus Action.,,
+step_of_the_wind,ki,1,note:Disengage or Dash; jump distance doubled,bonus_action,Step of the Wind,,Take the Disengage or Dash action as a Bonus Action; your jump distance is doubled.,,
+fighter_second_wind,second_wind,1,heal:1d10+class_level.fighter,bonus_action,Second Wind,,Regain hit points equal to 1d10 + your fighter level.,,
+fighter_action_surge,action_surge,1,gain_action,free,Action Surge,,Take one additional action on your turn.,,
+barbarian_rage_enter,rage,1,apply_effect:rage,bonus_action,Enter Rage,,"On your turn, you can enter a rage as a bonus action.",,
+druid_wild_shape_assume,wild_shape,1,assume_form:wild_shape,action,Wild Shape,,Use your action to magically assume the shape of a beast that you have seen before.,,
+paladin_lay_on_hands_self,lay_on_hands,x,heal:x,action,Lay on Hands (yourself),,"Touch yourself and restore hit points from the pool, up to the amount remaining in it.",,
+paladin_lay_on_hands_other,lay_on_hands,x,note:Restore that many hit points to the creature you touch,action,Lay on Hands (another creature),,"Touch a creature and restore hit points to it from the pool, up to the amount remaining in it.",,
+paladin_lay_on_hands_cure,lay_on_hands,5,note:Cure one disease or neutralize one poison affecting the creature you touch,action,Lay on Hands (cure),,Expend 5 hit points from the pool to cure the target of one disease or neutralize one poison affecting it.,,
+cleric_turn_undead,channel_divinity,1,note:Each undead within 30 feet that sees or hears you makes a Wisdom save or is turned for 1 minute,action,Turn Undead,,Each undead that can see or hear you within 30 feet must make a Wisdom saving throw. On a failure it is turned for 1 minute or until it takes any damage.,,cleric_channel_divinity
+lifedomain_preserve_life,channel_divinity,1,"note:Divide five times your cleric level in hit points among creatures within 30 feet, none above half its maximum",action,Preserve Life,,"Restore hit points equal to five times your cleric level, divided among creatures within 30 feet. A creature is restored to no more than half its hit point maximum, and not an undead or a construct.",,lifedomain_channel_divinity_preserve_life
+oathofdevotion_sacred_weapon,channel_divinity,1,note:For 1 minute add your Charisma modifier (minimum +1) to attack rolls with the weapon you hold,action,Sacred Weapon,,"For 1 minute, add your Charisma modifier (minimum +1) to attack rolls with one weapon you are holding. It sheds bright light in a 20-foot radius and is magical for the duration.",,oathofdevotion_channel_divinity
+oathofdevotion_turn_the_unholy,channel_divinity,1,note:Each fiend or undead within 30 feet that sees or hears you makes a Wisdom save or is turned for 1 minute,action,Turn the Unholy,,Each fiend or undead that can see or hear you within 30 feet must make a Wisdom saving throw. On a failure it is turned for 1 minute or until it takes damage.,,oathofdevotion_channel_divinity
+monk_stunning_strike,ki,1,note:The creature you hit makes a Constitution save or is stunned until the end of your next turn,free,Stunning Strike,,"When you hit another creature with a melee weapon attack, spend 1 ki point. The target must succeed on a Constitution saving throw or be stunned until the end of your next turn.",,monk_stunning_strike
+sorcerer_create_slot_1,sorcery_points,2,gain_slot:1,bonus_action,Create a level 1 spell slot,,Transform 2 sorcery points into one spell slot of level 1. It vanishes when you finish a long rest.,,
+sorcerer_create_slot_2,sorcery_points,3,gain_slot:2,bonus_action,Create a level 2 spell slot,,Transform 3 sorcery points into one spell slot of level 2. It vanishes when you finish a long rest.,,
+sorcerer_create_slot_3,sorcery_points,5,gain_slot:3,bonus_action,Create a level 3 spell slot,,Transform 5 sorcery points into one spell slot of level 3. It vanishes when you finish a long rest.,,
+sorcerer_create_slot_4,sorcery_points,6,gain_slot:4,bonus_action,Create a level 4 spell slot,,Transform 6 sorcery points into one spell slot of level 4. It vanishes when you finish a long rest.,,
+sorcerer_create_slot_5,sorcery_points,7,gain_slot:5,bonus_action,Create a level 5 spell slot,,Transform 7 sorcery points into one spell slot of level 5. It vanishes when you finish a long rest.,,
