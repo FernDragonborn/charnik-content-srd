@@ -1,11 +1,11 @@
-#content-hash: xxh64:b2667d2745a363d1
+#content-hash: xxh64:d3030e85beb9e3cf
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fd36-72ad-8fc3-f977f1cf41cb
 #content-schema: 2
-#content-updated_at: 2026-10-16
+#content-updated_at: 2026-10-21
 id,class_id,level,subclass_id,expertise_slots,effects,name_en,name_uk,text_en,text_uk,choose
 barbarian_rage,barbarian,1,,,"grant_resource:rage:step(class_level.barbarian, 1->2, 3->3, 6->4, 12->5, 17->6, 20->inf):long",Rage,,"In battle, you fight with primal ferocity. On your turn, you can enter a rage as a bonus action.
 While raging, you gain the following benefits if you aren't wearing heavy armor:
@@ -88,7 +88,13 @@ As an action, you present your holy symbol and speak a prayer censuring the unde
 A turned creature must spend its turns trying to move as far away from you as it can, and it can't willingly move to a space within 30 feet of you. It also can't take reactions. For its action, it can use only the Dash action or try to escape from an effect that prevents it from moving. If there's nowhere to move, the creature can use the Dodge action.",,
 cleric_ability_score_improvement,cleric,4,,,,Ability Score Improvement,,"When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",,
 cleric_destroy_undead,cleric,5,,,,Destroy Undead,,"Starting at 5th level, when an undead fails its saving throw against your Turn Undead feature, the creature is instantly destroyed if its challenge rating is at or below a certain threshold, as shown in the Destroy Undead table.",,
-cleric_destroy_undead_2,cleric,5,,,,Destroy Undead,,<table><tr class=heading><th ><b>Cleric Level </b></th><th ><b>Destroys Undead of CR . . . </b></th></tr><tr><td >5th </td><td >1/2 or lower </td></tr><tr><td >8th </td><td >1 or lower </td></tr><tr><td >11th </td><td >2  or lower </td></tr><tr><td >14th </td><td >3 or lower </td></tr><tr><td >17th </td><td >4 or lower </td></tr></table>,,
+cleric_destroy_undead_2,cleric,5,,,,Destroy Undead,,"| Cleric Level | Destroys Undead of CR . . . |
+| --- | --- |
+| 5th | 1/2 or lower |
+| 8th | 1 or lower |
+| 11th | 2 or lower |
+| 14th | 3 or lower |
+| 17th | 4 or lower |",,
 cleric_divine_intervention,cleric,10,,,,Divine Intervention,,"Beginning at 10th level, you can call on your deity to intervene on your behalf when your need is great. Imploring your deity's aid requires you to use your action. Describe the assistance you seek, and roll percentile dice. If you roll a number equal to or lower than your cleric level, your deity intervenes. The GM chooses the nature of the intervention; the effect of any cleric spell or cleric domain spell would be appropriate. If your deity intervenes, you can't use this feature again for 7 days. Otherwise, you can use it again after you finish a long rest. At 20th level, your call for intervention succeeds automatically, no roll required.",,
 druid_druidic,druid,1,,,,Druidic,,"You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.",,
 druid_spellcasting,druid,1,,,,Spellcasting,,"Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will.
@@ -107,7 +113,13 @@ You can use a druidic focus (see “Equipment”) as a spellcasting focus for yo
 druid_wild_shape,druid,2,,,"grant_resource:wild_shape:step(class_level.druid, 2->2, 20->inf):short;form:wild_shape:creature:beast;form:wild_shape:max_cr:step(class_level.druid, 2->1/4, 4->1/2, 8->1);class_level.druid<4 ? form:wild_shape:without:swim;class_level.druid<8 ? form:wild_shape:without:fly;form:wild_shape:own_hp;form:wild_shape:only_senses;form:wild_shape:worn_only;form:wild_shape:hours:floor(class_level.druid/2);form:wild_shape:ends_when:unconscious",Wild Shape,,"Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.
 Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table. At 2nd level, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swimming speed.
 _Beast Shapes_
-<table><tr class=heading><th ><b>Level </b></th><th ><b>Max.  CR </b></th><th ><b>Limitations </b></th><th ><b>Example </b></th></tr><tr><td >2nd </td><td >1/4 </td><td >No flying or swimming  speed </td><td >Wolf </td></tr><tr><td >4th </td><td >1/2 </td><td >No flying speed </td><td >Crocodile </td></tr><tr><td >8th </td><td >1 </td><td >- </td><td >Giant  eagle </td></tr></table>
+
+| Level | Max. CR | Limitations | Example |
+| --- | --- | --- | --- |
+| 2nd | 1/4 | No flying or swimming speed | Wolf |
+| 4th | 1/2 | No flying speed | Crocodile |
+| 8th | 1 | - | Giant eagle |
+
 You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your
 turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.
 While you are transformed, the following rules apply:
@@ -323,7 +335,15 @@ You can use your sorcery points to gain additional spell slots, or sacrifice spe
 Creating Spell Slots. You can transform un expended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.
 Any spell slot you create with this feature vanishes when you finish a long rest.
 _Creating Spell Slots_
-<table><tr class=heading><th ><b>Spell Slot   Level </b></th><th ><b>Sorcery   Point Cost </b></th></tr><tr><td >1st </td><td >2 </td></tr><tr><td >2nd </td><td >3 </td></tr><tr><td >3rd </td><td >5 </td></tr><tr><td >4th </td><td >6 </td></tr><tr><td >5th </td><td >7 </td></tr></table>
+
+| Spell Slot Level | Sorcery Point Cost |
+| --- | --- |
+| 1st | 2 |
+| 2nd | 3 |
+| 3rd | 5 |
+| 4th | 6 |
+| 5th | 7 |
+
 Converting a Spell Slot to Sorcery Points. As a bonus action on your turn, you can expend one spell
 slot and gain a number of sorcery points equal to the slot's level.",,
 sorcerer_metamagic,sorcerer,3,,,,Metamagic,,"At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level. You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.
@@ -418,7 +438,13 @@ collegeoflore_cutting_words,bard,3,collegeoflore,,,Cutting Words,,"Also at 3rd l
 if it's immune to being charmed.",,
 collegeoflore_additional_magical_secrets,bard,6,collegeoflore,,,Additional Magical Secrets,,"At 6th level, you learn two spells of your choice from any class. A spell you choose must be of a level you can cast, as shown on the Bard table, or a cantrip. The chosen spells count as bard spells for you but don't count against the number of bard spells you know.",,
 collegeoflore_peerless_skill,bard,14,collegeoflore,,,Peerless Skill,,"Starting at 14th level, when you make an ability check, you can expend one use of Bardic Inspiration. Roll a Bardic Inspiration die and add the number rolled to your ability check. You can choose to do so after you roll the die for the ability check, but before the GM tells you whether you succeed or fail.",,
-lifedomain_life_domain_spells,cleric,1,lifedomain,,,Life Domain Spells,,"<table><tr class=heading><th ><b>Cleric Level </b></th><th ><b>Spells </b></th></tr><tr><td >1st </td><td ><em>bless, cure wounds </em></td></tr><tr><td >3rd </td><td ><em>lesser restoration, spiritual weapon </em></td></tr><tr><td >5th </td><td ><em>beacon of hope, revivify </em></td></tr><tr><td >7th </td><td ><em>death ward, guardian of faith </em></td></tr><tr><td >9th </td><td ><em>mass cure wounds, raise dead </em></td></tr></table>",,
+lifedomain_life_domain_spells,cleric,1,lifedomain,,,Life Domain Spells,,"| Cleric Level | Spells |
+| --- | --- |
+| 1st | _bless, cure wounds_ |
+| 3rd | _lesser restoration, spiritual weapon_ |
+| 5th | _beacon of hope, revivify_ |
+| 7th | _death ward, guardian of faith_ |
+| 9th | _mass cure wounds, raise dead_ |",,
 lifedomain_bonus_proficiency,cleric,1,lifedomain,,grant_proficiency:armor.heavy,Bonus Proficiency,,"When you choose this domain at 1st level, you gain proficiency with heavy armor.",,
 lifedomain_disciple_of_life,cleric,1,lifedomain,,,Disciple of Life,,"Also starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level.",,
 lifedomain_channel_divinity_preserve_life,cleric,2,lifedomain,,,Channel Divinity: Preserve Life,,"Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.
@@ -432,13 +458,48 @@ circleoftheland_natural_recovery,druid,2,circleoftheland,,,Natural Recovery,,"St
 For example, when you are a 4th-level druid, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level slot or two 1st-level slots.",,
 circleoftheland_circle_spells,druid,9,circleoftheland,,,Circle Spells,,"Your mystical connection to the land infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid. Choose that land-arctic, coast, desert, forest, grassland, mountain, or swamp-and consult the associated list of spells.
 Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.",,
-circleoftheland_arctic,druid,2,circleoftheland,,,Arctic,,"<table><tr class=heading><th ><b>Druid Level </b></th><th ><b>Circle Spells </b></th></tr><tr><td >3rd </td><td ><em>hold person </em>,  <em>spike growth </em></td></tr><tr><td >5th </td><td ><em>sleet storm </em>,  <em>slow </em></td></tr><tr><td >7th </td><td ><em>freedom of movement </em>,  <em>ice storm </em></td></tr><tr><td >9th </td><td ><em>commune with nature </em>,  <em>cone of cold </em></td></tr></table>",,
-circleoftheland_coast,druid,2,circleoftheland,,,Coast,,"<table><tr class=heading><th ><b>Druid Level </b></th><th ><b>Circle Spells </b></th></tr><tr><td >3rd </td><td ><em>mirror image </em>,  <em>misty step </em></td></tr><tr><td >5th </td><td ><em>water breathing </em>,  <em>water walk </em></td></tr><tr><td >7th </td><td ><em>control water </em>, <em>  freedom of movement </em></td></tr><tr><td >9th </td><td ><em>conjure elemental </em>,  <em>scrying </em></td></tr></table>",,
-circleoftheland_desert,druid,2,circleoftheland,,,Desert,,"<table><tr class=heading><th ><b>Druid Level </b></th><th ><b>Circle Spells </b></th></tr><tr><td >3rd </td><td ><em>blur </em>,  <em>silence </em></td></tr><tr><td >5th </td><td ><em>create food and water </em>,  <em>protection from  energy </em></td></tr><tr><td >7th </td><td ><em>blight </em>,  <em>hallucinatory terrain </em></td></tr><tr><td >9th </td><td ><em>insect plague </em>,  <em>wall of stone </em></td></tr></table>",,
-circleoftheland_forest,druid,2,circleoftheland,,,Forest,,"<table><tr class=heading><th ><b>Druid Level </b></th><th ><b>Circle  Spells </b></th></tr><tr><td >3rd </td><td ><em>barkskin </em>,  <em>spider climb </em></td></tr><tr><td >5th </td><td ><em>call lightning </em>,  <em>plant growth </em></td></tr><tr><td >7th </td><td ><em>divination </em>,  <em>freedom of movement </em></td></tr><tr><td >9th </td><td ><em>commune with nature </em>,  <em>tree stride </em></td></tr></table>",,
-circleoftheland_grassland,druid,2,circleoftheland,,,Grassland,,"<table><tr class=heading><th ><b>Druid Level </b></th><th ><b>Circle Spells </b></th></tr><tr><td >3rd </td><td ><em>invisibility </em>,  <em>pass without trace </em></td></tr><tr><td >5th </td><td ><em>daylight </em>,  <em>haste </em></td></tr><tr><td >7th </td><td ><em>divination </em>,  <em>freedom of movement </em></td></tr><tr><td >9th </td><td ><em>dream </em>,  <em>insect plague </em></td></tr></table>",,
-circleoftheland_mountain,druid,2,circleoftheland,,,Mountain,,"<table><tr class=heading><th ><b>Druid Level </b></th><th ><b>Circle Spells </b></th></tr><tr><td >3rd </td><td ><em>spider climb </em>,  <em>spike growth </em></td></tr><tr><td >5th </td><td ><em>lightning bolt </em>,  <em>meld into stone </em></td></tr><tr><td >7th </td><td ><em>stone shape </em>,  <em>stoneskin </em></td></tr><tr><td >9th </td><td ><em>passwall </em>,  <em>wall of stone </em></td></tr></table>",,
-circleoftheland_swamp,druid,2,circleoftheland,,,Swamp,,"<table><tr class=heading><th ><b>Druid Level </b></th><th ><b>Circle Spells </b></th></tr><tr><td >3rd </td><td ><em>acid arrow,  darkness </em></td></tr><tr><td >5th </td><td ><em>water walk </em>,  <em>stinking cloud </em></td></tr><tr><td >7th </td><td ><em>freedom of movement </em>,  <em>locate creature </em></td></tr><tr><td >9th </td><td ><em>insect plague </em>,  <em>scrying </em></td></tr></table>",,
+circleoftheland_arctic,druid,2,circleoftheland,,,Arctic,,"| Druid Level | Circle Spells |
+| --- | --- |
+| 3rd | _hold person_, _spike growth_ |
+| 5th | _sleet storm_, _slow_ |
+| 7th | _freedom of movement_, _ice storm_ |
+| 9th | _commune with nature_, _cone of cold_ |",,
+circleoftheland_coast,druid,2,circleoftheland,,,Coast,,"| Druid Level | Circle Spells |
+| --- | --- |
+| 3rd | _mirror image_, _misty step_ |
+| 5th | _water breathing_, _water walk_ |
+| 7th | _control water_, _freedom of movement_ |
+| 9th | _conjure elemental_, _scrying_ |",,
+circleoftheland_desert,druid,2,circleoftheland,,,Desert,,"| Druid Level | Circle Spells |
+| --- | --- |
+| 3rd | _blur_, _silence_ |
+| 5th | _create food and water_, _protection from energy_ |
+| 7th | _blight_, _hallucinatory terrain_ |
+| 9th | _insect plague_, _wall of stone_ |",,
+circleoftheland_forest,druid,2,circleoftheland,,,Forest,,"| Druid Level | Circle Spells |
+| --- | --- |
+| 3rd | _barkskin_, _spider climb_ |
+| 5th | _call lightning_, _plant growth_ |
+| 7th | _divination_, _freedom of movement_ |
+| 9th | _commune with nature_, _tree stride_ |",,
+circleoftheland_grassland,druid,2,circleoftheland,,,Grassland,,"| Druid Level | Circle Spells |
+| --- | --- |
+| 3rd | _invisibility_, _pass without trace_ |
+| 5th | _daylight_, _haste_ |
+| 7th | _divination_, _freedom of movement_ |
+| 9th | _dream_, _insect plague_ |",,
+circleoftheland_mountain,druid,2,circleoftheland,,,Mountain,,"| Druid Level | Circle Spells |
+| --- | --- |
+| 3rd | _spider climb_, _spike growth_ |
+| 5th | _lightning bolt_, _meld into stone_ |
+| 7th | _stone shape_, _stoneskin_ |
+| 9th | _passwall_, _wall of stone_ |",,
+circleoftheland_swamp,druid,2,circleoftheland,,,Swamp,,"| Druid Level | Circle Spells |
+| --- | --- |
+| 3rd | _acid arrow, darkness_ |
+| 5th | _water walk_, _stinking cloud_ |
+| 7th | _freedom of movement_, _locate creature_ |
+| 9th | _insect plague_, _scrying_ |",,
 circleoftheland_lands_stride,druid,6,circleoftheland,,,Land's Stride,,"Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.
 In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the
 entangle spell.",,
@@ -469,7 +530,13 @@ Compassion. Aid others, protect the weak, and punish those who threaten them. Sh
 Honor. Treat others with fairness, and let your honorable deeds be an example to them. Do as much good as possible while causing the least amount of harm.
 Duty. Be responsible for your actions and their consequences, protect those entrusted to your care, and obey those who have just authority over you.",,
 oathofdevotion_oath_spells,paladin,3,oathofdevotion,,,Oath Spells,,You gain oath spells at the paladin levels listed.,,
-oathofdevotion_oath_of_devotion_spells,paladin,3,oathofdevotion,,,Oath of Devotion Spells,,"<table><tr class=heading><th ><b>Paladin  Level </b></th><th ><b>Spells </b></th></tr><tr><td >3rd </td><td ><em>protection from evil and good, sanct ua ry </em></td></tr><tr><td >5th </td><td ><em>lesser restoration, zone of truth </em></td></tr><tr><td >9th </td><td ><em>beacon of hope, dispel magic </em></td></tr><tr><td >13th </td><td ><em>freedom of movement, guardian of faith </em></td></tr><tr><td >17th </td><td ><em>commune, flame strike </em></td></tr></table>",,
+oathofdevotion_oath_of_devotion_spells,paladin,3,oathofdevotion,,,Oath of Devotion Spells,,"| Paladin Level | Spells |
+| --- | --- |
+| 3rd | _protection from evil and good, sanct ua ry_ |
+| 5th | _lesser restoration, zone of truth_ |
+| 9th | _beacon of hope, dispel magic_ |
+| 13th | _freedom of movement, guardian of faith_ |
+| 17th | _commune, flame strike_ |",,
 oathofdevotion_channel_divinity,paladin,3,oathofdevotion,,,Channel Divinity,,"When you take this oath at 3rd level, you gain the following two Channel Divinity options.
 Sacred Weapon. As an action, you can imbue one weapon that you are holding with positive energy, using your Channel Divinity. For 1 minute, you add your Charisma modifier to attack rolls made with that weapon (with a minimum bonus of +1). The weapon also emits bright light in a 20-foot radius and dim light 20 feet beyond that. If the weapon is not already magical, it becomes magical for the duration.
 You can end this effect on your turn as part of any other action. If you are no longer holding or
@@ -509,14 +576,23 @@ thief_supreme_sneak,rogue,9,thief,,,Supreme Sneak,,"Starting at 9th level, you h
 thief_use_magic_device,rogue,13,thief,,,Use Magic Device,,"By 13th level, you have learned enough about the workings of magic that you can improvise the use of items even when they are not intended for you. You ignore all class, race, and level requirements on the use of magic items.",,
 thief_thiefs_reflexes,rogue,17,thief,,,Thief's Reflexes,,"When you reach 17th level, you have become adept at laying ambushes and quickly escaping danger. You can take two turns during the first round of any combat. You take your first turn at your normal initiative and your second turn at your initiative minus 10. You can't use this feature when you are surprised.",,
 draconicbloodline_dragon_ancestor,sorcerer,1,draconicbloodline,,,Dragon Ancestor,,"At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.",,
-draconicbloodline_draconic_ancestry,sorcerer,6,draconicbloodline,,not is_wearing_armor ? set_base:ac:13+dex_mod,Draconic Ancestry,,"<table><tr class=heading><th ><b>Dragon </b></th><th ><b>Damage Type </b></th></tr><tr><td >Black </td><td >Acid </td></tr></table>
+draconicbloodline_draconic_ancestry,sorcerer,6,draconicbloodline,,not is_wearing_armor ? set_base:ac:13+dex_mod,Draconic Ancestry,,"| Dragon | Damage Type |
+| --- | --- |
+| Black | Acid |
+
 <table><tr><td >Blue </td><td >Lightning </td></tr><tr><td >Brass </td><td >Fire </td></tr><tr><td >Bronze </td><td >Lightning </td></tr><tr><td >Copper </td><td >Acid </td></tr><tr><td >Gold </td><td >Fire </td></tr><tr><td >Green </td><td >Poison </td></tr><tr><td >Red </td><td >Fire </td></tr><tr><td >Silver </td><td >Cold </td></tr><tr><td >White </td><td >Cold  You can speak, read, and write Draconic.  Additionally, whenever you make a Charisma check  when interacting with dragons, your proficiency  bonus is doubled if it applies to the check.  <span style='color: DarkRed;'><b>Draconic Resilience  </b></span>As magic flows through your body,  it causes physical  traits of your dragon ancestors to emerge. At 1st  level, your hit point maximum increases by 1 and  increases by 1 again whenever you gain a level in  this class.     Additionally, parts of your skin are covered by a  thin sheen of dragon -like scales. When you aren’t  wearing armor, your AC equals 13 + your Dexterity  modifier. </td></tr></table>
 ElementalAffinity Starting at 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, you can add your Charisma modifier to one damage roll of that spell. At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.",,
 draconicbloodline_dragon_wings,sorcerer,14,draconicbloodline,,,Dragon Wings,,"At 14th level, you gain the ability to sprout a pair of dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn. You can't manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them.",,
 draconicbloodline_draconic_presence,sorcerer,18,draconicbloodline,,,Draconic Presence,,"Beginning at 18th level, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or frightened. As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute or until you lose your concentration (as if you were casting a concentration spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be charmed (if you chose awe) or
 frightened (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours.",,
 thefiend_expanded_spell_list,warlock,1,thefiend,,,Expanded Spell List,,The Fiend lets you choose from an expanded list of spells when you learn a warlock spell. The following spells are added to the warlock spell list for you.,,
-thefiend_fiend_expanded_spells,warlock,1,thefiend,,,Fiend Expanded Spells,,"<table><tr class=heading><th ><b>Spell Level </b></th><th ><b>Spells </b></th></tr><tr><td >1st </td><td ><em>burning hands, command </em></td></tr><tr><td >2nd </td><td ><em>blindness/deafness, scorching ray </em></td></tr><tr><td >3rd </td><td ><em>fireball, stinking cloud </em></td></tr><tr><td >4th </td><td ><em>fire shield, wall of fire </em></td></tr><tr><td >5th </td><td ><em>flame strike, hallow </em></td></tr></table>",,
+thefiend_fiend_expanded_spells,warlock,1,thefiend,,,Fiend Expanded Spells,,"| Spell Level | Spells |
+| --- | --- |
+| 1st | _burning hands, command_ |
+| 2nd | _blindness/deafness, scorching ray_ |
+| 3rd | _fireball, stinking cloud_ |
+| 4th | _fire shield, wall of fire_ |
+| 5th | _flame strike, hallow_ |",,
 thefiend_dark_ones_blessing,warlock,1,thefiend,,,Dark One's Blessing,,"Starting at 1st level, when you reduce a hostile creature to 0 hit points, you gain temporary hit points equal to your Charisma modifier + your warlock level (minimum of 1).",,
 thefiend_dark_ones_own_luck,warlock,6,thefiend,,,Dark One's Own Luck,,"Starting at 6th level, you can call on your patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to
 add a d10 to your roll. You can do so after seeing the initial roll but before any of the roll's effects occur. Once you use this feature, you can't use it again until you finish a short or long rest.",,

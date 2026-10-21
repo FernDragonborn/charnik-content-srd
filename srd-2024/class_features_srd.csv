@@ -1,4 +1,4 @@
-#content-hash: xxh64:64062f90d306f21a
+#content-hash: xxh64:05876c2cd41ea4e1
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -120,32 +120,13 @@ cleric_greater_divine_intervention,cleric,20,,,,,Greater Divine Intervention,,"Y
 life_domain_disciple_of_life,cleric,3,life_domain,,,,Disciple of Life,,"When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level.",,,
 life_domain_life_domain_spells,cleric,3,life_domain,,,,Life Domain Spells,,"Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed spells prepared.
 **Life Domain Spells**
-<table>
-<thead>
-<tr>
-<th>Cleric Level</th>
-<th>Prepared Spells</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>3</td>
-<td>Aid, Bless, Cure Wounds, Lesser Restoration</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Mass Healing Word, Revivify</td>
-</tr>
-<tr>
-<td>7</td>
-<td>Aura of Life, Death Ward</td>
-</tr>
-<tr>
-<td>9</td>
-<td>Greater Restoration, Mass Cure Wounds</td>
-</tr>
-</tbody>
-</table>",,,
+
+| Cleric Level | Prepared Spells |
+| --- | --- |
+| 3 | Aid, Bless, Cure Wounds, Lesser Restoration |
+| 5 | Mass Healing Word, Revivify |
+| 7 | Aura of Life, Death Ward |
+| 9 | Greater Restoration, Mass Cure Wounds |",,,
 life_domain_preserve_life,cleric,3,life_domain,,,,Preserve Life,,"As a Magic action, you present your Holy Symbol and expend a use of your Channel Divinity to evoke healing energy that can restore a number of Hit Points equal to five times your Cleric level. Choose Bloodied creatures within 30 feet of yourself (which can include you), and divide those Hit Points among them. This feature can restore a creature to no more than half its Hit Point maximum.",,,
 life_domain_blessed_healer,cleric,6,life_domain,,,,Blessed Healer,,"The healing spells you cast on others heal you as well. Immediately after you cast a spell with a spell slot that restores Hit Points to one or more creatures other than yourself, you regain Hit Points equal to 2 plus the spell slot's level.",,,
 life_domain_supreme_healing,cleric,17,life_domain,,,,Supreme Healing,,"When you would normally roll one or more dice to restore Hit Points to a creature with a spell or Channel Divinity, don't roll those dice for the healing; instead use the highest number possible for each die. For example, instead of restoring 2d6 Hit Points to a creature with a spell, you restore 12.",,,
@@ -172,36 +153,13 @@ _Known Forms._ You know four Beast forms for this feature, chosen from among Bea
 When you reach certain Druid levels, your number of known forms and the maximum Challenge Rating for those forms increases, as shown in the Beast Shapes table. In addition, starting at level 8, you can adopt a form that has a Fly Speed.
 When choosing known forms, you may look in other sources for eligible Beasts if the Game Master permits you to do so.
 **Beast Shapes**
-<table>
-<thead>
-<tr>
-<th>Druid Level</th>
-<th>Known Forms</th>
-<th>Max CR</th>
-<th>Fly Speed</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>2</td>
-<td>4</td>
-<td>1/4</td>
-<td>No</td>
-</tr>
-<tr>
-<td>4</td>
-<td>6</td>
-<td>1/2</td>
-<td>No</td>
-</tr>
-<tr>
-<td>8</td>
-<td>8</td>
-<td>1</td>
-<td>Yes</td>
-</tr>
-</tbody>
-</table>
+
+| Druid Level | Known Forms | Max CR | Fly Speed |
+| --- | --- | --- | --- |
+| 2 | 4 | 1/4 | No |
+| 4 | 6 | 1/2 | No |
+| 8 | 8 | 1 | Yes |
+
 **Rules While Shape-Shifted.** While in a form, you retain your personality, memories, and ability to speak, and the following rules apply:
 **Temporary Hit Points.** When you assume a Wild Shape form, you gain a number of Temporary Hit Points equal to your Druid level.
 **Game Statistics.** Your game statistics are replaced by the Beast's stat block, but you retain your creature type; Hit Points; Hit Point Dice; Intelligence, Wisdom, and Charisma scores; class features; languages; and feats. You also retain your skill and saving throw proficiencies and use your Proficiency Bonus for them, in addition to gaining the proficiencies of the creature. If a skill or saving throw modifier in the Beast's stat block is higher than yours, use the one in the stat block.
@@ -227,143 +185,51 @@ _Nature Magician._ You can convert uses of Wild Shape into a spell slot (no acti
 _Longevity._ The primal magic that you wield causes you to age more slowly. For every ten years that pass, your body ages only one year.",,,
 circle_of_the_land_circle_of_the_land_spells,druid,3,circle_of_the_land,,,,Circle of the Land Spells,,"Whenever you finish a Long Rest, choose one type of land: arid, polar, temperate, or tropical. Consult the table below that corresponds to the chosen type; you have the spells listed for your Druid level and lower prepared.
 **Arid Land**
-<table>
-<thead>
-<tr>
-<th>Druid Level</th>
-<th>Circle Spells</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>3</td>
-<td>Blur, Burning Hands, Fire Bolt</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Fireball</td>
-</tr>
-<tr>
-<td>7</td>
-<td>Blight</td>
-</tr>
-<tr>
-<td>9</td>
-<td>Wall of Stone</td>
-</tr>
-</tbody>
-</table>
+
+| Druid Level | Circle Spells |
+| --- | --- |
+| 3 | Blur, Burning Hands, Fire Bolt |
+| 5 | Fireball |
+| 7 | Blight |
+| 9 | Wall of Stone |
+
 **Polar Land**
-<table>
-<thead>
-<tr>
-<th>Druid Level</th>
-<th>Circle Spells</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>3</td>
-<td>Fog Cloud, Hold Person, Ray of Frost</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Sleet Storm</td>
-</tr>
-<tr>
-<td>7</td>
-<td>Ice Storm</td>
-</tr>
-<tr>
-<td>9</td>
-<td>Cone of Cold</td>
-</tr>
-</tbody>
-</table>
+
+| Druid Level | Circle Spells |
+| --- | --- |
+| 3 | Fog Cloud, Hold Person, Ray of Frost |
+| 5 | Sleet Storm |
+| 7 | Ice Storm |
+| 9 | Cone of Cold |
+
 **Temperate Land**
-<table>
-<thead>
-<tr>
-<th>Druid Level</th>
-<th>Circle Spells</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>3</td>
-<td>Misty Step, Shocking Grasp, Sleep</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Lightning Bolt</td>
-</tr>
-<tr>
-<td>7</td>
-<td>Freedom of Movement</td>
-</tr>
-<tr>
-<td>9</td>
-<td>Tree Stride</td>
-</tr>
-</tbody>
-</table>
+
+| Druid Level | Circle Spells |
+| --- | --- |
+| 3 | Misty Step, Shocking Grasp, Sleep |
+| 5 | Lightning Bolt |
+| 7 | Freedom of Movement |
+| 9 | Tree Stride |
+
 **Tropical Land**
-<table>
-<thead>
-<tr>
-<th>Druid Level</th>
-<th>Circle Spells</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>3</td>
-<td>Acid Splash, Ray of Sickness, Web</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Stinking Cloud</td>
-</tr>
-<tr>
-<td>7</td>
-<td>Polymorph</td>
-</tr>
-<tr>
-<td>9</td>
-<td>Insect Plague</td>
-</tr>
-</tbody>
-</table>",,,
+
+| Druid Level | Circle Spells |
+| --- | --- |
+| 3 | Acid Splash, Ray of Sickness, Web |
+| 5 | Stinking Cloud |
+| 7 | Polymorph |
+| 9 | Insect Plague |",,,
 circle_of_the_land_lands_aid,druid,3,circle_of_the_land,,,,Land's Aid,,"As a Magic action, you can expend a use of your Wild Shape and choose a point within 60 feet of yourself. Vitality-giving flowers and life-draining thorns appear for a moment in a 10-foot-radius Sphere centered on that point. Each creature of your choice in the Sphere must make a Constitution saving throw against your spell save DC, taking 2d6 Necrotic damage on a failed save or half as much damage on a successful one. One creature of your choice in that area regains 2d6 Hit Points.
 The damage and healing increase by 1d6 when you reach Druid levels 10 (3d6) and 14 (4d6).",,,
 circle_of_the_land_natural_recovery,druid,6,circle_of_the_land,,,,Natural Recovery,,"You can cast one of the level 1+ spells that you have prepared from your Circle Spells feature without expending a spell slot, and you must finish a Long Rest before you do so again.
 In addition, when you finish a Short Rest, you can choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your Druid level (round up), and none of them can be level 6+. For example, if you're a level 6 Druid, you can recover up to three levels' worth of spell slots. You can recover a level 3 spell slot, a level 2 and a level 1 spell slot, or three level 1 spell slots. Once you recover spell slots with this feature, you can't do so again until you finish a Long Rest.",,,
 circle_of_the_land_natures_ward,druid,10,circle_of_the_land,,,condition_immunity:poisoned,Nature's Ward,,"You are immune to the Poisoned condition, and you have Resistance to a damage type associated with your current land choice in the Circle Spells feature, as shown in the Nature's Ward table.
 **Nature's Ward**
-<table>
-<thead>
-<tr>
-<th>Land Type</th>
-<th>Resistance</th>
-<th>Land Type</th>
-<th>Resistance</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Arid</td>
-<td>Fire</td>
-<td>Temperate</td>
-<td>Lightning</td>
-</tr>
-<tr>
-<td>Polar</td>
-<td>Cold</td>
-<td>Tropical</td>
-<td>Poison</td>
-</tr>
-</tbody>
-</table>",,,
+
+| Land Type | Resistance | Land Type | Resistance |
+| --- | --- | --- | --- |
+| Arid | Fire | Temperate | Lightning |
+| Polar | Cold | Tropical | Poison |",,,
 circle_of_the_land_natures_sanctuary,druid,14,circle_of_the_land,,,,Nature's Sanctuary,,"As a Magic action, you can expend a use of your Wild Shape and cause spectral trees and vines to appear in a 15-foot Cube on the ground within 120 feet of yourself. They last there for 1 minute or until you have the Incapacitated condition or die. You and your allies have Half Cover while in that area, and your allies gain the current Resistance of your Nature's Ward while there.
 As a Bonus Action, you can move the Cube up to 60 feet to ground within 120 feet of yourself.",,,
 fighter_fighting_style,fighter,1,,,,,Fighting Style,,"You have honed your martial prowess and gain a Fighting Style feat of your choice (see ""Feats""). Defense is recommended.
@@ -491,36 +357,14 @@ paladin_aura_expansion,paladin,18,,,,,Aura Expansion,,Your Aura of Protection is
 paladin_epic_boon,paladin,19,,,,,Epic Boon,,"You gain an Epic Boon feat (see ""Feats"") or another feat of your choice for which you qualify. Boon of Truesight is recommended.",,,
 oath_of_devotion_oath_of_devotion_spells,paladin,3,oath_of_devotion,,,,Oath of Devotion Spells,,"The magic of your oath ensures you always have certain spells ready; when you reach a Paladin level specified in the Oath of Devotion Spells table, you thereafter always have the listed spells prepared.
 **Oath of Devotion Spells**
-<table>
-<thead>
-<tr>
-<th>Paladin Level</th>
-<th>Spells</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>3</td>
-<td>Protection from Evil and Good, Shield of Faith</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Aid, Zone of Truth</td>
-</tr>
-<tr>
-<td>9</td>
-<td>Beacon of Hope, Dispel Magic</td>
-</tr>
-<tr>
-<td>13</td>
-<td>Freedom of Movement, Guardian of Faith</td>
-</tr>
-<tr>
-<td>17</td>
-<td>Commune, Flame Strike</td>
-</tr>
-</tbody>
-</table>",,,
+
+| Paladin Level | Spells |
+| --- | --- |
+| 3 | Protection from Evil and Good, Shield of Faith |
+| 5 | Aid, Zone of Truth |
+| 9 | Beacon of Hope, Dispel Magic |
+| 13 | Freedom of Movement, Guardian of Faith |
+| 17 | Commune, Flame Strike |",,,
 oath_of_devotion_sacred_weapon,paladin,3,oath_of_devotion,,,,Sacred Weapon,,"When you take the Attack action, you can expend one use of your Channel Divinity to imbue one Melee weapon that you are holding with positive energy. For 10 minutes or until you use this feature again, you add your Charisma modifier to attack rolls you make with that weapon (minimum bonus of +1), and each time you hit with it, you cause it to deal its normal damage type or Radiant damage.
 The weapon also emits Bright Light in a 20-foot radius and Dim Light 20 feet beyond that.
 You can end this effect early (no action required). This effect also ends if you aren't carrying the weapon.",,,
@@ -635,42 +479,14 @@ _Converting Spell Slots to Sorcery Points._ You can expend a spell slot to gain 
 _Creating Spell Slots._ As a Bonus Action, you can transform unexpended Sorcery Points into one spell slot. The Creating Spell Slots table shows the cost of creating a spell slot of a given level, and it lists the minimum Sorcerer level you must be to create a slot. You can create a spell slot no higher than level 5.
 Any spell slot you create with this feature vanishes when you finish a Long Rest.
 **Creating Spell Slots**
-<table>
-<thead>
-<tr>
-<th>Spell Slot Level</th>
-<th>Sorcery Point Cost</th>
-<th>Min. Sorcerer Level</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>2</td>
-<td>2</td>
-</tr>
-<tr>
-<td>2</td>
-<td>3</td>
-<td>3</td>
-</tr>
-<tr>
-<td>3</td>
-<td>5</td>
-<td>5</td>
-</tr>
-<tr>
-<td>4</td>
-<td>6</td>
-<td>7</td>
-</tr>
-<tr>
-<td>5</td>
-<td>7</td>
-<td>9</td>
-</tr>
-</tbody>
-</table>",,,
+
+| Spell Slot Level | Sorcery Point Cost | Min. Sorcerer Level |
+| --- | --- | --- |
+| 1 | 2 | 2 |
+| 2 | 3 | 3 |
+| 3 | 5 | 5 |
+| 4 | 6 | 7 |
+| 5 | 7 | 9 |",,,
 sorcerer_metamagic,sorcerer,2,,,,,Metamagic,,"Because your magic flows from within, you can alter your spells to suit your needs; you gain two Metamagic options of your choice from ""Metamagic Options"" later in this class's description. You use the chosen options to temporarily modify spells you cast. To use an option, you must spend the number of Sorcery Points that it costs.
 You can use only one Metamagic option on a spell when you cast it unless otherwise noted in one of those options.
 Whenever you gain a Sorcerer level, you can replace one of your Metamagic options with one you don't know. You gain two more options at Sorcerer level 10 and two more at Sorcerer level 17.",,"2:2,10:2,17:2",
@@ -685,32 +501,13 @@ draconic_sorcery_draconic_resilience,sorcerer,3,draconic_sorcery,,,not is_wearin
 Parts of you are also covered by dragon-like scales. While you aren't wearing armor, your base Armor Class equals 10 plus your Dexterity and Charisma modifiers.",,,
 draconic_sorcery_draconic_spells,sorcerer,3,draconic_sorcery,,,,Draconic Spells,,"When you reach a Sorcerer level specified in the Draconic Spells table, you thereafter always have the listed spells prepared.
 **Draconic Spells**
-<table>
-<thead>
-<tr>
-<th>Sorcerer Level</th>
-<th>Spells</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>3</td>
-<td>Alter Self, Chromatic Orb, Command, Dragon's Breath</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Fear, Fly</td>
-</tr>
-<tr>
-<td>7</td>
-<td>Arcane Eye, Charm Monster</td>
-</tr>
-<tr>
-<td>9</td>
-<td>Legend Lore, Summon Dragon</td>
-</tr>
-</tbody>
-</table>",,,
+
+| Sorcerer Level | Spells |
+| --- | --- |
+| 3 | Alter Self, Chromatic Orb, Command, Dragon's Breath |
+| 5 | Fear, Fly |
+| 7 | Arcane Eye, Charm Monster |
+| 9 | Legend Lore, Summon Dragon |",,,
 draconic_sorcery_elemental_affinity,sorcerer,6,draconic_sorcery,,,,Elemental Affinity,,"Your draconic magic has an affinity with a damage type associated with dragons. Choose one of those types: Acid, Cold, Fire, Lightning, or Poison.
 You have Resistance to that damage type, and when you cast a spell that deals damage of that type, you can add your Charisma modifier to one damage roll of that spell.",,,
 draconic_sorcery_dragon_wings,sorcerer,14,draconic_sorcery,,,,Dragon Wings,,"As a Bonus Action, you can cause draconic wings to appear on your back. The wings last for 1 hour or until you dismiss them (no action required). For the duration, you have a Fly Speed of 60 feet.
@@ -747,32 +544,13 @@ warlock_eldritch_master,warlock,20,,,,,Eldritch Master,,"When you use your Magic
 fiend_patron_dark_ones_blessing,warlock,3,fiend_patron,,,,Dark One's Blessing,,"When you reduce an enemy to 0 Hit Points, you gain Temporary Hit Points equal to your Charisma modifier plus your Warlock level (minimum of 1 Temporary Hit Point). You also gain this benefit if someone else reduces an enemy within 10 feet of you to 0 Hit Points.",,,
 fiend_patron_fiend_spells,warlock,3,fiend_patron,,,,Fiend Spells,,"The magic of your patron ensures you always have certain spells ready; when you reach a Warlock level specified in the Fiend Spells table, you thereafter always have the listed spells prepared.
 **Fiend Spells**
-<table>
-<thead>
-<tr>
-<th>Warlock Level</th>
-<th>Spells</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>3</td>
-<td>Burning Hands, Command, Scorching Ray, Suggestion</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Fireball, Stinking Cloud</td>
-</tr>
-<tr>
-<td>7</td>
-<td>Fire Shield, Wall of Fire</td>
-</tr>
-<tr>
-<td>9</td>
-<td>Geas, Insect Plague</td>
-</tr>
-</tbody>
-</table>",,,
+
+| Warlock Level | Spells |
+| --- | --- |
+| 3 | Burning Hands, Command, Scorching Ray, Suggestion |
+| 5 | Fireball, Stinking Cloud |
+| 7 | Fire Shield, Wall of Fire |
+| 9 | Geas, Insect Plague |",,,
 fiend_patron_dark_ones_own_luck,warlock,6,fiend_patron,,,,Dark One's Own Luck,,"You can call on your fiendish patron to alter fate in your favor. When you make an ability check or a saving throw, you can use this feature to add 1d10 to your roll. You can do so after seeing the roll but before any of the roll's effects occur.
 You can use this feature a number of times equal to your Charisma modifier (minimum of once), but you can use it no more than once per roll. You regain all expended uses when you finish a Long Rest.",,,
 fiend_patron_fiendish_resilience,warlock,10,fiend_patron,,,,Fiendish Resilience,,"Choose one damage type, other than Force, whenever you finish a Short or Long Rest. You have Resistance to that damage type until you choose a different one with this feature.",,,

@@ -1,10 +1,10 @@
-#content-hash: xxh64:c6684cdf8c1f3ef7
+#content-hash: xxh64:4bb5ec0b9faf66a9
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f7172-ddd7-73d6-a565-f3f21a4cc776
-#content-updated_at: 2026-10-14
+#content-updated_at: 2026-10-21
 #content-schema: 1
 id,level,school,casting_time,range,components,material,duration,concentration,ritual,classes,resolution,save_ability,damage,higher_level,upcast,effects,name_en,name_uk,text_en,text_uk
 acid_splash,0,evocation,Action,60 feet,"V,S",,Instantaneous,false,false,"sorcerer,wizard",save,dex,1d6 acid,"The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).",,,Acid Splash,,"You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere. Each creature in that Sphere must succeed on a Dexterity saving throw or take 1d6 Acid damage.",
@@ -173,32 +173,14 @@ arcanists_magic_aura,2,illusion,Action,Touch,"V,S,M",a small square of silk,24 h
 _Mask (Creature)._ Choose a creature type other than the target's actual type. Spells and other magical effects treat the target as if it were a creature of the chosen type.
 _False Aura (Object)._ You change the way the target appears to spells and magical effects that detect magical auras, such as _Detect Magic_. You can make a nonmagical object appear magical, make a magic item appear nonmagical, or change the object's aura so that it appears to belong to a school of magic you choose.",
 augury,2,divination,1 minute,Self,"V,S,M","specially marked sticks, bones, cards, or other divinatory tokens worth 25+ GP",Instantaneous,false,true,"cleric,druid,wizard",none,,,,,,Augury,,"You receive an omen from an otherworldly entity about the results of a course of action that you plan to take within the next 30 minutes. The GM chooses the omen from the Omens table.
-<table>
-<thead>
-<tr>
-<th>Omen</th>
-<th>For Results That Will Be …</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Weal</td>
-<td>Good</td>
-</tr>
-<tr>
-<td>Woe</td>
-<td>Bad</td>
-</tr>
-<tr>
-<td>Weal and woe</td>
-<td>Good and bad</td>
-</tr>
-<tr>
-<td>Indifference</td>
-<td>Neither good nor bad</td>
-</tr>
-</tbody>
-</table>
+
+| Omen | For Results That Will Be … |
+| --- | --- |
+| Weal | Good |
+| Woe | Bad |
+| Weal and woe | Good and bad |
+| Indifference | Neither good nor bad |
+
 The spell doesn't account for circumstances, such as other spells, that might change the results.
 If you cast the spell more than once before finishing a Long Rest, there is a cumulative 25 percent chance for each casting after the first that you get no answer.",
 barkskin,2,transmutation,Bonus Action,Touch,"V,S,M",a handful of bark,1 hour,false,false,"druid,ranger",none,,,,,set_override:ac:17:floor,Barkskin,,"You touch a willing creature. Until the spell ends, the target's skin assumes a bark-like appearance, and the target has an Armor Class of 17 if its AC is lower than that.",
@@ -466,32 +448,14 @@ charm_monster,4,enchantment,Action,30 feet,"V,S",,1 hour,false,false,"bard,druid
 compulsion,4,enchantment,Action,30 feet,"V,S",,"Concentration, up to 1 minute",true,false,bard,save,wis,,,,,Compulsion,,"Each creature of your choice that you can see within range must succeed on a Wisdom saving throw or have the Charmed condition until the spell ends.
 For the duration, you can take a Bonus Action to designate a direction that is horizontal to you. Each Charmed target must use as much of its movement as possible to move in that direction on its next turn, taking the safest route. After moving in this way, a target repeats the save, ending the spell on itself on a success.",
 confusion,4,enchantment,Action,90 feet,"V,S,M",three nut shells,"Concentration, up to 1 minute",true,false,"bard,druid,sorcerer,wizard",save,wis,,The Sphere's radius increases by 5 feet for each spell slot level above 4.,,,Confusion,,"Each creature in a 10-foot-radius Sphere centered on a point you choose within range must succeed on a Wisdom saving throw, or that target can't take Bonus Actions or Reactions and must roll 1d10 at the start of each of its turns to determine its behavior for that turn, consulting the table below.
-<table>
-<thead>
-<tr>
-<th>1d10</th>
-<th>Behavior for the Turn</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>The target doesn't take an action, and it uses all its movement to move. Roll 1d4 for the direction: 1, north; 2, east; 3, south; or 4, west.</td>
-</tr>
-<tr>
-<td>2–6</td>
-<td>The target doesn't move or take actions.</td>
-</tr>
-<tr>
-<td>7–8</td>
-<td>The target doesn't move, and it takes the Attack action to make one melee attack against a random creature within reach. If none are within reach, the target takes no action.</td>
-</tr>
-<tr>
-<td>9–10</td>
-<td>The target chooses its behavior.</td>
-</tr>
-</tbody>
-</table>
+
+| 1d10 | Behavior for the Turn |
+| --- | --- |
+| 1 | The target doesn't take an action, and it uses all its movement to move. Roll 1d4 for the direction: 1, north; 2, east; 3, south; or 4, west. |
+| 2–6 | The target doesn't move or take actions. |
+| 7–8 | The target doesn't move, and it takes the Attack action to make one melee attack against a random creature within reach. If none are within reach, the target takes no action. |
+| 9–10 | The target chooses its behavior. |
+
 At the end of each of its turns, an affected target repeats the save, ending the spell on itself on a success.",
 conjure_minor_elementals,4,conjuration,Action,Self,"V,S",,"Concentration, up to 10 minutes",true,false,"druid,wizard",none,,2d8,The damage increases by 1d8 for each spell slot level above 4.,damage:per_slot(1d8),,Conjure Minor Elementals,,"You conjure spirits from the Elemental Planes that flit around you in a 15-foot Emanation for the duration. Until the spell ends, any attack you make deals an extra 2d8 damage when you hit a creature in the Emanation. This damage is Acid, Cold, Fire, or Lightning (your choice when you make the attack).
 In addition, the ground in the Emanation is Difficult Terrain for your enemies.",
@@ -653,36 +617,14 @@ The target must repeat the saving throw at the end of each of its turns until it
 Whenever the Poisoned target receives an effect that would end the Poisoned condition, the target must succeed on a Constitution saving throw, or the Poisoned condition doesn't end on it.",
 creation,5,illusion,1 minute,30 feet,"V,S,M",a paintbrush,Special,false,false,"sorcerer,wizard",none,,,The Cube increases by 5 feet for each spell slot level above 5.,,,Creation,,"You pull wisps of shadow material from the Shadowfell to create an object within range. It is either an object of vegetable matter (soft goods, rope, wood, and the like) or mineral matter (stone, crystal, metal, and the like). The object must be no larger than a 5-foot Cube, and the object must be of a form and material that you have seen.
 The spell's duration depends on the object's material, as shown in the Materials table. If the object is composed of multiple materials, use the shortest duration. Using any object created by this spell as another spell's Material component causes the other spell to fail.
-<table>
-<thead>
-<tr>
-<th>Material</th>
-<th>Duration</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Vegetable matter</td>
-<td>24 hours</td>
-</tr>
-<tr>
-<td>Stone or crystal</td>
-<td>12 hours</td>
-</tr>
-<tr>
-<td>Precious metals</td>
-<td>1 hour</td>
-</tr>
-<tr>
-<td>Gems</td>
-<td>10 minutes</td>
-</tr>
-<tr>
-<td>Adamantine or mithral</td>
-<td>1 minute</td>
-</tr>
-</tbody>
-</table>",
+
+| Material | Duration |
+| --- | --- |
+| Vegetable matter | 24 hours |
+| Stone or crystal | 12 hours |
+| Precious metals | 1 hour |
+| Gems | 10 minutes |
+| Adamantine or mithral | 1 minute |",
 dispel_evil_and_good,5,abjuration,Action,Self,"V,S,M",powdered silver and iron,"Concentration, up to 1 minute",true,false,"cleric,paladin",save,cha,,,,,Dispel Evil and Good,,"For the duration, Celestials, Elementals, Fey, Fiends, and Undead have Disadvantage on attack rolls against you. You can end the spell early by using either of the following special functions.
 _Break Enchantment._ As a Magic action, you touch a creature that is possessed by or has the Charmed or Frightened condition from one or more creatures of the types above. The target is no longer possessed, Charmed, or Frightened by such creatures.
 _Dismissal._ As a Magic action, you target one creature you can see within 5 feet of you that has one of the creature types above. The target must succeed on a Charisma saving throw or be sent back to its home plane if it isn't there already. If they aren't on their home plane, Undead are sent to the Shadowfell, and Fey are sent to the Feywild.",
@@ -729,94 +671,32 @@ The creature returns to life with 1 Hit Point. This spell also neutralizes any p
 This spell closes all mortal wounds, but it doesn't restore missing body parts. If the creature is lacking body parts or organs integral for its survival—its head, for instance—the spell automatically fails.
 Coming back from the dead is an ordeal. The target takes a −4 penalty to D20 Tests. Every time the target finishes a Long Rest, the penalty is reduced by 1 until it becomes 0.",
 reincarnate,5,necromancy,1 hour,Touch,"V,S,M","rare oils worth 1,000+ GP, which the spell consumes",Instantaneous,false,false,druid,none,,,,,,Reincarnate,,"You touch a dead Humanoid or a piece of one. If the creature has been dead no longer than 10 days, the spell forms a new body for it and calls the soul to enter that body. Roll 1d10 and consult the table below to determine the body's species, or the GM chooses another playable species.
-<table>
-<thead>
-<tr>
-<th>1d10</th>
-<th>Species</th>
-<th>1d10</th>
-<th>Species</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Roll again.</td>
-<td>6</td>
-<td>Goliath</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Dragonborn</td>
-<td>7</td>
-<td>Halfling</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Dwarf</td>
-<td>8</td>
-<td>Human</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Elf</td>
-<td>9</td>
-<td>Orc</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Gnome</td>
-<td>10</td>
-<td>Tiefling</td>
-</tr>
-</tbody>
-</table>
+
+| 1d10 | Species | 1d10 | Species |
+| --- | --- | --- | --- |
+| 1 | Roll again. | 6 | Goliath |
+| 2 | Dragonborn | 7 | Halfling |
+| 3 | Dwarf | 8 | Human |
+| 4 | Elf | 9 | Orc |
+| 5 | Gnome | 10 | Tiefling |
+
 The reincarnated creature makes any choices that a species' description offers, and the creature recalls its former life. It retains the capabilities it had in its original form, except it loses the traits of its previous species and gains the traits of its new one.",
 scrying,5,divination,10 minutes,Self,"V,S,M","a focus worth 1,000+ GP, such as a crystal ball, mirror, or water-filled font","Concentration, up to 10 minutes",true,false,"bard,cleric,druid,warlock,wizard",save,wis,,,,,Scrying,,"You can see and hear a creature you choose that is on the same plane of existence as you. The target makes a Wisdom saving throw, which is modified (see the tables below) by how well you know the target and the sort of physical connection you have to it. The target doesn't know what it is making the save against, only that it feels uneasy.
-<table>
-<thead>
-<tr>
-<th>Your Knowledge of the Target Is …</th>
-<th>Save Modifier</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Secondhand (heard of the target)</td>
-<td>+5</td>
-</tr>
-<tr>
-<td>Firsthand (met the target)</td>
-<td>+0</td>
-</tr>
-<tr>
-<td>Extensive (know the target well)</td>
-<td>−5</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>You Have the Target's …</th>
-<th>Save Modifier</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Picture or other likeness</td>
-<td>−2</td>
-</tr>
-<tr>
-<td>Garment or other possession</td>
-<td>−4</td>
-</tr>
-<tr>
-<td>Body part, lock of hair, or bit of nail</td>
-<td>−10</td>
-</tr>
-</tbody>
-</table>
+
+| Your Knowledge of the Target Is … | Save Modifier |
+| --- | --- |
+| Secondhand (heard of the target) | +5 |
+| Firsthand (met the target) | +0 |
+| Extensive (know the target well) | −5 |
+
+
+
+| You Have the Target's … | Save Modifier |
+| --- | --- |
+| Picture or other likeness | −2 |
+| Garment or other possession | −4 |
+| Body part, lock of hair, or bit of nail | −10 |
+
 On a successful save, the target isn't affected, and you can't use this spell on it again for 24 hours.
 On a failed save, the spell creates an Invisible, intangible sensor within 10 feet of the target. You can see and hear through the sensor as if you were there. The sensor moves with the target, remaining within 10 feet of it for the duration. If something can see the sensor, it appears as a luminous orb about the size of your fist.
 Instead of targeting a creature, you can target a location you have seen. When you do so, the sensor appears at that location and doesn't move.",
@@ -992,32 +872,13 @@ The spell's base damage is 12d6, and the damage increases by 1d6 whenever your t
 If a creature touches the glowing bead before the spell ends, that creature makes a Dexterity saving throw. On a failed save, the spell ends, causing the bead to explode. On a successful save, the creature can throw the bead up to 40 feet. If the thrown bead enters a creature's space or collides with a solid object, the spell ends, and the bead explodes.
 When the bead explodes, flammable objects in the explosion that aren't being worn or carried start burning.",
 divine_word,7,evocation,Bonus Action,30 feet,V,,Instantaneous,false,false,cleric,save,cha,,,,,Divine Word,,"You utter a word imbued with power from the Upper Planes. Each creature of your choice in range makes a Charisma saving throw. On a failed save, a target that has 50 Hit Points or fewer suffers an effect based on its current Hit Points, as shown in the Divine Word Effects table. Regardless of its Hit Points, a Celestial, an Elemental, a Fey, or a Fiend target that fails its save is forced back to its plane of origin (if it isn't there already) and can't return to the current plane for 24 hours by any means short of a _Wish_ spell.
-<table>
-<thead>
-<tr>
-<th>Hit Points</th>
-<th>Effect</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>0–20</td>
-<td>The target dies.</td>
-</tr>
-<tr>
-<td>21–30</td>
-<td>The target has the Blinded, Deafened, and Stunned conditions for 1 hour.</td>
-</tr>
-<tr>
-<td>31–40</td>
-<td>The target has the Blinded and Deafened conditions for 10 minutes.</td>
-</tr>
-<tr>
-<td>41–50</td>
-<td>The target has the Deafened condition for 1 minute.</td>
-</tr>
-</tbody>
-</table>",
+
+| Hit Points | Effect |
+| --- | --- |
+| 0–20 | The target dies. |
+| 21–30 | The target has the Blinded, Deafened, and Stunned conditions for 1 hour. |
+| 31–40 | The target has the Blinded and Deafened conditions for 10 minutes. |
+| 41–50 | The target has the Deafened condition for 1 minute. |",
 etherealness,7,conjuration,Action,Self,"V,S",,Up to 8 hours,false,false,"bard,cleric,sorcerer,warlock,wizard",none,,,You can target up to three willing creatures (including yourself) for each spell slot level above 7. The creatures must be within 10 feet of you when you cast the spell.,,,Etherealness,,"You step into the border regions of the Ethereal Plane, where it overlaps with your current plane. You remain in the Border Ethereal for the duration. During this time, you can move in any direction. If you move up or down, every foot of movement costs an extra foot. You can perceive the plane you left, which looks gray, and you can't see anything there more than 60 feet away.
 While on the Ethereal Plane, you can affect and be affected only by creatures, objects, and effects on that plane. Creatures that aren't on the Ethereal Plane can't perceive or interact with you unless a feature gives them the ability to do so.
 When the spell ends, you return to the plane you left in the spot that corresponds to your space in the Border Ethereal. If you appear in an occupied space, you are shunted to the nearest unoccupied space and take Force damage equal to twice the number of feet you are moved.
@@ -1044,48 +905,17 @@ Creatures with Truesight can see through the illusion to the terrain's true form
 plane_shift,7,conjuration,Action,Touch,"V,S,M","a forked, metal rod worth 250+ GP and attuned to a plane of existence",Instantaneous,false,false,"cleric,druid,sorcerer,warlock,wizard",none,,,,,,Plane Shift,,"You and up to eight willing creatures who link hands in a circle are transported to a different plane of existence. You can specify a target destination in general terms, such as a specific city on the Elemental Plane of Fire or palace on the second level of the Nine Hells, and you appear in or near that destination, as determined by the GM.
 Alternatively, if you know the sigil sequence of a teleportation circle on another plane of existence, this spell can take you to that circle. If the teleportation circle is too small to hold all the creatures you transported, they appear in the closest unoccupied spaces next to the circle.",
 prismatic_spray,7,evocation,Action,Self,"V,S",,Instantaneous,false,false,"bard,sorcerer,wizard",save,dex,12d6 fire,,,,Prismatic Spray,,"Eight rays of light flash from you in a 60-foot Cone. Each creature in the Cone makes a Dexterity saving throw. For each target, roll 1d8 to determine which color ray affects it, consulting the Prismatic Rays table.
-<table>
-<thead>
-<tr>
-<th>1d8</th>
-<th>Ray</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>**Red.** *Failed Save:* 12d6 Fire damage. *Successful Save:* Half as much damage.</td>
-</tr>
-<tr>
-<td>2</td>
-<td>**Orange.** *Failed Save:* 12d6 Acid damage. *Successful Save:* Half as much damage.</td>
-</tr>
-<tr>
-<td>3</td>
-<td>**Yellow.** *Failed Save:* 12d6 Lightning damage. *Successful Save:* Half as much damage.</td>
-</tr>
-<tr>
-<td>4</td>
-<td>**Green.** *Failed Save:* 12d6 Poison damage. *Successful Save:* Half as much damage.</td>
-</tr>
-<tr>
-<td>5</td>
-<td>**Blue.** *Failed Save:* 12d6 Cold damage. *Successful Save:* Half as much damage.</td>
-</tr>
-<tr>
-<td>6</td>
-<td>**Indigo.** *Failed Save:* The target has the Restrained condition and makes a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the Petrified condition until it is freed by an effect like the *Greater Restoration* spell. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind.</td>
-</tr>
-<tr>
-<td>7</td>
-<td>**Violet.** *Failed Save:* The target has the Blinded condition and makes a Wisdom saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (GM's choice).</td>
-</tr>
-<tr>
-<td>8</td>
-<td>**Special.** The target is struck by two rays. Roll twice, rerolling any 8.</td>
-</tr>
-</tbody>
-</table>",
+
+| 1d8 | Ray |
+| --- | --- |
+| 1 | **Red.** *Failed Save:* 12d6 Fire damage. *Successful Save:* Half as much damage. |
+| 2 | **Orange.** *Failed Save:* 12d6 Acid damage. *Successful Save:* Half as much damage. |
+| 3 | **Yellow.** *Failed Save:* 12d6 Lightning damage. *Successful Save:* Half as much damage. |
+| 4 | **Green.** *Failed Save:* 12d6 Poison damage. *Successful Save:* Half as much damage. |
+| 5 | **Blue.** *Failed Save:* 12d6 Cold damage. *Successful Save:* Half as much damage. |
+| 6 | **Indigo.** *Failed Save:* The target has the Restrained condition and makes a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the Petrified condition until it is freed by an effect like the *Greater Restoration* spell. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind. |
+| 7 | **Violet.** *Failed Save:* The target has the Blinded condition and makes a Wisdom saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (GM's choice). |
+| 8 | **Special.** The target is struck by two rays. Roll twice, rerolling any 8. |",
 project_image,7,illusion,Action,500 miles,"V,S,M",a statuette of yourself worth 5+ GP,"Concentration, up to 1 day",true,false,"bard,wizard",none,,,,,,Project Image,,"You create an illusory copy of yourself that lasts for the duration. The copy can appear at any location within range that you have seen before, regardless of intervening obstacles. The illusion looks and sounds like you, but it is intangible. If the illusion takes any damage, it disappears, and the spell ends.
 You can see through the illusion's eyes and hear through its ears as if you were in its space. As a Magic action, you can move it up to 60 feet and make it gesture, speak, and behave in whatever way you choose. It mimics your mannerisms perfectly.
 Physical interaction with the image reveals it to be illusory, since things can pass through it. A creature that takes the Study action to examine the image can determine that it is an illusion with a successful Intelligence (Investigation) check against your spell save DC. If a creature discerns the illusion for what it is, the creature can see through the image, and any noise it makes sounds hollow to the creature.",
@@ -1117,61 +947,16 @@ _Sleep._ Each target must succeed on a Wisdom saving throw or have the Unconscio
 _Stunning._ Each target must succeed on a Wisdom saving throw or have the Stunned condition for 1 minute.",
 teleport,7,conjuration,Action,10 feet,V,,Instantaneous,false,false,"bard,sorcerer,wizard",none,,3d10 force,,,,Teleport,,"This spell instantly transports you and up to eight willing creatures that you can see within range, or a single object that you can see within range, to a destination you select. If you target an object, it must be Large or smaller, and it can't be held or carried by an unwilling creature.
 The destination you choose must be known to you, and it must be on the same plane of existence as you. Your familiarity with the destination determines whether you arrive there successfully. The GM rolls 1d100 and consults the Teleportation Outcome table and the explanations after it.
-<table>
-<thead>
-<tr>
-<th>Familiarity</th>
-<th>Mishap</th>
-<th>Similar Area</th>
-<th>Off Target</th>
-<th>On Target</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Permanent circle</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>01–00</td>
-</tr>
-<tr>
-<td>Linked object</td>
-<td>—</td>
-<td>—</td>
-<td>—</td>
-<td>01–00</td>
-</tr>
-<tr>
-<td>Very familiar</td>
-<td>01–05</td>
-<td>06–13</td>
-<td>14–24</td>
-<td>25–00</td>
-</tr>
-<tr>
-<td>Seen casually</td>
-<td>01–33</td>
-<td>34–43</td>
-<td>44–53</td>
-<td>54–00</td>
-</tr>
-<tr>
-<td>Viewed once or described</td>
-<td>01–43</td>
-<td>44–53</td>
-<td>54–73</td>
-<td>74–00</td>
-</tr>
-<tr>
-<td>False destination</td>
-<td>01–50</td>
-<td>51–00</td>
-<td>—</td>
-<td>—</td>
-</tr>
-</tbody>
-</table>
+
+| Familiarity | Mishap | Similar Area | Off Target | On Target |
+| --- | --- | --- | --- | --- |
+| Permanent circle | — | — | — | 01–00 |
+| Linked object | — | — | — | 01–00 |
+| Very familiar | 01–05 | 06–13 | 14–24 | 25–00 |
+| Seen casually | 01–33 | 34–43 | 44–53 | 54–00 |
+| Viewed once or described | 01–43 | 44–53 | 54–73 | 74–00 |
+| False destination | 01–50 | 51–00 | — | — |
+
 _Familiarity._ Here are the meanings of the terms in the table's Familiarity column:
 - ""Permanent circle"" means a permanent teleportation circle whose sigil sequence you know.
 - ""Linked object"" means you possess an object taken from the desired destination within the last six months, such as a book from a wizard's library.
@@ -1202,100 +987,35 @@ control_weather,8,transmutation,10 minutes,Self,"V,S,M",burning incense,"Concent
 When you cast the spell, you change the current weather conditions, which are determined by the GM. You can change precipitation, temperature, and wind. It takes 1d4 × 10 minutes for the new
 conditions to take effect. Once they do so, you can change the conditions again. When the spell ends, the weather gradually returns to normal.
 When you change the weather conditions, find a current condition on the following tables and change its stage by one, up or down. When changing the wind, you can change its direction.
-<table>
-<thead>
-<tr>
-<th>Stage</th>
-<th>Condition</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Clear</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Light clouds</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Overcast or ground fog</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Rain, hail, or snow</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Torrential rain, driving hail, or blizzard</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Stage</th>
-<th>Condition</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Heat wave</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Hot</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Warm</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Cool</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Cold</td>
-</tr>
-<tr>
-<td>6</td>
-<td>Freezing</td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th>Stage</th>
-<th>Condition</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Calm</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Moderate wind</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Strong wind</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Gale</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Storm</td>
-</tr>
-</tbody>
-</table>",
+
+| Stage | Condition |
+| --- | --- |
+| 1 | Clear |
+| 2 | Light clouds |
+| 3 | Overcast or ground fog |
+| 4 | Rain, hail, or snow |
+| 5 | Torrential rain, driving hail, or blizzard |
+
+
+
+| Stage | Condition |
+| --- | --- |
+| 1 | Heat wave |
+| 2 | Hot |
+| 3 | Warm |
+| 4 | Cool |
+| 5 | Cold |
+| 6 | Freezing |
+
+
+
+| Stage | Condition |
+| --- | --- |
+| 1 | Calm |
+| 2 | Moderate wind |
+| 3 | Strong wind |
+| 4 | Gale |
+| 5 | Storm |",
 demiplane,8,conjuration,Action,60 feet,S,,1 hour,false,false,"sorcerer,warlock,wizard",none,,,,,,Demiplane,,"You create a shadowy Medium door on a flat solid surface that you can see within range. This door can be opened and closed, and it leads to a demiplane that is an empty room 30 feet in each dimension, made of wood or stone (your choice).
 When the spell ends, the door vanishes, and any objects inside the demiplane remain there. Any creatures inside also remain unless they opt to be shunted through the door as it vanishes, landing with the Prone condition in the unoccupied spaces closest to the door's former space.
 Each time you cast this spell, you can create a new demiplane or connect the shadowy door to a demiplane you created with a previous casting of this spell. Additionally, if you know the nature and contents of a demiplane created by a casting of this spell by another creature, you can connect the shadowy door to that demiplane instead.",
@@ -1349,44 +1069,16 @@ prismatic_wall,9,abjuration,Action,60 feet,"V,S",,10 minutes,false,false,"bard,w
 The wall sheds Bright Light within 100 feet and Dim Light for an additional 100 feet. You and creatures you designate when you cast the spell can pass through and be near the wall without harm. If another creature that can see the wall moves within 20 feet of it or starts its turn there, the creature must succeed on a Constitution saving throw or have the Blinded condition for 1 minute.
 The wall consists of seven layers, each with a different color. When a creature reaches into or passes through the wall, it does so one layer at a time through all the layers. Each layer forces the creature to make a Dexterity saving throw or be affected by that layer's properties as described in the Prismatic Layers table.
 The wall, which has AC 10, can be destroyed one layer at a time, in order from red to violet, by means specific to each layer. If a layer is destroyed, it is gone for the duration. _Antimagic Field_ has no effect on the wall, and _Dispel Magic_ can affect only the violet layer.
-<table>
-<thead>
-<tr>
-<th>Order</th>
-<th>Effects</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>**Red.** *Failed Save:* 12d6 Fire damage. *Successful Save:* Half as much damage. *Additional Effects:* Nonmagical ranged attacks can't pass through this layer, which is destroyed if it takes at least 25 Cold damage.</td>
-</tr>
-<tr>
-<td>2</td>
-<td>**Orange.** *Failed Save:* 12d6 Acid damage. *Successful Save:* Half as much damage. *Additional Effects:* Magical ranged attacks can't pass through this layer, which is destroyed by a strong wind (such as the one created by *Gust of Wind*).</td>
-</tr>
-<tr>
-<td>3</td>
-<td>**Yellow.** *Failed Save:* 12d6 Lightning damage. *Successful Save:* Half as much damage. *Additional Effects:* The layer is destroyed if it takes at least 60 Force damage.</td>
-</tr>
-<tr>
-<td>4</td>
-<td>**Green.** *Failed Save:* 12d6 Poison damage. *Successful Save:* Half as much damage. *Additional Effects:* A *Passwall* spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer.</td>
-</tr>
-<tr>
-<td>5</td>
-<td>**Blue.** *Failed Save:* 12d6 Cold damage. *Successful Save:* Half as much damage. *Additional Effects:* The layer is destroyed if it takes at least 25 Fire damage.</td>
-</tr>
-<tr>
-<td>6</td>
-<td>**Indigo.** *Failed Save:* The target has the Restrained condition and makes a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the Petrified condition until it is freed by an effect like the *Greater Restoration* spell. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind. *Additional Effects:* Spells can't be cast through this layer, which is destroyed by Bright Light shed by the *Daylight* spell.</td>
-</tr>
-<tr>
-<td>7</td>
-<td>**Violet.** *Failed Save:* The target has the Blinded condition and makes a Wisdom saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (GM's choice). *Additional Effects:* This layer is destroyed by *Dispel Magic*.</td>
-</tr>
-</tbody>
-</table>",
+
+| Order | Effects |
+| --- | --- |
+| 1 | **Red.** *Failed Save:* 12d6 Fire damage. *Successful Save:* Half as much damage. *Additional Effects:* Nonmagical ranged attacks can't pass through this layer, which is destroyed if it takes at least 25 Cold damage. |
+| 2 | **Orange.** *Failed Save:* 12d6 Acid damage. *Successful Save:* Half as much damage. *Additional Effects:* Magical ranged attacks can't pass through this layer, which is destroyed by a strong wind (such as the one created by *Gust of Wind*). |
+| 3 | **Yellow.** *Failed Save:* 12d6 Lightning damage. *Successful Save:* Half as much damage. *Additional Effects:* The layer is destroyed if it takes at least 60 Force damage. |
+| 4 | **Green.** *Failed Save:* 12d6 Poison damage. *Successful Save:* Half as much damage. *Additional Effects:* A *Passwall* spell, or another spell of equal or greater level that can open a portal on a solid surface, destroys this layer. |
+| 5 | **Blue.** *Failed Save:* 12d6 Cold damage. *Successful Save:* Half as much damage. *Additional Effects:* The layer is destroyed if it takes at least 25 Fire damage. |
+| 6 | **Indigo.** *Failed Save:* The target has the Restrained condition and makes a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the condition ends. If it fails three times, it has the Petrified condition until it is freed by an effect like the *Greater Restoration* spell. The successes and failures needn't be consecutive; keep track of both until the target collects three of a kind. *Additional Effects:* Spells can't be cast through this layer, which is destroyed by Bright Light shed by the *Daylight* spell. |
+| 7 | **Violet.** *Failed Save:* The target has the Blinded condition and makes a Wisdom saving throw at the start of your next turn. On a successful save, the condition ends. On a failed save, the condition ends, and the creature teleports to another plane of existence (GM's choice). *Additional Effects:* This layer is destroyed by *Dispel Magic*. |",
 shapechange,9,transmutation,Action,Self,"V,S,M","a jade circlet worth 1,500+ GP","Concentration, up to 1 hour",true,false,"druid,wizard",none,,,,,,Shapechange,,"You shape-shift into another creature for the duration or until you take a Magic action to shape-shift into a different eligible form. The new form must be of a creature that has a Challenge Rating no higher than your level or Challenge Rating. You must have seen the sort of creature before, and it can't be a Construct or an Undead.
 When you cast the spell, you gain a number of Temporary Hit Points equal to the Hit Points of the first form into which you shape-shift. These Temporary Hit Points vanish if any remain when the spell ends.
 Your game statistics are replaced by the stat block of the chosen form, but you retain your creature type; alignment; personality; Intelligence, Wisdom, and Charisma scores; Hit Points; Hit Point Dice; proficiencies; and ability to communicate. If you have the Spellcasting feature, you retain it too.
