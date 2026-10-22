@@ -1,4 +1,4 @@
-#content-hash: xxh64:05217fc7d0419f30
+#content-hash: xxh64:9bdf8dbc2787c88a
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -262,7 +262,7 @@ champion_superior_critical,fighter,15,champion,,,set_override:crit_threshold:18:
 champion_survivor,fighter,18,champion,,,is_bloodied and hp>=1 ? on_event:turn_start:heal:5+con_mod,Survivor,,"You attain the pinnacle of resilience in battle, giving you these benefits.
 _Defy Death._ You have Advantage on Death Saving Throws. Moreover, when you roll 18–20 on a Death Saving Throw, you gain the benefit of rolling a 20 on it.
 _Heroic Rally._ At the start of each of your turns, you regain Hit Points equal to 5 plus your Constitution modifier if you are Bloodied and have at least 1 Hit Point.",,,,
-monk_martial_arts,monk,1,,,,"grant_roll:martial_arts:1d step(class_level.monk, 1->6, 5->8, 11->10, 17->12)",Martial Arts,,"Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:
+monk_martial_arts,monk,1,,,,"grant_roll:martial_arts:1d step(class_level.monk, 1->6, 5->8, 11->10, 17->12);not is_wearing_armor and not is_wearing_shield ? weapon_rule:dex:unarmed_strike;not is_wearing_armor and not is_wearing_shield ? weapon_rule:die:unarmed_strike:martial_arts;not is_wearing_armor and not is_wearing_shield ? weapon_rule:dex:simple,melee;not is_wearing_armor and not is_wearing_shield ? weapon_rule:die:simple,melee:martial_arts;not is_wearing_armor and not is_wearing_shield ? weapon_rule:dex:martial,melee,light;not is_wearing_armor and not is_wearing_shield ? weapon_rule:die:martial,melee,light:martial_arts",Martial Arts,,"Your practice of martial arts gives you mastery of combat styles that use your Unarmed Strike and Monk weapons, which are the following:
 - Simple Melee weapons
 - Martial Melee weapons that have the Light property
 You gain the following benefits while you are unarmed or wielding only Monk weapons and you aren't wearing armor or wielding a Shield.
