@@ -1,9 +1,9 @@
-#content-hash: xxh64:0bad58b70b040c85
+#content-hash: xxh64:df10f57340295ef4
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
-#content-updated_at: 2026-10-21
+#content-updated_at: 2026-10-22
 #content-id: 035d32a1-be41-4043-8121-c54ff3d0b60d
 #content-schema: 1
 id,name_en,name_uk,text_en,text_uk
@@ -19,3 +19,4 @@ sorcery_points,Sorcery Points,,,
 indomitable,Indomitable,,,
 arcane_recovery,Arcane Recovery,,,
 natural_recovery,Natural Recovery,,,
+divine_sense,Divine Sense,,,

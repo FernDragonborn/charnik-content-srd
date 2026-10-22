@@ -1,9 +1,9 @@
-#content-hash: xxh64:312d7c408fee1041
+#content-hash: xxh64:50a85fb9c021afc7
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
-#content-updated_at: 2026-10-21
+#content-updated_at: 2026-10-22
 #content-id: 681bceb5-74f9-49ba-b537-d4d97dadefaa
 #content-schema: 1
 id,name_en,name_uk,text_en,text_uk
@@ -26,3 +26,5 @@ arcane_recovery,Arcane Recovery,,,
 natural_recovery,Natural Recovery (slots),,,
 natural_recovery_spell,Natural Recovery (spell),,,
 boon_of_fate,Boon of Fate,,,
+innate_sorcery,Innate Sorcery,,,
+favored_enemy,Favored Enemy,,,

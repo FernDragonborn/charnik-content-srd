@@ -1,10 +1,10 @@
-#content-hash: xxh64:9d5b634a87e5a496
+#content-hash: xxh64:6c6c197264e6f9f8
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f859d-bfd4-717c-bb8d-cd555a0e6807
-#content-updated_at: 2026-10-21
+#content-updated_at: 2026-10-22
 #content-schema: 1
 id,resource_id,cost,action,action_type,name_en,name_uk,text_en,text_uk,granted_by
 flurry_of_blows,ki,1,attack:unarmed_strike:2,bonus_action,Flurry of Blows,,"Immediately after the Attack action, make two Unarmed Strikes as a Bonus Action.",,
@@ -27,3 +27,4 @@ sorcerer_create_slot_2,sorcery_points,3,gain_slot:2,bonus_action,Create a level 
 sorcerer_create_slot_3,sorcery_points,5,gain_slot:3,bonus_action,Create a level 3 spell slot,,Transform 5 sorcery points into one spell slot of level 3. It vanishes when you finish a long rest.,,
 sorcerer_create_slot_4,sorcery_points,6,gain_slot:4,bonus_action,Create a level 4 spell slot,,Transform 6 sorcery points into one spell slot of level 4. It vanishes when you finish a long rest.,,
 sorcerer_create_slot_5,sorcery_points,7,gain_slot:5,bonus_action,Create a level 5 spell slot,,Transform 7 sorcery points into one spell slot of level 5. It vanishes when you finish a long rest.,,
+paladin_divine_sense,divine_sense,1,"note:Until the end of your next turn you know where any celestial, fiend or undead within 60 feet is",action,Divine Sense,,"As an action, you open your awareness: until the end of your next turn you know the location of any celestial, fiend, or undead within 60 feet of you that is not behind total cover, and of any place or object within the same radius that has been consecrated or desecrated.",,

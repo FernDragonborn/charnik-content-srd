@@ -1,9 +1,9 @@
-#content-hash: xxh64:fe696e6b742658c9
+#content-hash: xxh64:7221262c9e29369d
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://www.dndbeyond.com/srd
 #content-license: CC-BY-4.0
-#content-updated_at: 2026-09-22
+#content-updated_at: 2026-10-22
 #content-id: 0bdcdaf7-01f8-4998-8cd6-d23333c62cb9
 #content-schema: 3
 id,valence,duration_rounds,effects,name_en,name_uk,text_en,text_uk
@@ -15,3 +15,4 @@ haste,helpful,10,flat_bonus:ac+2;advantage:save.dex;flat_bonus:action+1,Haste,,"
 half_cover,helpful,,flat_bonus:ac+2;flat_bonus:save.dex+2,Half cover,,+2 to AC and Dexterity saving throws while behind half cover.,
 three_quarters_cover,helpful,,flat_bonus:ac+5;flat_bonus:save.dex+5,Three-quarters cover,,+5 to AC and Dexterity saving throws while behind three-quarters cover.,
 rage,helpful,10,apply_condition:rage,Rage,,"Raging: resistance to bludgeoning, piercing, and slashing; advantage on Strength checks and saves; bonus damage on Strength attacks. Lasts up to 1 minute.",
+innate_sorcery,helpful,10,"flat_bonus:spell_dc.sorcerer+1;advantage:attack.spell,sorcerer",Innate Sorcery,,"Innate Sorcery: the spell save DC of your Sorcerer spells is 1 higher, and you have Advantage on the attack rolls of Sorcerer spells you cast. Lasts 1 minute.",

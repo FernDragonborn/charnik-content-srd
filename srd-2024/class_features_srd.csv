@@ -1,10 +1,10 @@
-#content-hash: xxh64:d139e2ea8c9afcc9
+#content-hash: xxh64:c3afa3e367649a16
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f9e9-7ad8-b3a8-4511aa623e30
-#content-updated_at: 2026-10-21
+#content-updated_at: 2026-10-22
 #content-schema: 1
 id,class_id,level,subclass_id,expertise_slots,mastery_slots,effects,name_en,name_uk,text_en,text_uk,choose,feat_choice
 barbarian_rage,barbarian,1,,,,"grant_resource:rage:step(class_level.barbarian, 1->2, 3->3, 6->4, 12->5, 17->6):short_one",Rage,,"You can imbue yourself with a primal power called Rage, a force that grants you extraordinary might and resilience. You can enter it as a Bonus Action if you aren't wearing Heavy armor.
@@ -382,7 +382,7 @@ If another Ranger feature gives you spells that you always have prepared, those 
 _Changing Your Prepared Spells._ Whenever you finish a Long Rest, you can replace one spell on your list with another Ranger spell for which you have spell slots.
 _Spellcasting Ability._ Wisdom is your spellcasting ability for your Ranger spells.
 _Spellcasting Focus._ You can use a Druidic Focus as a Spellcasting Focus for your Ranger spells.",,,
-ranger_favored_enemy,ranger,1,,,,,Favored Enemy,,"You always have the _Hunter's Mark_ spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.
+ranger_favored_enemy,ranger,1,,,,"grant_resource:favored_enemy:step(class_level.ranger, 1->2, 5->3, 9->4, 13->5, 17->6):long",Favored Enemy,,"You always have the _Hunter's Mark_ spell prepared. You can cast it twice without expending a spell slot, and you regain all expended uses of this ability when you finish a Long Rest.
 The number of times you can cast the spell without a spell slot increases when you reach certain Ranger levels, as shown in the Favored Enemy column of the Ranger Features table.",,,
 ranger_weapon_mastery,ranger,1,,,2@1,,Weapon Mastery,,"Your training with weapons allows you to use the mastery properties of two kinds of weapons of your
 choice with which you have proficiency, such as Longbows and Shortswords.
@@ -468,7 +468,7 @@ If another Sorcerer feature gives you spells that you always have prepared, thos
 _Changing Your Prepared Spells._ Whenever you gain a Sorcerer level, you can replace one spell on your list with another Sorcerer spell for which you have spell slots.
 _Spellcasting Ability._ Charisma is your spellcasting ability for your Sorcerer spells.
 _Spellcasting Focus._ You can use an Arcane Focus as a Spellcasting Focus for your Sorcerer spells.",,,
-sorcerer_innate_sorcery,sorcerer,1,,,,,Innate Sorcery,,"An event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits:
+sorcerer_innate_sorcery,sorcerer,1,,,,grant_resource:innate_sorcery:2:long,Innate Sorcery,,"An event in your past left an indelible mark on you, infusing you with simmering magic. As a Bonus Action, you can unleash that magic for 1 minute, during which you gain the following benefits:
 • The spell save DC of your Sorcerer spells increases by 1.
 • You have Advantage on the attack rolls of Sorcerer spells you cast.
 You can use this feature twice, and you regain all expended uses of it when you finish a Long Rest.",,,
