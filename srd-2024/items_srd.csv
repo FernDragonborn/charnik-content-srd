@@ -1,4 +1,4 @@
-#content-hash: xxh64:3eb95d269857045b
+#content-hash: xxh64:8885222a00486b15
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -58,39 +58,39 @@ chain_mail,armor,"armor:heavy, ac:16, dex_cap:0, str_min:13, stealth_disadvantag
 splint_armor,armor,"armor:heavy, ac:17, dex_cap:0, str_min:15, stealth_disadvantage",,,,,200 GP,60,Splint Armor,,,,,,
 plate_armor,armor,"armor:heavy, ac:18, dex_cap:0, str_min:15, stealth_disadvantage",,,,,"1,500 GP",65,Plate Armor,,,,,,
 shield,shield,ac:2,,,,,10 GP,6,Shield,,,,,,
-alchemists_supplies,tool,ability:int,,,,,50 GP,8,Alchemist's Supplies,,"Utilize: Identify a substance (DC 15), or start a fire (DC 15)
+alchemists_supplies,tool,"ability:int, artisans_tools",,,,,50 GP,8,Alchemist's Supplies,,"Utilize: Identify a substance (DC 15), or start a fire (DC 15)
 Craft: Acid, Alchemist's Fire, Component Pouch, Oil, Paper, Perfume",,,,
-brewers_supplies,tool,ability:int,,,,,20 GP,9,Brewer's Supplies,,"Utilize: Detect poisoned drink (DC 15), or identify alcohol (DC 10)
+brewers_supplies,tool,"ability:int, artisans_tools",,,,,20 GP,9,Brewer's Supplies,,"Utilize: Detect poisoned drink (DC 15), or identify alcohol (DC 10)
 Craft: Antitoxin",,,,
-calligraphers_supplies,tool,ability:dex,,,,,10 GP,5,Calligrapher's Supplies,,"Utilize: Write text with impressive flourishes that guard against forgery (DC 15)
+calligraphers_supplies,tool,"ability:dex, artisans_tools",,,,,10 GP,5,Calligrapher's Supplies,,"Utilize: Write text with impressive flourishes that guard against forgery (DC 15)
 Craft: Ink, Spell Scroll",,,,
-carpenters_tools,tool,ability:str,,,,,8 GP,6,Carpenter's Tools,,"Utilize: Seal or pry open a door or container (DC 20)
+carpenters_tools,tool,"ability:str, artisans_tools",,,,,8 GP,6,Carpenter's Tools,,"Utilize: Seal or pry open a door or container (DC 20)
 Craft: Club, Greatclub, Quarterstaff, Barrel, Chest, Ladder, Pole, Portable Ram, Torch",,,,
-cartographers_tools,tool,ability:wis,,,,,15 GP,6,Cartographer's Tools,,"Utilize: Draft a map of a small area (DC 15)
+cartographers_tools,tool,"ability:wis, artisans_tools",,,,,15 GP,6,Cartographer's Tools,,"Utilize: Draft a map of a small area (DC 15)
 Craft: Map",,,,
-cobblers_tools,tool,ability:dex,,,,,5 GP,5,Cobbler's Tools,,"Utilize: Modify footwear to give Advantage on the wearer's next Dexterity (Acrobatics) check (DC 10)
+cobblers_tools,tool,"ability:dex, artisans_tools",,,,,5 GP,5,Cobbler's Tools,,"Utilize: Modify footwear to give Advantage on the wearer's next Dexterity (Acrobatics) check (DC 10)
 Craft: Climber's Kit",,,,
-cooks_utensils,tool,ability:wis,,,,,1 GP,8,Cook's Utensils,,"Utilize: Improve food's flavor (DC 10), or detect spoiled or poisoned food (DC 15)
+cooks_utensils,tool,"ability:wis, artisans_tools",,,,,1 GP,8,Cook's Utensils,,"Utilize: Improve food's flavor (DC 10), or detect spoiled or poisoned food (DC 15)
 Craft: Rations",,,,
-glassblowers_tools,tool,ability:int,,,,,30 GP,5,Glassblower's Tools,,"Utilize: Discern what a glass object held in the past 24 hours (DC 15)
+glassblowers_tools,tool,"ability:int, artisans_tools",,,,,30 GP,5,Glassblower's Tools,,"Utilize: Discern what a glass object held in the past 24 hours (DC 15)
 Craft: Glass Bottle, Magnifying Glass, Spyglass, Vial",,,,
-jewelers_tools,tool,ability:int,,,,,25 GP,2,Jeweler's Tools,,"Utilize: Discern a gem's value (DC 15)
+jewelers_tools,tool,"ability:int, artisans_tools",,,,,25 GP,2,Jeweler's Tools,,"Utilize: Discern a gem's value (DC 15)
 Craft: Arcane Focus, Holy Symbol",,,,
-leatherworkers_tools,tool,ability:dex,,,,,5 GP,5,Leatherworker's Tools,,"Utilize: Add a design to a leather item (DC 10)
+leatherworkers_tools,tool,"ability:dex, artisans_tools",,,,,5 GP,5,Leatherworker's Tools,,"Utilize: Add a design to a leather item (DC 10)
 Craft: Sling, Whip, Hide Armor, Leather Armor, Studded Leather Armor, Backpack, Crossbow Bolt Case, Map or Scroll Case, Parchment, Pouch, Quiver, Waterskin",,,,
-masons_tools,tool,ability:str,,,,,10 GP,8,Mason's Tools,,"Utilize: Chisel a symbol or hole in stone (DC 10)
+masons_tools,tool,"ability:str, artisans_tools",,,,,10 GP,8,Mason's Tools,,"Utilize: Chisel a symbol or hole in stone (DC 10)
 Craft: Block and Tackle",,,,
-painters_supplies,tool,ability:wis,,,,,10 GP,5,Painter's Supplies,,"Utilize: Paint a recognizable image of something you've seen (DC 10)
+painters_supplies,tool,"ability:wis, artisans_tools",,,,,10 GP,5,Painter's Supplies,,"Utilize: Paint a recognizable image of something you've seen (DC 10)
 Craft: Druidic Focus, Holy Symbol",,,,
-potters_tools,tool,ability:int,,,,,10 GP,3,Potter's Tools,,"Utilize: Discern what a ceramic object held in the past 24 hours (DC 15)
+potters_tools,tool,"ability:int, artisans_tools",,,,,10 GP,3,Potter's Tools,,"Utilize: Discern what a ceramic object held in the past 24 hours (DC 15)
 Craft: Jug, Lamp",,,,
-smiths_tools,tool,ability:str,,,,,20 GP,8,Smith's Tools,,"Utilize: Pry open a door or container (DC 20)
+smiths_tools,tool,"ability:str, artisans_tools",,,,,20 GP,8,Smith's Tools,,"Utilize: Pry open a door or container (DC 20)
 Craft: Any Melee weapon (except Club, Greatclub, Quarterstaff, and Whip), Medium armor (except Hide), Heavy armor, Ball Bearings, Bucket, Caltrops, Chain, Crowbar, Firearm Bullets, Grappling Hook, Iron Pot, Iron Spikes, Sling Bullets",,,,
-tinkers_tools,tool,ability:dex,,,,,50 GP,10,Tinker's Tools,,"Utilize: Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)
+tinkers_tools,tool,"ability:dex, artisans_tools",,,,,50 GP,10,Tinker's Tools,,"Utilize: Assemble a Tiny item composed of scrap, which falls apart in 1 minute (DC 20)
 Craft: Musket, Pistol, Bell, Bullseye Lantern, Flask, Hooded Lantern, Hunting Trap, Lock, Manacles, Mirror, Shovel, Signal Whistle, Tinderbox",,,,
-weavers_tools,tool,ability:dex,,,,,1 GP,5,Weaver's Tools,,"Utilize: Mend a tear in clothing (DC 10), or sew a Tiny design (DC 10)
+weavers_tools,tool,"ability:dex, artisans_tools",,,,,1 GP,5,Weaver's Tools,,"Utilize: Mend a tear in clothing (DC 10), or sew a Tiny design (DC 10)
 Craft: Padded Armor, Basket, Bedroll, Blanket, Fine Clothes, Net, Robe, Rope, Sack, String, Tent, Traveler's Clothes",,,,
-woodcarvers_tools,tool,ability:dex,,,,,1 GP,5,Woodcarver's Tools,,"Utilize: Carve a pattern in wood (DC 10)
+woodcarvers_tools,tool,"ability:dex, artisans_tools",,,,,1 GP,5,Woodcarver's Tools,,"Utilize: Carve a pattern in wood (DC 10)
 Craft: Club, Greatclub, Quarterstaff, Ranged weapons (except Pistol, Musket, and Sling), Arcane Focus, Arrows, Bolts, Druidic Focus, Ink Pen, Needles
 #### Other Tools",,,,
 disguise_kit,tool,ability:cha,,,,,25 GP,3,Disguise Kit,,"Utilize: Apply makeup (DC 10)
@@ -100,7 +100,7 @@ gaming_set,tool,ability:wis,,,,,,,Gaming Set,,"Utilize: Discern whether someone 
 Variants: Dice (1 SP), dragonchess (1 GP), playing cards (5 SP), three-dragon ante (1 GP)",,,,
 herbalism_kit,tool,ability:int,,,,,5 GP,3,Herbalism Kit,,"Utilize: Identify a plant (DC 10)
 Craft: Antitoxin, Candle, Healer's Kit, Potion of Healing",,,,
-musical_instrument,tool,ability:cha,,,,,,,Musical Instrument,,"Utilize: Play a known tune (DC 10), or improvise a song (DC 15)
+musical_instrument,tool,"ability:cha, musical_instrument",,,,,,,Musical Instrument,,"Utilize: Play a known tune (DC 10), or improvise a song (DC 15)
 Variants: Bagpipes (30 GP, 6 lb.), drum (6 GP, 3 lb.), dulcimer (25 GP, 10 lb.), flute (2 GP, 1 lb.), horn (3 GP, 2 lb.), lute (35 GP, 2 lb.), lyre (30 GP, 2 lb.), pan flute (12 GP, 2 lb.), shawm (2 GP, 1 lb.), viol (30 GP, 1 lb.)",,,,
 navigators_tools,tool,ability:wis,,,,,25 GP,2,Navigator's Tools,,"Utilize: Plot a course (DC 10), or determine position by stargazing (DC 15)",,,,
 poisoners_kit,tool,ability:int,,,,,50 GP,2,Poisoner's Kit,,"Utilize: Detect a poisoned object (DC 10)
@@ -303,6 +303,7 @@ rope,gear,,,,,,1 GP,5,Rope,,"As a Utilize action, you can tie a knot with Rope i
 You can bind an unwilling creature with the Rope only if the creature has the Grappled, Incapacitated, or Restrained condition. If the creature's legs are bound, the creature has the Restrained condition until it escapes. Escaping the Rope requires the creature to make a successful DC 15 Dexterity (Acrobatics) check as an action.",,,,
 sack,gear,,,,,,1 CP,1,Sack,,A Sack holds up to 30 pounds within 1 cubic foot.,,,,
 scholars_pack,gear,,,,,,40 GP,22,Scholar's Pack,,"A Scholar's Pack contains the following items: Backpack, Book, Ink, Ink Pen, Lamp, 10 flasks of Oil, 10 sheets of Parchment, and Tinderbox.",,,,
+spellbook,gear,,,,,,,3,Spellbook,,"Your wizardly apprenticeship culminated in the creation of a unique book: your spellbook. It is a Tiny object that weighs 3 pounds, contains 100 pages, and can be read only by you or someone casting _Identify_. You determine the book's appearance and materials, such as a gilt-edged tome or a collection of vellum bound with twine.",,,,
 shovel,gear,,,,,,2 GP,5,Shovel,,"Working for 1 hour, you can use a Shovel to dig a hole that is 5 feet on each side in soil or similar material.",,,,
 signal_whistle,gear,,,,,,5 CP,,Signal Whistle,,"When blown as a Utilize action, a Signal Whistle produces a sound that can be heard up to 600 feet away.",,,,
 spell_scroll,gear,,,,,,30 GP,,Spell Scroll,,"A _Spell Scroll_ (Cantrip) or _Spell Scroll_ (Level 1) is a magic item that bears the words of a cantrip or level 1 spell, respectively, determined by the scroll's creator. If the spell is on your class's spell list, you can read the scroll and cast the spell using its normal casting time and without providing any Material components.

@@ -1,21 +1,21 @@
-#content-hash: xxh64:a0385471bc69d2ff
+#content-hash: xxh64:7615bdc1e18cfcd7
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fd32-7512-a864-92541140435e
-#content-updated_at: 2026-10-21
+#content-updated_at: 2026-10-22
 #content-schema: 1
-id,hit_die,primary_ability,saves,caster,prepare_style,spell_ability,ritual_source,skills_choose,skills_from,weapon_profs,armor_profs,subclass_level,asi_levels,effects,name_en,name_uk,text_en,text_uk
-barbarian,d12,,"str,con",none,,,,2,"animal_handling,athletics,intimidation,nature,perception,survival","simple,martial","light,medium,shield",3,"4,8,12,16,19",,Barbarian,,,
-bard,d8,,"dex,cha",full,known,cha,prepared,3,any,"simple,crossbow_hand,longsword,rapier,shortsword",light,3,"4,8,12,16,19",,Bard,,,
-cleric,d8,,"wis,cha",full,prepared,wis,prepared,2,"history,insight,medicine,persuasion,religion",simple,"light,medium,shield",1,"4,8,12,16,19",,Cleric,,,
-druid,d8,,"int,wis",full,prepared,wis,prepared,2,"arcana,animal_handling,insight,medicine,nature,perception,religion,survival","club,dagger,dart,javelin,mace,quarterstaff,scimitar,sickle,sling,spear","light,medium,shield",2,"4,8,12,16,19",,Druid,,,
-fighter,d10,,"str,con",none,,,,2,"acrobatics,animal_handling,athletics,history,insight,intimidation,perception,survival","simple,martial","light,medium,heavy,shield",3,"4,6,8,12,14,16,19",,Fighter,,,
-monk,d8,,"str,dex",none,,,,2,"acrobatics,athletics,history,insight,religion,stealth","simple,shortsword",,3,"4,8,12,16,19",,Monk,,,
-paladin,d10,,"wis,cha",half,prepared,cha,,2,"athletics,insight,intimidation,medicine,persuasion,religion","simple,martial","light,medium,heavy,shield",3,"4,8,12,16,19",,Paladin,,,
-ranger,d10,,"str,dex",half,known,wis,,3,"animal_handling,athletics,insight,investigation,nature,perception,stealth,survival","simple,martial","light,medium,shield",3,"4,8,12,16,19",,Ranger,,,
-rogue,d8,,"dex,int",none,,,,4,"acrobatics,athletics,deception,insight,intimidation,investigation,perception,performance,persuasion,sleight_of_hand,stealth","simple,crossbow_hand,longsword,rapier,shortsword",light,3,"4,8,10,12,16,19",,Rogue,,,
-sorcerer,d6,,"con,cha",full,known,cha,,2,"arcana,deception,insight,intimidation,persuasion,religion","dagger,dart,sling,quarterstaff,crossbow_light",,1,"4,8,12,16,19",,Sorcerer,,,
-warlock,d8,,"wis,cha",pact,known,cha,,2,"arcana,deception,history,intimidation,investigation,nature,religion",simple,light,1,"4,8,12,16,19",,Warlock,,,
-wizard,d6,,"int,wis",full,prepared,int,spellbook,2,"arcana,history,insight,investigation,medicine,religion","dagger,dart,sling,quarterstaff,crossbow_light",,2,"4,8,12,16,19",,Wizard,,,
+id,hit_die,primary_ability,saves,caster,prepare_style,spell_ability,ritual_source,skills_choose,skills_from,weapon_profs,armor_profs,subclass_level,asi_levels,starting_equipment,effects,name_en,name_uk,text_en,text_uk
+barbarian,d12,,"str,con",none,,,,2,"animal_handling,athletics,intimidation,nature,perception,survival","simple,martial","light,medium,shield",3,"4,8,12,16,19","greataxe | any.martial,melee; 2*handaxe | any.simple; explorers_pack + 4*javelin",,Barbarian,,,
+bard,d8,,"dex,cha",full,known,cha,prepared,3,any,"simple,crossbow_hand,longsword,rapier,shortsword",light,3,"4,8,12,16,19",rapier | longsword | any.simple; diplomats_pack | entertainers_pack; lute | any.musical_instrument; leather + dagger,,Bard,,,
+cleric,d8,,"wis,cha",full,prepared,wis,prepared,2,"history,insight,medicine,persuasion,religion",simple,"light,medium,shield",1,"4,8,12,16,19",mace | warhammer?; scale_mail | leather | chain_mail?; crossbow_light + crossbow_bolts | any.simple; priests_pack | explorers_pack; shield + any.holy_symbol,,Cleric,,,
+druid,d8,,"int,wis",full,prepared,wis,prepared,2,"arcana,animal_handling,insight,medicine,nature,perception,religion,survival","club,dagger,dart,javelin,mace,quarterstaff,scimitar,sickle,sling,spear","light,medium,shield",2,"4,8,12,16,19","shield | any.simple; scimitar | any.simple,melee; leather + explorers_pack + any.druidic_focus",,Druid,,,
+fighter,d10,,"str,con",none,,,,2,"acrobatics,animal_handling,athletics,history,insight,intimidation,perception,survival","simple,martial","light,medium,heavy,shield",3,"4,6,8,12,14,16,19",chain_mail | leather + longbow + arrows; any.martial + shield | 2*any.martial; crossbow_light + crossbow_bolts | 2*handaxe; dungeoneers_pack | explorers_pack,,Fighter,,,
+monk,d8,,"str,dex",none,,,,2,"acrobatics,athletics,history,insight,religion,stealth","simple,shortsword",,3,"4,8,12,16,19",shortsword | any.simple; dungeoneers_pack | explorers_pack; 10*dart,,Monk,,,
+paladin,d10,,"wis,cha",half,prepared,cha,,2,"athletics,insight,intimidation,medicine,persuasion,religion","simple,martial","light,medium,heavy,shield",3,"4,8,12,16,19","any.martial + shield | 2*any.martial; 5*javelin | any.simple,melee; priests_pack | explorers_pack; chain_mail + any.holy_symbol",,Paladin,,,
+ranger,d10,,"str,dex",half,known,wis,,3,"animal_handling,athletics,insight,investigation,nature,perception,stealth,survival","simple,martial","light,medium,shield",3,"4,8,12,16,19","scale_mail | leather; 2*shortsword | 2*any.simple,melee; dungeoneers_pack | explorers_pack; longbow + quiver + arrows",,Ranger,,,
+rogue,d8,,"dex,int",none,,,,4,"acrobatics,athletics,deception,insight,intimidation,investigation,perception,performance,persuasion,sleight_of_hand,stealth","simple,crossbow_hand,longsword,rapier,shortsword",light,3,"4,8,10,12,16,19",rapier | shortsword; shortbow + quiver + arrows | shortsword; burglars_pack | dungeoneers_pack | explorers_pack; leather + 2*dagger + thieves_tools,,Rogue,,,
+sorcerer,d6,,"con,cha",full,known,cha,,2,"arcana,deception,insight,intimidation,persuasion,religion","dagger,dart,sling,quarterstaff,crossbow_light",,1,"4,8,12,16,19",crossbow_light + crossbow_bolts | any.simple; component_pouch | any.arcane_focus; dungeoneers_pack | explorers_pack; 2*dagger,,Sorcerer,,,
+warlock,d8,,"wis,cha",pact,known,cha,,2,"arcana,deception,history,intimidation,investigation,nature,religion",simple,light,1,"4,8,12,16,19",crossbow_light + crossbow_bolts | any.simple; component_pouch | any.arcane_focus; scholars_pack | dungeoneers_pack; leather + any.simple + 2*dagger,,Warlock,,,
+wizard,d6,,"int,wis",full,prepared,int,spellbook,2,"arcana,history,insight,investigation,medicine,religion","dagger,dart,sling,quarterstaff,crossbow_light",,2,"4,8,12,16,19",quarterstaff | dagger; component_pouch | any.arcane_focus; scholars_pack | explorers_pack; spellbook,,Wizard,,,
