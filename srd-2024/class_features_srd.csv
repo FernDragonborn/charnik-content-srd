@@ -1,4 +1,4 @@
-#content-hash: xxh64:91000ab7092d4d6d
+#content-hash: xxh64:05217fc7d0419f30
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -117,7 +117,7 @@ _Divine Strike._ The extra damage of your Divine Strike increases to 2d8.
 _Potent Spellcasting._ When you cast a Cleric cantrip and deal damage to a creature with it, you can give vitality to yourself or another creature within 60 feet of yourself, granting a number of Temporary Hit Points equal to twice your Wisdom modifier.",,,,
 cleric_epic_boon,cleric,19,,,,,Epic Boon,,"You gain an Epic Boon feat (see ""Feats"") or another feat of your choice for which you qualify. Boon of Fate is recommended.",,,,
 cleric_greater_divine_intervention,cleric,20,,,,,Greater Divine Intervention,,"You can call on even more powerful divine intervention. When you use your Divine Intervention feature, you can choose _Wish_ when you select a spell. If you do so, you can't use Divine Intervention again until you finish 2d4 Long Rests.",,,,
-life_domain_disciple_of_life,cleric,3,life_domain,,,,Disciple of Life,,"When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level.",,,,
+life_domain_disciple_of_life,cleric,3,life_domain,,,"flat_bonus:heal.spell+if(slot>=1,2+slot,0)",Disciple of Life,,"When a spell you cast with a spell slot restores Hit Points to a creature, that creature regains additional Hit Points on the turn you cast the spell. The additional Hit Points equal 2 plus the spell slot's level.",,,,
 life_domain_life_domain_spells,cleric,3,life_domain,,,,Life Domain Spells,,"Your connection to this divine domain ensures you always have certain spells ready. When you reach a Cleric level specified in the Life Domain Spells table, you thereafter always have the listed spells prepared.
 **Life Domain Spells**
 

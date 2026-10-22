@@ -1,4 +1,4 @@
-#content-hash: xxh64:738ea27939c97013
+#content-hash: xxh64:44daced8ffc9384b
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -446,7 +446,7 @@ lifedomain_life_domain_spells,cleric,1,lifedomain,,,Life Domain Spells,,"| Cleri
 | 7th | _death ward, guardian of faith_ |
 | 9th | _mass cure wounds, raise dead_ |",,,
 lifedomain_bonus_proficiency,cleric,1,lifedomain,,grant_proficiency:armor.heavy,Bonus Proficiency,,"When you choose this domain at 1st level, you gain proficiency with heavy armor.",,,
-lifedomain_disciple_of_life,cleric,1,lifedomain,,,Disciple of Life,,"Also starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level.",,,
+lifedomain_disciple_of_life,cleric,1,lifedomain,,"flat_bonus:heal.spell+if(slot>=1,2+slot,0)",Disciple of Life,,"Also starting at 1st level, your healing spells are more effective. Whenever you use a spell of 1st level or higher to restore hit points to a creature, the creature regains additional hit points equal to 2 + the spell's level.",,,
 lifedomain_channel_divinity_preserve_life,cleric,2,lifedomain,,,Channel Divinity: Preserve Life,,"Starting at 2nd level, you can use your Channel Divinity to heal the badly injured.
 As an action, you present your holy symbol and evoke healing energy that can restore a number of hit points equal to five times your cleric level. Choose any creatures within 30 feet of you, and divide those hit points among them. This feature can restore a creature to no more than half of its hit point maximum. You can't use this feature on an undead or a construct.",,,
 lifedomain_blessed_healer,cleric,6,lifedomain,,,Blessed Healer,,"Beginning at 6th level, the healing spells you cast on others heal you as well. When you cast a spell of 1st level or higher that restores hit points to a creature other than you, you regain hit points equal to 2 + the spell's level.",,,
