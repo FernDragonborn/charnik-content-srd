@@ -1,10 +1,10 @@
-#content-hash: xxh64:64b4a28a13e84d36
+#content-hash: xxh64:8bc125ce115e7556
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fd04-7646-ab5f-e26e4f827818
-#content-updated_at: 2026-08-27
+#content-updated_at: 2026-10-22
 #content-schema: 1
 id,category,speakers,script,effects,name_en,name_uk,text_en,text_uk
 common,standard,Humans,Common,,Common,,Typical speakers: Humans. Script: Common.,
@@ -23,3 +23,5 @@ infernal,exotic,Devils,Infernal,,Infernal,,Typical speakers: Devils. Script: Inf
 primordial,exotic,Elementals,Dwarvish,,Primordial,,Typical speakers: Elementals. Script: Dwarvish.,
 sylvan,exotic,Fey creatures,Elvish,,Sylvan,,Typical speakers: Fey creatures. Script: Elvish.,
 undercommon,exotic,Underworld traders,Elvish,,Undercommon,,Typical speakers: Underworld traders. Script: Elvish.,
+druidic,rare,Druids,,,Druidic,,"The secret language of druids. You and others who know it automatically spot a hidden message written in it; others spot its presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.",
+thieves_cant,rare,Rogues,,,Thieves' Cant,,"A secret mix of dialect, jargon, and code that allows you to hide messages in seemingly normal conversation. Only another creature that knows thieves' cant understands such messages. It takes four times longer to convey such a message than it does to speak the same idea plainly.",
