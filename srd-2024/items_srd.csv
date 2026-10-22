@@ -1,11 +1,11 @@
-#content-hash: xxh64:5987e9c2ae8a8cc3
+#content-hash: xxh64:3eb95d269857045b
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fa92-7ecb-9807-4042842f8ba9
 #content-schema: 3
-#content-updated_at: 2026-10-21
+#content-updated_at: 2026-10-22
 id,category,tags,damage,base_item_id,effects,rarity,cost,weight_lb,name_en,name_uk,text_en,text_uk,bonus_choice,choice_options,instance_name
 club,weapon,"simple, melee, light, mastery:slow",1d4 bludgeoning,,,,1 SP,2,Club,,,,,,
 dagger,weapon,"simple, melee, finesse, light, thrown:20/60, mastery:nick",1d4 piercing,,,,2 GP,1,Dagger,,,,,,
@@ -777,52 +777,12 @@ _Large Beast, Unaligned_
 **AC** 11 **Initiative** +1 (11)
 **HP** 19 (3d10 + 3)
 **Speed** 30 ft., Fly 60 ft.
-<table>
-<thead>
-<tr>
-<th></th>
-<th>MOD</th>
-<th>SAVE</th>
-<th></th>
-<th>MOD</th>
-<th>SAVE</th>
-<th></th>
-<th>MOD</th>
-<th>SAVE</th>
-<th colspan=""3""></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>STR</td>
-<td>14</td>
-<td>+2</td>
-<td>+2</td>
-<td>DEX</td>
-<td>13</td>
-<td>+1</td>
-<td>+1</td>
-<td>CON</td>
-<td>13</td>
-<td>+1</td>
-<td>+1</td>
-</tr>
-<tr>
-<td>INT</td>
-<td>2</td>
-<td>−4</td>
-<td>−4</td>
-<td>WIS</td>
-<td>10</td>
-<td>+0</td>
-<td>+0</td>
-<td>CHA</td>
-<td>3</td>
-<td>−4</td>
-<td>−4</td>
-</tr>
-</tbody>
-</table>
+
+| | | MOD | SAVE | | | MOD | SAVE | | | MOD | SAVE |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| STR | 14 | +2 | +2 | DEX | 13 | +1 | +1 | CON | 13 | +1 | +1 |
+| INT | 2 | −4 | −4 | WIS | 10 | +0 | +0 | CHA | 3 | −4 | −4 |
+
 **Senses** Darkvision 60 ft., Passive Perception 10
 **Languages** None
 **CR** 0 (XP 0; PB +2)

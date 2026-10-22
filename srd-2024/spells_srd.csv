@@ -1,10 +1,10 @@
-#content-hash: xxh64:baa3601427eabd16
+#content-hash: xxh64:7f5b25663a377e22
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f7172-ddd7-73d6-a565-f3f21a4cc776
-#content-updated_at: 2026-10-21
+#content-updated_at: 2026-10-22
 #content-schema: 1
 id,level,school,casting_time,range,components,material,duration,concentration,ritual,classes,resolution,save_ability,damage,higher_level,upcast,effects,name_en,name_uk,text_en,text_uk
 acid_splash,0,evocation,Action,60 feet,"V,S",,Instantaneous,false,false,"sorcerer,wizard",save,dex,1d6 acid,"The damage increases by 1d6 when you reach levels 5 (2d6), 11 (3d6), and 17 (4d6).",,,Acid Splash,,"You create an acidic bubble at a point within range, where it explodes in a 5-foot-radius Sphere. Each creature in that Sphere must succeed on a Dexterity saving throw or take 1d6 Acid damage.",
@@ -212,49 +212,11 @@ _Combat._ The steed is an ally to you and your allies. In combat, it shares your
 _Disappearance of the Steed._ The steed disappears if it drops to 0 Hit Points or if you die. When it disappears, it leaves behind anything it was wearing or carrying. If you cast this spell again, you decide whether you summon the steed that disappeared or a different one.
 ## Otherworldly Steed
 _Large Celestial, Fey, or Fiend (Your Choice), Neutral_
-<table>
-<tbody>
-<tr>
-<td>MOD</td>
-<td>SAVE</td>
-<td></td>
-<td>MOD</td>
-<td>SAVE</td>
-<td></td>
-<td>MOD</td>
-<td>SAVE</td>
-<td colspan=""4""></td>
-</tr>
-<tr>
-<td>STR</td>
-<td>18</td>
-<td>+4</td>
-<td>+4</td>
-<td>DEX</td>
-<td>12</td>
-<td>+1</td>
-<td>+1</td>
-<td>CON</td>
-<td>14</td>
-<td>+2</td>
-<td>+2</td>
-</tr>
-<tr>
-<td>INT</td>
-<td>6</td>
-<td>−2</td>
-<td>−2</td>
-<td>WIS</td>
-<td>12</td>
-<td>+1</td>
-<td>+1</td>
-<td>CHA</td>
-<td>8</td>
-<td>−1</td>
-<td>−1</td>
-</tr>
-</tbody>
-</table>",
+
+| | | MOD | SAVE | | | MOD | SAVE | | | MOD | SAVE |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| STR | 18 | +4 | +4 | DEX | 12 | +1 | +1 | CON | 14 | +2 | +2 |
+| INT | 6 | −2 | −2 | WIS | 12 | +1 | +1 | CHA | 8 | −1 | −1 |",
 find_traps,2,divination,Action,120 feet,"V,S",,Instantaneous,false,false,"cleric,druid,ranger",none,,,,,,Find Traps,,"You sense any trap within range that is within line of sight. A trap, for the purpose of this spell, includes any object or mechanism that was created to cause damage or other danger. Thus, the spell would sense the _Alarm_ or _Glyph of Warding_ spell or a mechanical pit trap, but it wouldn't reveal a natural weakness in the floor, an unstable ceiling, or a hidden sinkhole.
 This spell reveals that a trap is present but not its location. You do learn the general nature of the danger posed by a trap you sense.",
 flame_blade,2,evocation,Bonus Action,Self,"V,S,M",a sumac leaf,"Concentration, up to 10 minutes",true,false,"druid,sorcerer",attack,,3d6 fire,The damage increases by 1d6 for each spell slot level above 2.,damage:per_slot(1d6),,Flame Blade,,"You evoke a fiery blade in your free hand. The blade is similar in size and shape to a scimitar, and it lasts for the duration. If you let go of the blade, it disappears, but you can evoke it again as a Bonus Action.
@@ -495,52 +457,11 @@ giant_insect,4,conjuration,Action,60 feet,"V,S",,"Concentration, up to 10 minute
 The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its movement to avoid danger.
 ## Giant Insect
 _Large Beast, Unaligned_
-<table>
-<thead>
-<tr>
-<th></th>
-<th>MOD</th>
-<th>SAVE</th>
-<th></th>
-<th>MOD</th>
-<th>SAVE</th>
-<th></th>
-<th>MOD</th>
-<th>SAVE</th>
-<th colspan=""3""></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>STR</td>
-<td>17</td>
-<td>+3</td>
-<td>+3</td>
-<td>DEX</td>
-<td>13</td>
-<td>+1</td>
-<td>+1</td>
-<td>CON</td>
-<td>15</td>
-<td>+2</td>
-<td>+2</td>
-</tr>
-<tr>
-<td>INT</td>
-<td>4</td>
-<td>−3</td>
-<td>−3</td>
-<td>WIS</td>
-<td>14</td>
-<td>+2</td>
-<td>+2</td>
-<td>CHA</td>
-<td>3</td>
-<td>−4</td>
-<td>−4</td>
-</tr>
-</tbody>
-</table>",
+
+| | | MOD | SAVE | | | MOD | SAVE | | | MOD | SAVE |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| STR | 17 | +3 | +3 | DEX | 13 | +1 | +1 | CON | 15 | +2 | +2 |
+| INT | 4 | −3 | −3 | WIS | 14 | +2 | +2 | CHA | 3 | −4 | −4 |",
 greater_invisibility,4,illusion,Action,Touch,"V,S",,"Concentration, up to 1 minute",true,false,"bard,sorcerer,wizard",none,,,,,apply_condition:invisible,Greater Invisibility,,A creature you touch has the Invisible condition until the spell ends.,
 guardian_of_faith,4,conjuration,Action,30 feet,V,,8 hours,false,false,cleric,save,dex,,,,,Guardian of Faith,,"A Large spectral guardian appears and hovers for the duration in an unoccupied space that you can see within range. The guardian occupies that space and is invulnerable, and it appears in a form appropriate for your deity or pantheon.
 Any enemy that moves to a space within 10 feet of the guardian for the first time on a turn or starts its turn there makes a Dexterity saving throw, taking 20 Radiant damage on a failed save or half as much damage on a successful one. The guardian vanishes when it has dealt a total of 60 damage.",
@@ -708,49 +629,11 @@ summon_dragon,5,conjuration,Action,60 feet,"V,S,M",an object with the image of a
 The creature is an ally to you and your allies. In combat, the creature shares your Initiative count, but it takes its turn immediately after yours. It obeys your verbal commands (no action required by you). If you don't issue any, it takes the Dodge action and uses its movement to avoid danger.
 ## Draconic Spirit
 _Large Dragon, Neutral_
-<table>
-<tbody>
-<tr>
-<td>MOD</td>
-<td>SAVE</td>
-<td></td>
-<td>MOD</td>
-<td>SAVE</td>
-<td></td>
-<td>MOD</td>
-<td>SAVE</td>
-<td colspan=""4""></td>
-</tr>
-<tr>
-<td>STR</td>
-<td>19</td>
-<td>+4</td>
-<td>+4</td>
-<td>DEX</td>
-<td>14</td>
-<td>+2</td>
-<td>+2</td>
-<td>CON</td>
-<td>17</td>
-<td>+3</td>
-<td>+3</td>
-</tr>
-<tr>
-<td>INT</td>
-<td>10</td>
-<td>+0</td>
-<td>+0</td>
-<td>WIS</td>
-<td>14</td>
-<td>+2</td>
-<td>+2</td>
-<td>CHA</td>
-<td>14</td>
-<td>+2</td>
-<td>+2</td>
-</tr>
-</tbody>
-</table>",
+
+| | | MOD | SAVE | | | MOD | SAVE | | | MOD | SAVE |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| STR | 19 | +4 | +4 | DEX | 14 | +2 | +2 | CON | 17 | +3 | +3 |
+| INT | 10 | +0 | +0 | WIS | 14 | +2 | +2 | CHA | 14 | +2 | +2 |",
 telekinesis,5,transmutation,Action,60 feet,"V,S",,"Concentration, up to 10 minutes",true,false,"sorcerer,wizard",save,str,,,,,Telekinesis,,"You gain the ability to move or manipulate creatures or objects by thought. When you cast the spell and as a Magic action on your later turns before the spell ends, you can exert your will on one creature or object that you can see within range, causing the appropriate effect below. You can affect the same target round after round or choose a new one at any time. If you switch targets, the prior target is no longer affected by the spell.
 _Creature._ You can try to move a Huge or smaller creature. The target must succeed on a Strength saving throw, or you move it up to 30 feet in any direction within the spell's range. Until the end of your next turn, the creature has the Restrained condition, and if you lift it into the air, it is suspended there. It falls at the end of your next turn unless you use this option on it again and it fails the save.
 _Object._ You can try to move a Huge or smaller object. If the object isn't being worn or carried, you automatically move it up to 30 feet in any direction within the spell's range. If the object is worn or carried by a creature, that creature must succeed on a Strength saving throw, or you pull the object away and move it up to 30 feet in any direction within the spell's range.

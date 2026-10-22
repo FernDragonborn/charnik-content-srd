@@ -1,4 +1,4 @@
-#content-hash: xxh64:07f9ecf932db473e
+#content-hash: xxh64:6b7ed36390b163a0
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
@@ -124,7 +124,7 @@ _Your Save DC._ If the familiar forces a creature to make a saving throw, it use
 _Resistance._ When the familiar takes damage, you can take a Reaction to grant it Resistance against that damage.",,,
 lessons_of_the_first_ones,class_feature:warlock_eldritch_invocations,2,,,,,Lessons of the First Ones,,"_Prerequisite: Level 2+ Warlock_
 You have received knowledge from an elder entity of the multiverse, allowing you to gain one Origin feat of your choice (see ""Feats"").
-_Repeatable._ You can gain this invocation more than once. Each time you do so, choose a different Origin feat.",,,
+_Repeatable._ You can gain this invocation more than once. Each time you do so, choose a different Origin feat.",,feat.origin,
 lifedrinker,class_feature:warlock_eldritch_invocations,9,pact_of_the_blade,,,,Lifedrinker,,"_Prerequisite: Level 9+ Warlock, Pact of the Blade Invocation_
 Once per turn when you hit a creature with your pact weapon, you can deal an extra 1d6 Necrotic, Psychic, or Radiant damage (your choice) to the creature, and you can expend one of your Hit Point Dice to roll it and regain a number of Hit Points equal to the roll plus your Constitution modifier (minimum of 1 Hit Point).",,,
 mask_of_many_faces,class_feature:warlock_eldritch_invocations,2,,,,,Mask of Many Faces,,"_Prerequisite: Level 2+ Warlock_
