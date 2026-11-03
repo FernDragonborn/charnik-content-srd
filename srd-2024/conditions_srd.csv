@@ -1,11 +1,11 @@
-#content-hash: xxh64:343a07ee98bf144c
+#content-hash: xxh64:d8af097c0a641350
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f972-79f0-8cbe-db82843f9ea2
 #content-schema: 3
-#content-updated_at: 2026-09-29
+#content-updated_at: 2026-11-03
 id,kind,valence,max_level,effects,name_en,name_uk,text_en,text_uk
 blinded,condition,harmful,1,disadvantage:attack;note:Attacks against you have Advantage;note:You automatically fail any check that requires sight,Blinded,,"While you have the Blinded condition, you experience the following effects.
 _Can't See._ You can't see and automatically fail any ability check that requires sight.
@@ -70,4 +70,4 @@ _Attacks Affected._ Attack rolls against you have Advantage.
 _Saving Throws Affected._ You automatically fail Strength and Dexterity saving throws.
 _Automatic Critical Hits._ Any attack roll that hits you is a Critical Hit if the attacker is within 5 feet of you.
 _Unaware._ You're unaware of your surroundings.",
-rage,condition,helpful,1,"damage_sensitivity:resist:bludgeoning;damage_sensitivity:resist:piercing;damage_sensitivity:resist:slashing;advantage:save.str;advantage:skill.athletics;flat_bonus:damage.str+step(class_level.barbarian, 1->2, 9->3, 16->4);blocks_concentration",Rage,,"While raging, you have resistance to bludgeoning, piercing, and slashing damage, advantage on Strength checks and Strength saving throws, and deal bonus damage with Strength attacks.",
+rage,condition,helpful,1,"damage_sensitivity:resist:bludgeoning;damage_sensitivity:resist:piercing;damage_sensitivity:resist:slashing;advantage:save.str;advantage:skill.athletics;flat_bonus:damage.str+step(class_level.barbarian, 1->2, 9->3, 16->4);blocks_concentration;blocks_spellcasting",Rage,,"While raging, you have resistance to bludgeoning, piercing, and slashing damage, advantage on Strength checks and Strength saving throws, and deal bonus damage with Strength attacks.",

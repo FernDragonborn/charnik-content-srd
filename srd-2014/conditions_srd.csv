@@ -1,11 +1,11 @@
-#content-hash: xxh64:eb284dc184ccfdff
+#content-hash: xxh64:144b99b81fa0db68
 #content-source: SRD 5.1
 #content-systems: 5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-fce9-7a08-a279-ae8d4b1fe0b9
 #content-schema: 3
-#content-updated_at: 2026-09-29
+#content-updated_at: 2026-11-03
 id,kind,valence,max_level,effects,name_en,name_uk,text_en,text_uk
 blinded,condition,harmful,1,disadvantage:attack;note:Attacks against you have Advantage;note:You automatically fail any check that requires sight,Blinded,,"•A blinded creature can't see and automatically fails any ability check that requires sight.
 •Attack rolls against the creature have advantage,and the creature's attack rolls have disadvantage.",
@@ -54,4 +54,4 @@ unconscious,condition,harmful,1,apply_condition:incapacitated;apply_condition:pr
 •Attack rolls against the creature have advantage.
 •Any attack that hits the creature is a critical hit ifthe attacker is within 5 feet of the creature.
 The Celtic, Egyptian, Greek, and Norse pantheons are fantasy interpretations of historical religions from our world's ancient times. They include deities that are most appropriate for use in a game, divorced from their historical context in the real world and united into pantheons that serve the needs of the game.",
-rage,condition,helpful,1,"damage_sensitivity:resist:bludgeoning;damage_sensitivity:resist:piercing;damage_sensitivity:resist:slashing;advantage:save.str;advantage:skill.athletics;flat_bonus:damage.melee,str+step(class_level.barbarian, 1->2, 9->3, 16->4);blocks_concentration",Rage,,"While raging, you have resistance to bludgeoning, piercing, and slashing damage, advantage on Strength checks and Strength saving throws, and deal bonus damage with Strength attacks.",
+rage,condition,helpful,1,"damage_sensitivity:resist:bludgeoning;damage_sensitivity:resist:piercing;damage_sensitivity:resist:slashing;advantage:save.str;advantage:skill.athletics;flat_bonus:damage.melee,str+step(class_level.barbarian, 1->2, 9->3, 16->4);blocks_concentration;blocks_spellcasting",Rage,,"While raging, you have resistance to bludgeoning, piercing, and slashing damage, advantage on Strength checks and Strength saving throws, and deal bonus damage with Strength attacks.",

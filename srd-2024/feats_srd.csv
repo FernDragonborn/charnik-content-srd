@@ -1,17 +1,17 @@
-#content-hash: xxh64:6b8907ab50e035db
+#content-hash: xxh64:ba4882e0210f9697
 #content-source: SRD 5.2.1
 #content-systems: 5.5e
 #content-url: https://dnd.wizards.com/resources/systems-reference-document
 #content-license: CC-BY-4.0
 #content-id: 019f6ae3-f968-7fd0-88fc-dbf43af3ecc8
 #content-schema: 2
-#content-updated_at: 2026-10-21
+#content-updated_at: 2026-11-03
 id,category,prereq,repeatable,ability_choice,skill_choice,skill_choice_kinds,spell_choice,spell_choice_lists,spell_choice_ability,ritual_source,effects,name_en,name_uk,text_en,text_uk
 alert,origin,,false,,,,,,,,flat_bonus:initiative+proficiency_bonus,Alert,,"_Origin Feat_
 You gain the following benefits.
 _Initiative Proficiency._ When you roll Initiative, you can add your Proficiency Bonus to the roll.
 _Initiative Swap._ Immediately after you roll Initiative, you can swap your Initiative with the Initiative of one willing ally in the same combat. You can't make this swap if you or the ally has the Incapacitated condition.",
-magic_initiate,origin,,true,,,,"0:2,1:1","cleric,druid,wizard","int,wis,cha",prepared,,Magic Initiate,,"_Origin Feat_
+magic_initiate,origin,,true,,,,"0:2,1:1","cleric,druid,wizard","int,wis,cha",prepared,grant_resource:magic_initiate:1:long:spell:chosen,Magic Initiate,,"_Origin Feat_
 You gain the following benefits.
 _Two Cantrips._ You learn two cantrips of your choice from the Cleric, Druid, or Wizard spell list. Intelligence, Wisdom, or Charisma is your spellcasting ability for this feat's spells (choose when you select this feat).
 _Level 1 Spell._ Choose a level 1 spell from the same list you selected for this feat's cantrips. You always have that spell prepared. You can cast it once without a spell slot, and you regain the ability to cast it in that way when you finish a Long Rest. You can also cast the spell using any spell slots you have.
